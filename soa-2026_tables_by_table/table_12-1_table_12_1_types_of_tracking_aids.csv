@@ -1,0 +1,21 @@
+page,row_in_table,Technology Scheme,Description and Reference Mission,TRL,Citation
+416,1,CubeSat position and ID via radio,"A position, navigation, and timing (PNT) receiver is attached to a CubeSat, along with a radio to transmit the information via a LEO communications provider (or directly to the ground); example: BlackBox, Blinker.",7-9,(22) (23)
+416,2,Coded light signals from light source on exterior of CubeSat,Exterior-mounted LEDs with large-aperture telescopes to receive the signal or diffused LED lasers with ground-based photon- counting cameras.,6-7,(24) (25)
+416,3,Radio Frequency interrogation of an exterior Van Atta array,"For example, exterior mounted radio frequency identification (RFID) tag & commensurate radar.",7-9,(26)
+417,4,Laser interrogated corner cube reflectors (CCR),One or several small CCRs can be attached to CubeSat exterior; ground-based laser and receiver telescope needed to distinguish number of CCRs.,7-9,(27)
+417,5,Passive augmentations to visibility,"Use of high-albedo paint or tape, improving overall conductance of the exterior of the satellite or other methods to increase visibility.",7-9,
+417,6,Orbital Whereabout Locator (OWL),"A tuna can mounted plug and play device equipped with a battery that helps identify and keep track of a satellite with a GNSS based tracker, monitors key parameters of a satellite and downloads data using an omnidirectional antenna in any orientation.",7-9,
+431,7,"Figure 13.2: Initial orbit altitudes yield different lifetimes depending on the ballistic coefficient of the spacecraft. Three representative area-to-mass ratios are shown. Note that the propagation stops at 16 years, but the initial altitudes yield even longer times. Credit: NASA.",,,
+435,8,,Figure 13.7: SBUDNIC CubeSat with drag sail made from Kapton polyimide film. Credit: Brown Univ.,,
+435,9,Figure 13.8: The ACS3 sail fully deployed during its pre-integration fit test. Credits: NASA Langley.,,,
+435,10,Figure 13.7: SBUDNIC CubeSat,,,
+435,11,with drag sail made from Kapton,,,
+435,12,polyimide film. Credit: Brown Univ.,,,
+435,13,"Orbit, AMSAT-Italy, La Sapienza-University of",,,
+435,14,"Rome, and NASA Rhode Island Space Grant,",,,
+435,15,"demonstrated a practical, low-cost method to",,,
+435,16,cut down on space debris. Rather than taking,,,
+435,17,"debris out of orbit after it becomes a problem,",,,
+435,18,this $30 drag device,,,
+435,19,,can be added onto satellites to,,
+435,20,radically reduce how long they're in space.,,,

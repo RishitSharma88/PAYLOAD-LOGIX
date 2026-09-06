@@ -1,0 +1,11 @@
+page,row_in_table,Band,Frequency
+280,1,VHF,30 to 300 MHz
+280,2,UHF,300 to 1000 MHz
+280,3,L,1 to 2 GHz
+280,4,S,2 to 4 GHz
+280,5,C,4 to 8 GHz
+280,6,X,8 to 12 GHz
+280,7,Ku,12 to 18 GHz
+280,8,K,18 to 27 GHz
+280,9,Ka,27 to 40 GHz
+280,10,V,40 to 75 GHz

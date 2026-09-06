@@ -1,0 +1,6 @@
+page,row_in_table,Electrical Interfaces,Interface Standards
+255,1,Serial Communication Interfaces (SCI),"RS-232, RS-422, RS-485 etc."
+255,2,Synchronous Serial Communication Interface,"I2C, SPI, SSC and Enhanced Synchronous Serial Interface (ESSI)"
+255,3,Networks,"Ethernet, LonWorks, etc."
+255,4,Fieldbuses,"CAN Bus, LIN-Bus, PROFIBUS, etc."
+255,5,Timers,"PLL(s), Capture/Compare and Time Processing Units"

@@ -1,0 +1,32 @@
+page,row_in_table,Manufacturer,Model,Mass (kg),Power (W),FOV,Cross axis Accuracy (1 or 3s),Twist Accuracy (1 or 3s),Rad. Tol. (krad)
+172,1,Arcsec Belgium,Sagitta,0.275,1.4,25.4°,6,30,20
+172,2,,Twinkle,0.04,0.6,10.4°,30,180,-
+172,3,"BAE Systems Inc, Space and Mission Systems",CT-2020,3.000,8,-,1.5'',1'',-
+172,4,Berlin Space Technologies Germany AAC Clyde Space Sweden,ST200,"0.040, 0.106*",0.65,22°,"30""","200""",11
+172,5,,ST400,"0.250, 0.270*",0.75,15°,"15""","150""",11
+172,6,Blue Canyon Technologies USA,Standard NST,0.350,<1.5(5V) or <3.5(28V),10° x 12°,"Gen 2: 6""","Gen 2: 40""",-
+172,7,,Full-Extension NST,0.85,<1.5(5V) or <3.5(28V),10° x 12°,Gen 2: 6 Gen 3: 1,Gen 2: 40 Gen 3: 10,
+172,8,Creare USA,UST,0.840,-,-,"7""","15""",-
+172,9,CubeSpace Satellite Systems South Africa,CubeStar,0.047,0.271,59.4°,0.02°,0.06°,24
+172,10,Danish Technical University Denmark,MicroASC,0.425,1.9,-,2”,-,-
+172,11,Jena-Optronik Germany,ASTRO CL,0.305,<1.0,25° full cone,"6""","48""",50
+172,12,,ASTRO APS,~2,<6 (<12 w/ TEC),20° full cone,"3""","24""",100
+172,13,,ASTRO APS3,1.8,<6 (<8 w/ TEC),20° full cone,"2.4""","21""",100
+172,14,Leonardo Italy,Spacestar,1.600,6,20° x 20°,"7.7""","10.6""",-
+172,15,NanoAvionics Lithuania,ST-1,0.108,1.2,21° full-cone,"8""","50""",20
+172,16,Redwire Space USA,Star Tracker,0.475,2.5,14x19,"10/27""","51""",75
+172,17,Rocket Lab USA,ST-16RT2,0.185,1,8° half-cone,"5""","55""",-
+172,18,Sodern France,Auriga-CP,0.225,0.8,30°,10'',70'',35
+172,19,,Hydra-M,1.4,0.7,22°,3'',"30""",50
+172,20,,Hydra-TC,1.6,9.5,"23,6°",3'',30'',50
+172,21,Solar MEMS Technologies Spain,STNS,0.14,1,12°,"40""","70""",20
+172,22,Space Inventor Denmark,ASTRO CL,0.465,1.5,25°,2,12,100
+172,23,Space Micro USA,MIST,0.520,3,14.5°,"15""","105""",30
+172,24,,µSTAR-100M,1.800,5,-,"15""","105""",100
+172,25,,µSTAR-200M,2.100,8-10,-,"15""","105""",100
+172,26,,µSTAR-200H,2.700,10,-,"3""","21""",100
+172,27,,µSTAR-400M,3.300,18,-,"15""","105""",100
+172,28,Terma USA,T1,0.637 OH,"0.8 OH*, 2.5",20° circular,"3.0""","21""",55†
+172,29,,T3,0.45 (DPU) 0.330,2,20° circular,"3.2""","22""",35
+172,30,Vectronic Aerospace Germany,VST-41MN,0.7 - 0.9,2.5,14° x 14°,"27""","183""",20
+172,31,,VST-68M,0.470,3,14° x 14°,"7.5""","45""",20

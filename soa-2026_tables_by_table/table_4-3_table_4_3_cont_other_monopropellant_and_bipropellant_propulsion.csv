@@ -1,0 +1,33 @@
+page,row_in_table,Manufacturer,Product,Propellant,column_4,Thrust per,column_6,Specific Impulse,Total Impulse,Mass,Envelope,Power,ACS,PMI Status,Missions,References
+127,1,,,,,Thruster,,,,,,,,,,
+127,2,,,,,(Quantity),,,,,,,,,,
+127,3,---,---,---,[N],[N],,[s],[kN-s],[kg],[cm3 or U],[W],Y/N,"C,D,E,F",---,---
+127,4,Integrated Propulsion Systems (cont.),,,,,,,,,,,,,,
+127,5,Tethers Unlimited USA (Subsidiary of ARKA Group LP),HYDROS-C,Water (Electrolysis),> 1.2,,,> 310,> 2.1,2.7†,19 x 13 x 9.2,5 - 25,N,F,Pathfinder Technology Demonstration,(41) (42) (118) (119)
+127,6,Tethers Unlimited USA (Subsidiary of ARKA Group LP),HYDROS-M,Water (Electrolysis),> 1.2 (1),,,> 310,> 18,13.7†,38.1 dia. x 19.1,7 - 40,N,D,-,(120)
+127,7,VACCO USA,ArgoMoon Hybrid MiPS,LMP-103S/ R134a,0.1 (1),,,190,0.78,2.07†,1.3U,4.3 20 (max),Y,F,ArgoMoon (Artemis I),(27) (28) (29)
+127,8,VACCO USA,Green Propulsion System (MiPS),LMP-103S,0.1 (4),,,190,3.3,5†,3U,15 (max),Y,D,-,(121)
+127,9,VACCO USA,Integrated Propulsion System,LMP-103S,1 (4),,,200,12,14.7†,11U,50 (max),Y,D,-,(48) (49)
+127,10,Thruster Heads,,,,,,,,,,,,,,
+127,11,Aerojet Rocketdyne USA,GR-1,ASCENT,0.3 - 1.4,,,231,(12 kg)*,-,-,18 (max),-,F,GPIM,(8) (30) (31)
+127,12,Aerojet Rocketdyne USA,GR-22,ASCENT,8 - 25,,,250,74,-,-,28,-,F,GPIM,(8) (30) (31)
+127,13,Benchmark Space Systems USA,Felicette,HTP,0.4 - 1.2,,,161,> 10,-,-,-,-,E,Transporter 2 (Undisclosed missions),(36) (104)
+127,14,Benchmark Space Systems USA,Lynx,HTP,2 - 2.5,,,295,> 20,-,-,-,-,D,-,(104)
+127,15,Benchmark Space Systems USA,Ocelot,HTP,18 - 22,,,302,> 240,-,-,-,-,F,Sherpa-TLC2,(34) (35) (104)
+127,16,ECAPS Sweden,0.1 N HPGP,LMP-103S,0.03 - 0.1,,,196 - 209,(1 kg)*,0.04 excl. FCV,-,6.3 - 8,-,F,ArgoMoon,(24) (27) (107)
+127,17,ECAPS Sweden,1 N HPGP,LMP-103S,0.25 - 1,,,204 - 235,(24 kg)*,0.38,-,8 - 10,-,F,"PRISMA, SkySat, ELSA-d",(24) (25) (26) (27) (107) (108)
+127,18,ECAPS Sweden,1 N GP,LMP-103S/LT,0.25 - 1,,,194 - 227,(5 - 8 kg)*,0.38,-,8 - 10,-,D,,(108)
+127,19,ECAPS Sweden,5 N HPGP,LMP-103S,1.5 - 5.5,,,239 - 253,-,0.48,-,15 - 25,-,D,-,(107)
+127,20,ECAPS Sweden,22 N HPGP,LMP-103S,5.5 - 22,,,243 - 255,(150 kg)*,1.1,-,25 - 50,-,D,-,(107)
+127,21,Dawn Aerospace New Zealand,B20 Thruster,Nitrous Oxide & Propylene,6.1 - 16.7,,,-,-,0.6,17.6 x 8.0 x 7.9,-,-,F,numerous,(45)
+127,22,Dawn Aerospace New Zealand,B1 Thruster,Nitrous Oxide & Propylene,0.46 - 1.28,,,-,-,0.26,10.8 x 7.9 x 4.0,-,-,F,numerous,(45)
+127,23,Rubicon Space Systems USA,0.1N,ASCENT,0.1,,,>195,5.7,0.06,2.5 dia x 4,8,-,E,"Lunar Flashlight, GPDM",(32) (33) (109) (110) (111)
+127,24,Rubicon Space Systems USA,1N LT (HT),ASCENT,1,,,>250,12 (33),0.25,6 dia x 16,15 (25),-,D,-,(109)
+127,25,Rubicon Space Systems USA,5N LT (HT),ASCENT,5,,,>250,12 (118),0.30,6 dia x 16,25,-,D,-,(109)
+127,26,"Note that all data is documented as provided in the references. Unless otherwise published, do not assume the data has been independently verified. † denotes a wet mass, ‡ denotes a dry mass, “-“ = denotes data not available or applicable, * denotes mass of propellant throughput, rather than total impulse",,,,,,,,,,,,,,
+127,27,Specific,,,,,,,,,,,,,,
+127,28,Impulse,,,,,,,,,,,,,,
+127,29,Total,,,,,,,,,,,,,,
+127,30,Impulse,,,,,,,,,,,,,,
+127,31,PMI,,,,,,,,,,,,,,
+127,32,Status,,,,,,,,,,,,,,

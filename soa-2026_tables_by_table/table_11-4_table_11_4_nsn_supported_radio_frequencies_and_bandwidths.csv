@@ -1,0 +1,16 @@
+page,row_in_table,Band,Function,Frequency Band (MHz)
+350,1,S Uplink,Earth to Space,"2,025 – 2,110"
+350,2,X Uplink,Earth to Space,"7,190 – 7,235 (Two NEN sites to 7,200)"
+350,3,S Downlink,Space to Earth,"2,200 – 2,300"
+350,4,X Downlink,"Space to Earth, Earth Exploration","8,025 – 8,400"
+350,5,X Downlink,"Space to Earth, Space Research","8,450 – 8,500"
+350,6,Ka Downlink,Space to Earth,"25,500 – 27,000"
+351,7,Maximum Bandwidth,S-band: 5 MHz X-band: 10 MHz,S-band: 6 MHz Ku-band: 50 MHz Ka-band: 50 MHz 4
+351,8,"Forward Max Data Rate 1,2 (prior to encoding)",S-band: 5 Mbps X-band: 5 Mbps,S-band MA: 300 Kbps S-band SA: 4.2 Mbps Ku-band: 50 Mbps Ka-band SA: 50 Mbps 4
+351,9,Antenna System EIRP (dBW) 1,S-band: 51-81 (56 Typical) X-band: 85-86,S-band MA: 42 4 S-band SA: 48.5 4 Ku-band SA: 48.5 4 Ka-band SA: 63 4
+352,10,Maximum Bandwidth,S-band: 5 MHz X-band: 375 MHz X-band (SRS): 10 MHz Ka-band: 1500 MHz,S-band (MAR & SAR): 6 MHz Ku/Ka-band: 225 MHz 4 Ka-band (Wide): 650 MHz 4
+352,11,"Return Max Data Rate 1,2 (prior to encoding)",Rates will vary – examples: S-band: 2.2 Mbps (PACE) X-band: 220 Mbps (ICESat-2) X-band (SRS): 13.1 Mbps (IRIS) Ka-band: 3.5 Gbps (NISAR),S-band MA: 1 Mbps S-band SA: 14.1 Mbps Ku/Ka-band: 600 Mbps 4 Ka-band (Wide): 1200 Mbps 4
+352,12,Antenna System G/T (dBW) 1,S-band: 19.1-29.6 (21 Typical) X-band: 30.5-37.8 (32 Typical) Ka-band: 38-45 (41.3 Typical),S-band MA: 3.2 (for LEO) S-band SA: 9.5 (for LEO) Ku-band: 24.4 (for LEO) Ka-band: 26.5 (for LEO) 4
+352,13,"Demodulation 2,3","PM, FM, PCM, PCM/PM, PCM/PSK/PM, BPSK, QPSK, OQPSK, AQPSK, SQPN, 8PSK","Spread spectrum: BPSK or UQPSK Non-spread: BPSK, QPSK, OQPSK, PCM/PM, or PCM/PSK/PM"
+352,14,"Decoding 2,3","Uncoded, Rate ½ Conv. and/or Reed-Solomon, LDPC ½ or 7/8, or Turbo Rate ½","Uncoded, Rate ½ Conv., Reed- Solomon, Concatenated (½ Conv. + RS), LDPC ½ or 7/8, Rate 7/8 TPC"
+352,15,Polarization,"Circular (LHC, RHC)","Circular (LHC, RHC) (LHC only for MA services)"

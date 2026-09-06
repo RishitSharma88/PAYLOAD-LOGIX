@@ -1,0 +1,30 @@
+page,row_in_table,Organization,Peak Power (W),3-σ Pointing Control/ Knowledge,Comm Options,Intended Destination,Maturity,US Office
+30,1,2NDSpace Italy,>100,0.1 /0.02,"VHF, UHF, S, X","VLEO, LEO, MEO",Flown LEO,No
+30,2,AAC Clyde Space Sweden,150,<0.1°/<0.0°1,"VHF, UHF, S, X",LEO,Flown LEO,Yes
+30,3,Argotec Italy,80,<0.02 /<0.01 ° °,"UHF, S, X",Deep Space,Flown Deep Space,Yes
+30,4,Astro Digital USA,240,<0.1 /<0.05,"UHF, S, X, Ka",LEO,Flown LEO,Yes
+30,5,Blue Canyon Technologies USA,108,° ° 0.003°/0.003°,"L, S, X","LEO, GEO, Deep Space",Flown LEO and Lunar Qualified GEO and Deep Space,Yes
+30,6,Deimos Space Spain,40,° ° 0.05 /0.05,"UHF, S, X",LEO,Under Development,No
+30,7,EnduroSat Bulgaria,172,0.08 /0.04 ° °,"UHF, S, X",LEO,Flown LEO,Yes
+30,8,Exobotics UK,400,0.1°/ 0.008° ° °,"VHF, UHF, S, X, Optical",LEO,Flown LEO,No
+30,9,FOSSA Systems Spain,60,<0.1 /<0.1,"UHF, S",LEO,Under Development,No
+30,10,German Orbital Systems Germany,70,<1°/<1 °,"UHF, VHF, S, X",LEO,Flown LEO,No
+30,11,GomSpace Denmark,103,0.070°/0.0°56,"S, X","LEO, Deep Space",Flown LEO and Deep Space,Yes
+30,12,GUMUSH AeroSpace Turkey,160,<0.1°/<0.05°,"VHF, UHF, S, X",LEO,Under Development,No
+30,13,Harpy Aerospace India,160,<0.1°/<0.01°,"VHF, UHF, S, X",LEO,Qualified LEO,Yes
+30,14,HEX20 India,100,0.003°/0.003°,"UHF, S, X","LEO, MEO, Lunar",Under Development,Yes
+30,15,ISISPACE The Netherlands,100,<0.3°/<0.3 °,"UHF, S, X","LEO, Lunar",Flown LEO Qualified for Lunar,No
+30,16,NanoAvionics Lithuania,175,0.18°/0.12°,"UHF, S, X",LEO,Flown LEO,Yes
+30,17,Nara Space South Korea,120,0.05°/0.03°,"VHF, UHF, S",LEO,Flown LEO,No
+30,18,NearSpace Launch USA,160,0.5°/0.2 °,"L, UHF, S, X",LEO,Flown LEO,Yes
+30,19,NPC SPACEMIND Italy,85.2,<0.1°/<0.°1,"UHF, S, X, Ka","LEO, MEO, GEO, Lunar",Flown LEO,Yes
+30,20,Orbital Astronautics UK,"1,000",° ° 0.1 /0.01,"S, X, K, Ka, Optical","LEO, MEO",Flown LEO Qualified MEO and GEO,No
+30,21,Orion Space Solutions USA,15,° ° 1°/1°,"L, S, X",LEO,Flown LEO,Yes
+30,22,Pumpkin Space USA,200,0.05 /<0.05,"UHF, S, X, Ka","LEO, Lunar",Flown LEO Qualified Lunar,Yes
+30,23,"Quub, Inc.USA",50,5°/2 °,"UHF, S, Ku","LEO, Lunar",Under Development,Yes
+30,24,SatRev Poland,150,0.01°/0.°01,"UHF, S, X",LEO,Flown LEO,No
+31,25,Space Dynamics Laboratory USA,400,0.021 /0.021 ° °,"UHF, S, X, Ka","LEO, GEO, GTO, Cislunar, Deep Space","Flown LEO Qualified GEO, GTO, Lunar and Deep Space",Yes
+31,26,SFL Missions Inc. Canada,240,0.009 /0.004,"UHF, S, X, Ka","LEO, GEO, Lunar",Flown LEO Qualified GEO and Lunar,No
+31,27,Space Inventor Denmark,200,<0.008°/<0.00°8,"VHF, UHF, S, X",LEO,Flown LEO,No
+31,28,Spacemanic Czech Republic,432,° 1 /0.5 °,"VHF, UHF, S, X","LEO, GEO, Lunar",Qualified LEO,No
+31,29,Terran Orbital USA,180,0.021° /0.0°07,"UHF, S, X","LEO, GEO, Lunar",Flown LEO and Lunar,Yes

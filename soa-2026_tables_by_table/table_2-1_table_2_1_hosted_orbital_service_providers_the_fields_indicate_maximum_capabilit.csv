@@ -1,0 +1,65 @@
+page,row_in_table,Organization,Largest Platform,Peak Power (W),3-σ Pointing Control/ Knowledge,Destination,US Office
+24,1,2NDSpace Italy,CubeSat,>100,0.1°/0.02°,"VLEO, LEO, MEO",No
+24,2,AAC Clyde Space Sweden,CubeSat,400,<0.01°/<0.0075°,LEO,Yes
+24,3,Aerospacelab Belgium,ESPA,300,<0.005°/ <0.005°,"LEO, GEO",Yes
+24,4,Alba Orbital UK,PocketQube,15,5°/2°,LEO,Yes
+24,5,Alén Space Spain,CubeSat,180,0.2°/0.1°,LEO,No
+24,6,Apex USA,ESPA,"4,000",0.005°/ 0.0025°,"LEO, MEO, GEO",Yes
+24,7,Argotec Italy,ESPA,440,<0.01°/<0.008°,"LEO, MEO, GEO, Deep Space",Yes
+24,8,Artemis Space Technologies UK,ESPA,"1,500",0.01°/0.01°,"LEO, MEO, GEO, Lunar and Deep Space",No
+24,9,Astranis Space Technologies Corp. USA,ESPA,300,<0.1°/ <0.09°,GEO,Yes
+24,10,Astro Digital USA,ESPA,"3,000",<0.03°/ <0.02°,"LEO, GTO, GEO",Yes
+24,11,Axelspace Japan,ESPA,"1,800",<0.05°/ <0.04°,LEO,No
+24,12,BAE Systems SMS USA,ESPA,"2,500",<0.006°/<0.003°,"LEO, MEO, GEO, Cislunar, Deep Space",Yes
+24,13,Berlin Space Technologies Germany,ESPA,"2,500",<0.017°/< 0.017°,LEO,Yes
+24,14,Blue Canyon Technologies USA,ESPA,"1,082",0.002°/0.002°,"LEO, GEO, Deep Space",Yes
+24,15,C3S Electronics Development Hungary,CubeSat,505,0.4°/ 0.6°,"LEO, MEO",No
+24,16,CesiumAstro USA,ESPA,"4,500",<0.1°/<0.01°,LEO,Yes
+24,17,CREOTECH Poland,ESPA,600,<0.02°/< 0.015°,"LEO, MEO, GEO, Lunar, Deep Space",No
+24,18,D-Orbit Italy,ESPA,300,0.1°/ 0.05°,LEO,No
+24,19,D-Orbit USA,ESPA,"2,000",0.1°/ 0.05°,"LEO, GEO",Yes
+24,20,EnduroSat Bulgaria,ESPA,"6,800",0.1°/0.006°,LEO,Yes
+24,21,Exobotics UK,ESPA,"3,600",0.1°/ 0.008°,"LEO, MEO, HEO, GEO, Lunar",No
+24,22,FOSSA Systems Spain,CubeSat,60,<0.1°/<0.1°,LEO,No
+24,23,German Orbital Systems Germany,CubeSat,150,<1°/< 1°,LEO,No
+24,24,GomSpace Denmark,CubeSat,150,0.070°/ 0.056°,"LEO, MEO, GEO, Lunar, Deep Space",Yes
+24,25,Harpy Aerospace India,ESPA,"2,100",0.35°/0.35°,"LEO, GEO, Lunar, ISS",Yes
+24,26,Hemeria France,ESPA,250,<0.03°/<0.01°,"LEO, GTO, GEO",No
+24,27,HEX20 India,CubeSat,150,0.008°/ 0.008°,"LEO, MEO, Lunar",Yes
+24,28,Hydra Space Systems Spain,CubeSat,30,<1°/< 1°,LEO,No
+24,29,Innova Space Argentina,CubeSat,4,<15°/< 15°,LEO,Yes
+24,30,Loft Orbital USA,ESPA,"4,000",<0.01°/<0.007°,LEO,Yes
+24,31,Magellan Aerospace Canada,ESPA,200,0.01°/0.01°,LEO,No
+24,32,Malin Science Space Systems USA,ESPA,918,<0.015°/<0.015°,Mars,Yes
+24,33,Momentus Space USA,ESPA,"3,000",0.008°/ 0.008°,"LEO, MEO, GEO, Lunar, Deep Space",Yes
+25,34,Moog USA,ESPA,"2,000",<0.050°/<0.033°,"LEO, GEO",Yes
+25,35,Muon Space USA,ESPA,"4,000",0.01°/0.004°,LEO,Yes
+25,36,NanoAvionics Lithuania,ESPA,378,0.15°/ 0.03°,LEO,Yes
+25,37,Nara Space South Korea,CubeSat,120,0.05°/ 0.03°,LEO,No
+25,38,NearSpace Launch USA,CubeSat,160,0.5°/ 0.2°,LEO,Yes
+25,39,Northrop Grumman USA,ESPA,420,<4°/<1°,LEO,Yes
+25,40,NovaWurks USA,ESPA,">5,000",0.002°/0.0004°,"LEO, GEO, xGEO",Yes
+25,41,NPC SPACEMIND Italy,CubeSat,100,<0.1°/<0.1°,"LEO, MEO",Yes
+25,42,OHB LuxSpace Luxembourg,ESPA,600,<0.022°/ 0.01°,LEO,No
+25,43,OHB Sweden Sweden,ESPA,"1,500",0.008°/ 0.008°,"LEO, MEO",No
+25,44,Orbital Astronautics UK,ESPA,"5,000",<0.05°/<0.01°,"LEO, MEO, GEO, Deep Space",No
+25,45,Orion Space Solutions USA,CubeSat,400,<1°/<1°,"VLEO, LEO, GEO, Lunar",Yes
+25,46,Pumpkin Space USA,CubeSat,400,0.05 /<0.05,"LEO, Lunar",Yes
+25,47,Quantum Space USA,ESPA,400,0.006°/0.006° ° °,"LEO, GEO, Cislunar, Lunar, Deep Space",Yes
+25,48,"Quub, Inc.USA",CubeSat,50,5 /2,"LEO, Lunar",Yes
+25,49,Redwire Space USA,ESPA,500,0.005°/0.0017° ° °,"LEO, MEO, GEO and Deep Space",Yes
+25,50,Reflex Aerospace Germany,ESPA,"3,000",<0.01 /<0.005,LEO,No
+25,51,SatRev Poland,CubeSat,150,1°/1° ° °,LEO,No
+25,52,SFL Missions Inc.Canada,ESPA,"1,500",0.009 /0.004,"LEO, GEO, Lunar",No
+25,53,Sierra Space USA,ESPA,500,0.001°/ <0.001°,"LEO, MEO, GEO",Yes
+25,54,SITAEL Italy,ESPA,"2,000",0.0017°°/ 0.001°°,LEO,No
+25,55,Southwest Research Institute USA,ESPA,"1,550",0.015 /0.002,"LEO, GEO",Yes
+25,56,Space Dynamics Laboratory USA,ESPA,"2,000",0.021°/0.021°,"LEO, GEO, GTO, Cislunar, Deep Space",Yes
+25,57,Space Inventor Denmark,ESPA,"1,500",<0.008 /<0.008 ° °,"LEO, GEO, MEO, Lunar",No
+25,58,Spacemanic Czech Republic,CubeSat,216,1°/ 0.5°,"LEO, MEO, GEO, Lunar",No
+25,59,Spire Global USA,CubeSat,300,0.1°/° 0.05° °,LEO,Yes
+25,60,Surrey Satellite Technology Ltd. UK,ESPA,"2,000",<0.01°/ <0.01°,"LEO, MEO, GEO, Lunar",No
+25,61,Terran Orbital USA,ESPA,"1,500",0.014 /0.002,"LEO, GEO, Lunar",Yes
+25,62,U-Space France,ESPA,250,0.007 /0.005,LEO,No
+25,63,Varda Space Industries USA,ESPA,500,° ° 2.25°/ 0.40° ° °,LEO with Re-entry Recovery,Yes
+25,64,York Space Systems USA,ESPA,"2,200",0.002°/ 0.0004°,"LEO, GEO, Lunar",Yes

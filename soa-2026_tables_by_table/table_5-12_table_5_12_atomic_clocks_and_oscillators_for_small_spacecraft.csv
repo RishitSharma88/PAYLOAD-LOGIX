@@ -1,0 +1,9 @@
+page,row_in_table,Manufacturer,Model,Dimensions (mm),Mass (kg),Power (W),Frequency Range (MHz),Rad. Tol. (krad)
+183,1,Bliley Technologies USA,"Iris Series 1""x1"" OCXO for LEO",19x11x19,0.016,1.5,10 -100,39
+183,2,,Aether Series TCVCXO for LEO,21x14x8,-,0.056,10 - 150,37
+183,3,Microchip USA,Chip Scale Atomic Clocks (CSACs),41x36x12,0.035,0.12,10,20
+183,4,Safran Timing Technologies SA France,MO,44x54x57,0.22,3.5 Nom 5.5 Max,10,100
+183,5,,mRO-50,51x51x20,0.080,0.4 Nom,10,25 Min
+183,6,,miniRAFS,108x53x68,0.45,< 12 Max,60 and 10,-
+183,7,,LNMO,50x50x30,0.1,1.5 Nom 2.5 Max,5 – 40,100
+183,8,*Q-Tech Corporation USA,Class B+ Products Hybrid Crystal Clock Oscillators,5x7,-,-,-,-

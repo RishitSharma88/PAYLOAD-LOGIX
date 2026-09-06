@@ -1,0 +1,41 @@
+page,row_in_table,Organization,Peak Power (W),3-σ Pointing Control/ Knowledge,Comm Options,Intended Destination,Maturity,US Office
+36,1,Aerospacelab Belgium,"1,000",<0.003 /<0.003,"S, X, Ka, Optical","LEO, GEO",Flown LEO Under Development GEO,Yes
+36,2,Airbus US Space & DefenseUSA,"2,200",° ° <0.006 <0.006,"S, X, Ka, Optical",LEO,Flown LEO,Yes
+36,3,Apex USA,"4,000",°/ ° 0.005 /0.0025,"UHF, S, X, Ka","LEO, MEO, GEO",Flown LEO Under Development GEO,Yes
+36,4,Argotec Italy,440,° ° <0.01 <0.008,"UHF, S, X, K, Ka",LEO,"Qualified LEO Under Development MEO, GEO, Deep Space",Yes
+36,5,Astro Digital USA,"3,000",°/ ° <0.03 /<0.02,"UHF, S, X, Ku, Ka, V, W, Optical","LEO, GTO, GEO",Flown LEO,Yes
+36,6,Astroscale USA,"3,530",0.05°/0.025°,"S, X, C","LEO, GEO",Under Development,Yes
+36,7,Axelspace Japan,"1,800",<0.05 /<0.04,"S, X, Ka",LEO,Under Development,No
+36,8,BAE Systems SMS USA,"2,500",° ° ° ° <0.006 /<0.003 ° °,"L, S, X, Ka","LEO, MEO, GEO, Cislunar, Deep Space",Flown LEO and Deep Space,Yes
+36,9,Berlin Space Technologies Germany,"2,500",<0.017 /<0.017,"S, X",LEO,Flown LEO,Yes
+36,10,BlackSky USA,"2,000",0.013 /0.009 ° °,"UHF, S, X",LEO,Flown LEO,Yes
+36,11,Blue Canyon Technologies USA,"1,082",0.002 /0.002 ° °,"L, S, X","LEO, GEO, Deep Space",Flown LEO and GEO Qualified Deep Space,Yes
+36,12,CREOTECH Poland,600,<0.02 /<0.015 ° °,"S, X, Optical","LEO, Lunar",Flown LEO,No
+36,13,Deimos Space Spain,300,<0.005 /<0.005,"S, X, iDRS",LEO,Under Development,No
+36,14,EnduroSat Bulgaria,"3,500/ 7,000",° ° 0.1 /°0.006 °,"S, X, K/Ka, L, Optical",LEO,"Qualified LEO (3,500W) Under Development (7,000W)",Yes
+36,15,Exobotics UK,3600,° ° 0.08°/ 0.008°,"VHF, UHF, S, X, Optical",LEO,Under Development,No
+36,16,Harpy Aerospace India,"2,100",0.35 /0.35,"S, Ka, Optical",LEO,Qualified LEO,Yes
+36,17,Hemeria France,">1,000",<0.03°°/<0.0°1°,"S, X","LEO, GEO, GTO",Flown LEO Qualified GEO and GTO,No
+36,18,Lockheed Martin USA,500+,<0.1 /<0.1,"S, X, Ka","LEO, GEO, Lunar, Deep Space","Flown LEO Qualified GEO, Lunar and Deep Space",Yes
+36,19,Magellan Aerospace Canada,200,° ° 0.01 /0.01,"S, X",LEO,Flown LEO,No
+36,20,Malin Science Space Systems USA,918,<0.015°/<0.0°15,"UHF, X, Ka",Mars,Under Development,Yes
+36,21,Moog USA,"2,000",<0.050°°/<0.033°°,"S, X, Ka, Optical","LEO, GEO",Flown LEO Under development GEO,Yes
+36,22,Momentus Space USA,"3,000",0.008 /0.008,"S, X, Ka, Optical","LEO, MEO, GEO, Lunar, Deep Space",Flown LEO,Yes
+37,23,Muon Space USA,"4,000",0.01 /0.004,"S, X, Optical",LEO,Flown LEO,Yes
+37,24,NanoAvionics Lithuania,660,0.24 /0.09,"UHF, S, X",LEO,Flown LEO,Yes
+37,25,Northrop Grumman USA,400,° ° <0.01 /<0.008 ° °,"S, X, Ka","LEO, GEO, HEO","Flown LEO, GEO, and HEO",Yes
+37,26,NovaWurks USA,">5,000",° ° 0.002 /0.0004 ° °,"UHF, S, L, X, Ka, Ku and Optical","LEO, MEO, GEO, GTO, HEO, Lunar and Deep Space",Flown LEO and GTO,Yes
+37,27,OHB LuxSpace Luxembourg,834,<0.022°/ 0.01°,"S, X",LEO,Qualified LEO,No
+37,28,OHB Sweden Sweden,"1,500",0.008 /0.008,"S, X, L","LEO, MEO",Flown LEO,No
+37,29,Orbital Astronautics UK,"5,000",0.05°/0.01 °,"S, X, K, Ka, Optical","VLEO, LEO, MEO, GEO, Deep Space",Qualified LEO,No
+37,30,Quantum Space USA,"1,000",° ° 0.006 /0.006 ° °,"S, X, Ka","LEO, GEO, Cislunar, Lunar, Deep Space",Under Qualified Development,Yes
+37,31,Reflex Aerospace Germany,"3,000",<0.01 /<0.005,"S, X, Ka, Ku, Optical",LEO,Flown LEO,No
+37,32,Redwire Space USA,600,° ° 0.005 /0.0017,"UHF, S, X","VLEO, LEO, GEO",Flown LEO Under Development VLEO and GEO,Yes
+37,33,SFL Missions Inc. Canada,"1,500",° ° 0.009 /0.004,"UHF, S, X, Ka","LEO, GEO, Lunar",Flown LEO Qualified GEO and Lunar,No
+37,34,Sierra Space USA,500,0.001 /° <0.001°,"UHF, S, X","LEO, MEO, GEO",Flown LEO,Yes
+37,35,SITAEL Italy,"2,000",0.0017 /0.001 ° °,"S, X",LEO,Qualified LEO,No
+37,36,Southwest Research Institute USA,"1,550",0.015°/0.002°,"S, X, Ka","LEO, GEO",Flown LEO Under Development GEO,Yes
+37,37,Space Dynamics Laboratory USA,"2,000",° ° 0.021 /0.021 ° °,"UHF, S, X, Ka, Optical","LEO, GEO, GTO, Cislunar, Deep Space",Flown LEO,Yes
+37,38,Space Inventor Denmark,"1,500",<0.008 /<0.008,"VHF, UHF, S, X, Ka, Ku, Q","LEO, GEO, MEO, Lunar",Flown LEO,No
+37,39,Surrey Satellite Technology Ltd. UK,"2,000",° ° <0.01 /<0.01,"S, X, Ka, Ku, ISL","LEO, Lunar",Flown LEO Under Development Lunar,No
+37,40,Terran Orbital USA,"1,500",° ° 0.014 /0.002,"UHF, S, X","LEO, GEO, Lunar",Flown LEO,Yes

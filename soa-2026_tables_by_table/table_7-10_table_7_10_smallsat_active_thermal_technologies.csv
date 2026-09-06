@@ -1,0 +1,5 @@
+page,row_in_table,Active Technology,Description
+240,1,Electrical Heaters,Space heaters use an electrical-resistance element in between two sheets of flexible electrically insulating material.
+240,2,Cryocoolers,Miniature refrigeration system designed to cool components to extremely low temperatures.
+240,3,Thermoelectric Coolers (TEC),"Miniature solid-state heat pumps which provide localized cooling via the Peltier effect, which is cooling resulting from passing electric current through a junction formed by two dissimilar metals."
+240,4,Fluid Loops,System that circulates a working fluid through the spacecraft to a heat sink.

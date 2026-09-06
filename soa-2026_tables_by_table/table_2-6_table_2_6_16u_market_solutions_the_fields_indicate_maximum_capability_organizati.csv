@@ -1,0 +1,25 @@
+page,row_in_table,Organization,Format,Peak Power (W),3-σ Pointing Control/ Knowledge,Comm Options,Intended Destination,Maturity,US Office
+33,1,2NDSpace Italy,16U,>100,0.1 /0.02,"VHF, UHF, S, X","VLEO, LEO, MEO",Qualified LEO,No
+33,2,AAC Clyde Space Sweden,16U,400,° ° <0.01 /<0.0075,"VHF, UHF, S, X, K, Ka, Ku, Optical",LEO,Qualified LEO,Yes
+33,3,Argotec Italy,16U+,220,° ° <0.02 /<0.01,"UHF, S, X, K, Ka","GEO, Deep Space",Under Development,Yes
+33,4,Astro Digital USA,16U+,500,° ° <0.05 /<0.01,"UHF, S, X, Ku, Ka, V, W, Optical",LEO,Flown LEO,Yes
+33,5,Blue Canyon Technologies USA,16U,108,° ° 0.002 /0.002,"L, S, X","LEO, GEO, Deep Space","Qualified LEO, GEO and Deep Space",Yes
+33,6,Deimos Space Spain,16U+,100,° ° 0.025 /0.025,"UHF, S, X","LEO, Lunar, Deep Space",Under Development,No
+33,7,EnduroSat Bulgaria,16U,346,0.08°/0.04 °,"UHF, S, X, K/Ka",LEO,Flown LEO,Yes
+33,8,Exobotics UK,16U,400,° ° 0.1°/ 0.008°,"VHF, UHF, S, X, Optical",LEO,Under Development,No
+33,9,German Orbital Systems Germany,16U+,164,<1 /<1 ° °,"UHF, VHF, S, X",LEO,Qualified LEO,No
+33,10,GomSpace Denmark,16U,116,0.070 /0.056,"S, X",LEO,Flown LEO,Yes
+33,11,GUMUSH AeroSpace Turkey,16U,240,° ° <0.05 /<0.05,"VHF, UHF, S, X",LEO,Under Development,No
+33,12,Harpy Aerospace India,"16U, 27U",420,° ° <0.1 /<0.01,"VHF, UHF, S, X, K, Ka, Ku, Optical",LEO,Qualified LEO,Yes
+33,13,HEX20 India,"16U, 27U+",200,° ° 0.008 /0.008,"UHF, S, X, Optical","LEO, MEO, Lunar",Under Development,Yes
+33,14,ISISPACE The Netherlands,16U,190,<0.03°/<0.03°,"UHF, S, X, Ka",LEO,Under Development,No
+33,15,NanoAvionics Lithuania,16U,175,0.18°/0.09 °,"UHF, S, X",LEO,Flown LEO,Yes
+33,16,Nara Space South Korea,16U,120,0.05° 0.03°,"S, X",LEO,Flown LEO,No
+33,17,NPC SPACEMIND Italy,16U,120,°/ ° <0.1 /<0.1,"UHF, S, X, Ka","LEO, MEO, GEO, Lunar",Under Development,Yes
+33,18,Orbital Astronautics UK,"16U, 27U","2,000",° ° 0.05 /0.01,"S, X, K, Ka, Optical","LEO, GEO, Lunar",Qualified LEO and GEO,No
+33,19,Orion Space Solutions USA,16U+,400,<1°°/<1° °,"L, S, X, Ka","VLEO, LEO, GEO","Qualified VLEO, LEO",Yes
+33,20,Pumpkin Space USA,"16U, 27U",400,0.05 /<0.05,"UHF, S, X, Ka","LEO, Lunar",Qualified LEO,Yes
+34,21,Space Inventor Denmark,16U,200,° ° <0.008 /<0.008,"VHF, UHF, S, X, L, Ka, Ku, QV","LEO, GEO, MEO",Flown LEO and GEO,No
+34,22,Spacemanic Czech Republic,16U,432,° ° 1 /0.5,"VHF, UHF, S, X","LEO, GEO, Lunar",Under Development,No
+34,23,Terran Orbital USA,16U,100,0.021° /0.0°07,"UHF, S, X","LEO, GEO, Lunar",Flown LEO and Lunar,Yes
+34,24,U-Space France,16U,150,0.009°/0.008°,"S, X",LEO,Under Development,No

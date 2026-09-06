@@ -1,0 +1,8 @@
+page,row_in_table,Data Storage 1,Station Storage: 5-30 days Cloud-based: Mission-driven,7 days
+348,1,Network Data Rate 1,Mission-driven (up to 1.2 Gbps),
+348,2,SLE Protocols,"F-CLTU, EF-CLTU (Forward) RAF, RCF, ROCF (Return)",
+348,3,SLE Versions Supported 2,"CCSDS 910.4, CCSDS 911.1, CCSDS 911.2, CCSDS 911.5, CCSDS 912.1, CCSDS 912.11, CCSDS 912.3, CCSDS 913.1",
+349,4,Radar Tracking Service Bands,C-band (5.4-5.9 GHz) Single Object X-Band (10.499 GHz) Multi Object,N/A
+349,5,Radar Tracking Loop Gain (dB),C-Band: 212-245 (227 Typical) X-Band: 246 (nominal),
+349,6,Other 1,Ground Antenna Slew Rate:,Time Transfer Measurement:
+349,7,,Azimuth and Elevation: ≥ 10°/sec (10°/sec2) * Train: ≥ 5°/sec (5°/sec2) * WS1 18-m system ≥ 2°/sec (1°/sec2),User Spacecraft Clock Calibration System: ≤ ±5 μs Return Channel Time Delay: ±25% of a bit period

@@ -1,0 +1,34 @@
+page,row_in_table,Company,Headquarters,Company_2,Headquarters_2
+59,1,Panasonic,Japan,EaglePicher Technologies,USA
+59,2,LG Chem,South Korea,Enersys,USA
+59,3,Samsung,South Korea,GS Yuasa,Japan
+59,4,E-one Moli,Taiwan,Saft,France
+59,5,Sony,Japan,Tesla,USA
+59,6,The chemistry and design of Li-based cells directly influence their volumetric and specific energy,,,
+59,7,densities—stored energy per unit volume or weight. Current commercial Li-ion energy cells,,,
+59,8,typically provide 150-270 Wh/kg and an average voltage of 3.6 V while advanced designs in,,,
+59,9,laboratory and high-altitude applications have approached or exceeded practical limits for Li-ion,,,
+59,10,systems at 450-500 Wh/kg (22). Amprius’ silicon anode batteries powered a high-altitude pseudo,,,
+59,11,"satellite for 67 days in the stratosphere, delivering 450 Wh/kg",,,
+59,12,"Secondary battery cells are often optimized for either high energy or high power, though hybrid",,,
+59,13,"designs are emerging that aim to balance both, especially for electric aviation or drone",,,
+59,14,"applications. High-power cells typically feature low-resistance designs, such as increased coating",,,
+59,15,"surface area or multiple current collector contact points, enabling higher discharge rates. In",,,
+59,16,"contrast, high-energy cells focus on maximizing gravimetric energy density to extract the most",,,
+59,17,"energy per unit mass. To improve energy density, reduce safety risks, and lessen reliance on",,,
+59,18,"traditional Li-ion chemistries, manufacturers incorporate additives to the anodes and cathodes",,,
+59,19,that enhance the electrochemical performance.,,,
+59,20,COTS batteries have been successfully used in several CubeSat and nanosatellite missions due,,,
+59,21,"to their low cost, while the specialized space-grade cells from dedicated aerospace manufactures",,,
+59,22,are designed specifically to operate reliably in extreme space environments. Emerging,,,
+59,23,technologies like lithium-sulfur (Li-S) batteries are under evaluation for future space missions due,,,
+60,24,to their potential for even greater energy density. Environmental factors such as ambient,,,
+60,25,"pressure, fluid exposure, and illumination further influence battery selection. Additional variables",,,
+60,26,"that play a role in space are distance from energy source, relative location, and orbital gravity",,,
+60,27,(24)(25).,,,
+60,28,"The well-known COTS 18650 (18 x 65 mm) cylindrical cells are cost-effective, offer widespread",,,
+60,29,availability and proven performance. The 18650 battery is the industry standard for Li-ion and,,,
+60,30,"numerous manufacturers have high-performance 18650 battery packs, most of which have flown",,,
+60,31,on multiple spacecraft and are documented in Table 3-4 below. 18650s have become the most,,,
+60,32,"used building blocks for many SmallSats, although prismatic and pouch formats are also",,,
+60,33,available.,,,

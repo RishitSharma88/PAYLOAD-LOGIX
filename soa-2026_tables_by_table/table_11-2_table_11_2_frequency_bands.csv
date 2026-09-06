@@ -1,0 +1,13 @@
+page,row_in_table,Band,Frequency
+346,1,HF,3 to 30 MHz
+346,2,VHF,30 to 300 MHz
+346,3,UHF,300 to 1000 MHz
+346,4,L,1 to 2 GHz
+346,5,S,2 to 4 GHz
+346,6,C,4 to 8 GHz
+346,7,X,8 to 12 GHz
+346,8,Ku,12 to 18 GHz
+346,9,Ka,27 to 40 GHz
+346,10,V,40 to 75 GHz
+346,11,W,75 to 110 GHz
+346,12,mm,110 to 300 GHz

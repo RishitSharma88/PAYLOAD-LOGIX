@@ -1,0 +1,6 @@
+page,row_in_table,Filament Name,ISO 75/ASTM D648 Deflectio n Temp (°C),ISO 179- 1 Hardnes s (kJ/m2) or Izod D256- 10A (J/m),ISO 527- 1/AST M D638 Tensile strengt h (MPa),ASTM D790/IS O 178 Flexural strength (MPa),Nozzl e Temp (°C),Bed Tem p (°C),Densit y (g/cc),ESD Risk (Ω-cm)
+208,1,Stratasys ABS-CF10,100,20-51 J/m,21,29-69,N/A,N/A,1.0972,Marginal 104-109
+208,2,Stratasys ABS-ESD7,105,36.2 J/m,35,44,N/A,N/A,1.07,Marginal 104-109
+208,3,3DXSTAT ™ ESD- ABS,97,N/A,58,80,230,110,1.09,"Yes, 106- 109"
+208,4,Verbatim ABS,106 (ISO 306),21 J/m,47,78,240- 260,90,1.05,No
+208,5,Kimya ABS Carbon,N/A,N/A,36.7,N/A,250- 260,90- 100,1.05,N/A

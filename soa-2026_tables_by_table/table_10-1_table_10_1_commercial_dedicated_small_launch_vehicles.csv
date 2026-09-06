@@ -1,0 +1,18 @@
+page,row_in_table,Manufacturer Headquarters,Vehicle,Performance to LEO (kg),Number of Stages,Propellant Type,Recent Flight
+321,1,Rocket Lab USA,Electron,200,2,Kerosene,February 2026
+321,2,Galactic Energy China,Ceres-1,420,4,"Solid, Hydrazine",January 2026
+321,3,Indian Space Research Organisation (ISRO) India,SSLV,500,3,Solid,August 2024
+321,4,Firefly USA,Alpha,630,2,"Kerosene, LOX",TBD
+321,5,Northrop Grumman USA,Minotaur-1,580,4,"Solid,",June 2024
+321,6,"Upcoming, in development",,,,,
+321,7,Astra USA,Rocket 4,750,2,RP-1/ LOX,TBD
+321,8,Innospace South Korea,Hanbit- Nano HyPER,90,2,"Hybrid, Paraffin",December 2025
+321,9,Isar Aerospace Germany,Spectrum,1000,2,LOX/ Propane,March 2026
+321,10,Gilmour Space Australia,Eris,215,3,Hybrid,2026
+321,11,Space One Japan,KAIROS,150,4,"Solid, Liquid",December 2024
+322,12,,"The ESPA ring (Figure 10.2, top)",,,,
+322,13,exemplifies this concept as a multi-payload adapter originally developed by Moog Space and,,,,,
+323,14,"Defense Group, featuring six 38 cm (15″) ports that can",,,,,
+323,15,each support up to 257 kg. Similar designs are now,,,,,
+323,16,offered by multiple providers in various configurations,,,,,
+323,17,(21).,,,,,

@@ -1,0 +1,19 @@
+{
+  "category": "category",
+  "component_name": "component_name",
+  "manufacturer": "manufacturer",
+  "component_type": "component_type",
+  "mass": "mass",
+  "power": "power",
+  "dimensions": "dimensions",
+  "volume": "volume",
+  "performance_or_capacity": "performance_or_capacity",
+  "frequency_or_band": "frequency_or_band",
+  "voltage_or_energy": "voltage_or_energy",
+  "accuracy_or_pointing": "accuracy_or_pointing",
+  "radiation_tolerance": "radiation_tolerance",
+  "flight_heritage_or_orbit": "flight_heritage_or_orbit",
+  "propellant": "propellant",
+  "technology_or_material": "technology_or_material",
+  "notes": "notes"
+}

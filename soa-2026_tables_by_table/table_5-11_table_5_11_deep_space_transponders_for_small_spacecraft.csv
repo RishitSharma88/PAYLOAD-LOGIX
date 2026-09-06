@@ -1,0 +1,4 @@
+page,row_in_table,Manufacturer,Model,Mass (kg),Rx Power (W),Bands,Rad. Tol. (krad)
+182,1,General Dynamics USA,SDST,3.2,12.5,"X, Ka",50
+182,2,Space Dynamics Laboratory USA,IRIS V2.1,1.1,10.3,"X, Ka, S, or UHF",25
+182,3,,Iris Radio V3,0.8,10,"Simultaneous Multi- band: X, Ka, S",25

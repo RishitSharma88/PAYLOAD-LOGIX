@@ -1,0 +1,52 @@
+page,row_in_table,Manufacturer,Product,Recommended Conductance (W/in2-C)
+236,1,Parker Chomerics,Nusil CV-2946,3.5
+236,2,NeoGraf,Egraf HT-1210,2
+236,3,NeoGraf,Egraf HT-C3200,2.5
+236,4,Parker Chomerics,Chotherm 1671,0.75
+236,5,Parker Chomerics,Therm a gap 579,0.9
+236,6,Laird Performance Materials,T-PLI 220,1.5
+236,7,Henkel Corporation,Gap Pad 300,1.25
+236,8,Indium Corporation,"Indium foil 0.005""",0.9
+236,9,Carbice Corporation,Structured Space Pad,1.94
+237,10,A radiator is a dedicated surface for dissipating excess heat,,
+237,11,via radiative heat transfer and has a high IR emissivity and low,,
+237,12,solar absorptivity—an optical property combination typically,,
+237,13,referred to as “radiator properties.” A deployable radiator is,,
+237,14,stowed during transit or when the radiator is not needed and,,
+237,15,deployed when excess heat dissipation is required.,,
+237,16,Deployable radiators on small spacecraft can be challenging,,
+237,17,due to volume constraints. While paint has been widely used,,
+237,18,"to create efficient radiator surfaces on larger spacecraft, the",,
+237,19,relatively limited available external surface area on SmallSats,,
+237,20,that already have body-mounted solar cells reduces the,,
+237,21,available potential for creating dedicated radiative surfaces.,,
+237,22,"For a system that requires a large amount of heat dissipation,",,
+237,23,a passive deployable radiator would greatly enhance thermal,,
+237,24,performance by increasing the available radiative surface,,
+237,25,area. Since deployable radiators may be needed because of,,
+237,26,a lack of radiator surfaces on the spacecraft body due to body-,,
+237,27,"mounted solar cells, an alternate approach (more common for",,
+237,28,CubeSats) is to use the chassis body as the radiator area and,,
+237,29,"have a deployable solar array. Also, deployed solar arrays",,
+237,30,would be able to radiate from a high emissivity/low solar,,
+237,31,absorptance backside for improved thermal,,
+237,32,management of the array. Figure 7.7 shows an,,
+237,33,example of a deployable thermal dissipation,,
+237,34,technology from Redwire Space.,,
+237,35,A novel deployable radiator is being developed by,,
+237,36,"JPL, California Polytechnic San Luis Obispo, and",,
+237,37,"California State University, Los Angles. At the",,
+237,38,core of this technology is an Additively,,
+237,39,Manufactured Deployable Radiator with,,
+237,40,embedded Oscillating Heat Pipes (AMDROHP),,
+237,41,that enables heat to be efficiently transported,,
+237,42,across moving interfaces. The current AMDROHP,,
+237,43,radiator design is shown in Figure 7.8 and,,
+237,44,"consists of an evaporator and a condenser plate,",,
+237,45,and a series of flexible joints connecting the two,,
+237,46,plates. AMDROHP can be stowed within a 3U,,
+237,47,CubeSat and can be passively deployed without,,
+237,48,the use of an actuator. This AMDROHP technology is currently in the testing phase and further,,
+237,49,design optimization is ongoing. This project is funded by NASA’s Small Spacecraft & Distributed,,
+237,50,"Systems (SSDS, formally Small Spacecraft Technology program) in the University SmallSat",,
+237,51,Technology Partnerships initiative within the 2020 cohort.,,

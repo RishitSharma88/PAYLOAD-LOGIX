@@ -1,0 +1,7 @@
+page,row_in_table,Organization,Peak Power (W),3-σ Pointing Control/ Knowledge,Comm Options,Intended Destination,Maturity,US Office
+27,1,Alba Orbital UK,15,5 /2,"UHF, S",LEO,Flown LEO,Yes
+27,2,DIYSATELLITE Argentina,9,<5°/<5° ° °,"VHF, UHF, SHF","LEO, GEO, Lunar",Flown LEO,No
+27,3,FOSSA Systems Spain,10,<5°/<5°,"UHF, S",LEO,Flown LEO,No
+27,4,Hydra Space Systems Spain,8,5°/5°,"VHF, UHF",LEO,Flown LEO,No
+27,5,Innova Space Argentina,3.9,N/A -Magnetic Passive,UHF,LEO,Flown LEO,Yes
+27,6,"Quub, Inc. USA",26,5 /2,"UHF, S","LEO, Lunar",Flown LEO,Yes

@@ -1,0 +1,6 @@
+page,row_in_table,Name,Description,Real- time?,Implementation Language,Open- Source?
+270,1,VxWorks,"Deterministic, hard real-time operating system.",Yes,"C, C++",No
+270,2,RTEMS,Hard real time OS designed for embedded and space‑ systems.,Yes,C,"Yes, RTEMS License"
+270,3,FreeRTO,Lightweight real time kernel for microcontrollers.,Yes,C,"Yes, MIT License"
+270,4,Linux,"Free, open sou‑rce operating system kernel.",Not standard,C,"Yes, GNU GPL"
+270,5,Zephyr OS,Real time ‑OS for embedded systems.,Yes,C,"Yes, Apache 2.0 License"

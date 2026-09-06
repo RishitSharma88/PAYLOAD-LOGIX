@@ -1,0 +1,12 @@
+page,row_in_table,Manufacturer,Model,Mass (kg),Power (W),Resolution (nT),Orthogo nality,Rad Tolerance (krad)
+173,1,AAC Clyde Space Sweden,MM200,0.012,0.01,1.18,-,30
+173,2,,MAG-3,0.100,Voltage Dependent,-,1°,10
+173,3,CubeSpace Satellite Systems South Africa,CubeMag Deployable,0.016,0.23,13,0.6,24
+173,4,,CubeMag Compact,0.006,0.23,25,0.6,24
+173,5,Exobotics UK,XO-SENSE-MAG,0.05,< 0.01,13,-,150
+173,6,GomSpace Denmark,NanoSense M315,0.008,-,-,-,-
+173,7,MEISEI Japan,3-Axis Magnetometer for Small Satellite,0.220,1.5,-,1°,-
+173,8,NewSpace Systems South Africa,NMRM-Bn25o485,0.085,0.75,8,1°,10
+173,9,Space Inventor Denmark,IMU-P4,0.1,--,13 nT,--,--
+173,10,ZARM Technik Germany,Analogue High-Rel Fluxgate Magnetometer FGM-A-75,0.33,0.75 W,±75000,1°,50
+173,11,,Digital AMR Magnetometer AMR-D-100-EFRS485,0.18,0.3 W,±100000,1°,-

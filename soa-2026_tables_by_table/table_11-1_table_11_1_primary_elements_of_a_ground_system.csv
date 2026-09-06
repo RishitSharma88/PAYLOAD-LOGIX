@@ -1,0 +1,5 @@
+page,row_in_table,Element,Function
+343,1,Ground Stations,"Telemetry, tracking, and command interface with the spacecraft"
+343,2,Ground Networks,Connection between multiple ground elements
+343,3,Control Centers,Management of the spacecraft operations
+343,4,Remote Terminals,User interface to retrieve transmitted information for additional processing

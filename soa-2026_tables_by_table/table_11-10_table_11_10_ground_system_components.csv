@@ -1,0 +1,13 @@
+page,row_in_table,Product,Manufacturer,Type of Product
+370,1,Tracking Antenna,"Viasat, Safran","Antennas for small satellites in and S, X and Ka-band frequencies"
+370,2,Antenna Feed,See End-to-End Hardware Section 11.7.2,"RF pickup, mechanical filters, LNA"
+370,3,"Radio, Software Defined",NI Ettus Research,"USRP X410, up to 7.2 GHz with RFSOC advanced FPGA and meeting wide bandwidth requirements. USRP X310: DC-6 GHz with up to 160 MHz of baseband bandwidth, multiple high-speed interfaces"
+370,4,Data Receiver,Safran Data Systems,Cortex CRT (low data rate) and HDR (high data rate (previously by Zodiac)
+370,5,"Modem, for TT&C and Payload Reception",Safran Data Systems,"Satcore, plug-and-play modem for TT&C and Payload Reception"
+370,6,Digital Processing,Kratos,SpectralNet: Digital IF product that converts analog signals at RF frequencies up to S-band into digital IF packets.
+370,7,Radome,Infinite Technologies,Antenna radomes
+370,8,Ground Station Dongle,GAUSS,"A USB low-power board to simulate ground station in laboratory conditions. The USB dongle integrates both a low-power UHF transceiver and a TNC, thus miniaturizing common ground station rack systems"
+370,9,Integrated Testing Systems (EGSE) & Ground Station TT&C Modems,Celestia Satellite Test & Simulation,Hardware and software elements all operating within a single reference platform and environment
+370,10,Tracking Antenna,SatRev S.A.,Antennas for small satellites in and UHF and S- band frequencies
+370,11,"Modem, for TT&C and Payload Reception",SatRev S.A.,UHF for TT&C and Payload Reception
+370,12,Radome,SatRev S.A.,Antenna radomes

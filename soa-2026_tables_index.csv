@@ -1,0 +1,223 @@
+table_title,page,source_table_on_page,rows_added
+Table 2-1: Hosted Orbital Service Providers (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the Hosted Orbital Services category),24,1,33
+Table 2-1: Hosted Orbital Service Providers (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the Hosted Orbital Services category),25,1,31
+Table 2-2: PocketQubes Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the PocketQube category),27,1,6
+Table 2-3: 0.25U-3U Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the 0.25U-3U category),29,1,28
+Table 2-4: 6U Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the 6U category),30,1,24
+Table 2-4: 6U Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the 6U category),31,1,5
+Table 2-5: 12U Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the 12U category),32,1,25
+Table 2-6: 16U+ Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the 16U+ category),33,1,20
+Table 2-6: 16U+ Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the 16U+ category),34,1,4
+Table 2-7: ESPA-Class Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the ESPA- Class category),36,1,22
+Table 2-7: ESPA-Class Market Solutions (The fields indicate maximum capability; organizations may offer multiple options including smaller capabilities within the ESPA- Class category),37,1,18
+Table 2-8: List of other companies that may offer spacecraft buses and/or Hosted Orbital Services,38,1,10
+Table 2-9: List of Contact Information for Organizations in this Chapter,40,1,30
+Table 2-9: List of Contact Information for Organizations in this Chapter,41,1,38
+Table 2-9: List of Contact Information for Organizations in this Chapter,42,1,15
+Table 2-9: List of Contact Information for Organizations in this Chapter,44,1,2
+Table 3-1: Solar Cells,48,1,18
+Table 3-2: Solar Array/Panel Products,49,1,18
+Table 3-2: Solar Array/Panel Products,50,1,25
+Table 3-2: Solar Array/Panel Products,51,1,32
+Table 3-2: Solar Array/Panel Products,52,1,38
+Table 3-2: Solar Array/Panel Products,53,1,2
+Table 3-2: Solar Array/Panel Products,58,1,6
+Table 3-2: Solar Array/Panel Products,58,2,5
+Table 3-3: Commercial and Space Li-ion Manufacturers,59,1,5
+Table 3-3: Commercial and Space Li-ion Manufacturers,59,2,6
+Table 3-3: Commercial and Space Li-ion Manufacturers,59,3,8
+Table 3-3: Commercial and Space Li-ion Manufacturers,59,4,4
+Table 3-3: Commercial and Space Li-ion Manufacturers,60,1,4
+Table 3-3: Commercial and Space Li-ion Manufacturers,60,2,6
+Table 3-4: 18650 Cylindrical Cells,60,3,7
+Table 3-5: Battery (Pack) Product Table,61,1,24
+Table 3-5: Battery (Pack) Product Table,62,1,10
+Table 3-6: Battery-vs-Supercapacitor Specifications,64,1,15
+Table 3-7: Solid-State Batteries,65,1,5
+Table 3-8: Power Management and Distribution System Products,68,1,20
+Table 3-8: Power Management and Distribution System Products,69,1,23
+Table 3-8: Power Management and Distribution System Products,70,1,6
+Table 4-1: Summary of Propulsion Technologies Surveyed,86,1,20
+Table 4-1: Summary of Propulsion Technologies Surveyed,94,1,4
+Table 4-1: Summary of Propulsion Technologies Surveyed,103,1,9
+Table 4-1: Summary of Propulsion Technologies Surveyed,103,2,5
+Table 4-1: Summary of Propulsion Technologies Surveyed,103,3,6
+Table 4-1: Summary of Propulsion Technologies Surveyed,124,1,3
+Table 4-1: Summary of Propulsion Technologies Surveyed,124,2,2
+Table 4-1: Summary of Propulsion Technologies Surveyed,124,3,2
+Table 4-2: Hydrazine Chemical Propulsion,125,1,29
+Table 4-3: Alternative Monopropellant and Bipropellant Propulsion,126,1,22
+Table 4-3 (cont.): Other Monopropellant and Bipropellant Propulsion,127,1,26
+Table 4-3 (cont.): Other Monopropellant and Bipropellant Propulsion,127,2,2
+Table 4-3 (cont.): Other Monopropellant and Bipropellant Propulsion,127,3,2
+Table 4-3 (cont.): Other Monopropellant and Bipropellant Propulsion,127,4,2
+Table 4-4: Hybrid Chemical Propulsion,128,1,10
+Table 4-5: Cold Gas Propulsion,129,1,25
+Table 4-6: Solid Motor Chemical Propulsion,130,1,9
+Table 4-7: Electrothermal Electric Propulsion,131,1,28
+Table 4-8: Electrospray Electric Propulsion,132,1,13
+Table 4-9: Gridded-Ion Electric Propulsion,133,1,12
+Table 4-10: Hall-Effect Electric Propulsion Thrusters,134,1,25
+Table 4-10 (cont.): Hall-Effect Electric Propulsion Thrusters,135,1,16
+Table 4-11: Pulsed Plasma and Vacuum Arc Electric Propulsion,136,1,14
+Table 4-12: Ambipolar Electric Propulsion,137,1,10
+Table 4-13: Propellant-less Propulsion,137,2,5
+Table 5-1: State-of-the-Art GNC Subsystems,164,1,11
+Table 5-2: Currently Available Integrated Systems,165,1,9
+Table 5-3: High Heritage Miniature Reaction Wheels,167,1,35
+Table 5-3: High Heritage Miniature Reaction Wheels,168,1,31
+Table 5-4: High Heritage Magnetic Torquers,169,1,15
+Table 5-4: High Heritage Magnetic Torquers,170,1,23
+Table 5-5: Star Trackers Suitable for Small Spacecraft,172,1,31
+Table 5-6: Three-axis Magnetometers for Small Spacecraft,173,1,11
+Table 5-7: Commercial sun sensors,175,1,21
+Table 5-7: Commercial sun sensors,176,1,15
+Table 5-8: Commercially Available Horizon Sensors,177,1,4
+Table 5-9: Gyros Available for Small Spacecraft,179,1,19
+Table 5-9: Gyros Available for Small Spacecraft,180,1,9
+Table 5-10: GPS Receivers for Small Spacecraft,181,1,16
+Table 5-11: Deep Space Transponders for Small Spacecraft,182,1,3
+Table 5-12: Atomic Clocks and Oscillators for Small Spacecraft,183,1,8
+Table 5-13: Lidar for Small Spacecraft,183,2,2
+Table 5-14: USTP Initiative GNC Projects,186,1,3
+Table 5-14: USTP Initiative GNC Projects,187,1,3
+Table 6-1: CubeSat Standard Structure Dimensions,195,1,6
+Table 6-2: Commercial Primary CubeSat Structures,197,1,18
+Table 6-4: Type of Spacecraft Mechanisms,200,1,3
+Table 6-5: Commercial Actuator Mechanisms,201,1,19
+Table 6-5: Commercial Actuator Mechanisms,202,1,11
+Table 6-6: Commercial Deployable Booms,203,1,9
+Table 6-7: Robotic Arms for Small Spacecraft,204,1,3
+Table 6-7: Polylactic Acid Filaments,207,1,5
+Table 6-8: ABS Filaments,208,1,5
+Table 6-9: Nylon Filaments,209,1,9
+Table 6-10: Polycarbonate Filaments,210,1,7
+Table 6-11: CRP Windform,211,1,3
+Table 6-12: PEI Filaments,212,1,8
+Table 6-13: PAEK-based Filaments,213,1,10
+Table 6-14: Photopolymers,214,1,6
+Table 6-14: Photopolymers,217,1,3
+Table 6-15: Shields-1 Experimental Total Ionizing Dose Measurements in PLEO,218,1,7
+Table 6-15: Shields-1 Experimental Total Ionizing Dose Measurements in PLEO,219,1,1
+Table 6-16: XP Charge Dissipation Coating and Commercial Conformal Coating Resistivity Comparisons,219,2,3
+Table 6-16: XP Charge Dissipation Coating and Commercial Conformal Coating Resistivity Comparisons,219,3,1
+Table 7-1: SmallSat Thermal Control Challenges,228,1,5
+Table 7-2: SmallSat Passive Thermal Technologies,229,1,7
+Table 7-2: SmallSat Passive Thermal Technologies,230,1,2
+Table 7-3: Sprayable Thermal Control Coatings,232,1,9
+"Table 7-4: Films, Tapes and MLI",232,2,2
+"Table 7-4: Films, Tapes and MLI",233,1,15
+Table 7-5: Thermal Straps,234,1,17
+Table 7-5: Thermal Straps,235,1,1
+Table 7-6: Bolted Joint Thermal Conductance Design Guideline,235,2,7
+Table 7-7: Thermal Interface Materials and Conductive Gaskets,236,1,9
+Table 7-7: Thermal Interface Materials and Conductive Gaskets,237,1,42
+Table 7-8: Phase Change Materials,238,1,8
+Table 7-8: Phase Change Materials,239,1,3
+Table 7-9: Thermal Switches,239,2,2
+Table 7-9: Thermal Switches,240,1,2
+Table 7-10: SmallSat Active Thermal Technologies,240,2,4
+Table 7-11: Active Thermal Systems - Electrical Heaters,241,1,6
+Table 7-11: Active Thermal Systems - Electrical Heaters,242,1,4
+Table 7-12: Active Thermal Systems - Cryocoolers,243,1,7
+Table 7-13: Thermoelectric Coolers,243,2,2
+Table 7-13: Thermoelectric Coolers,244,1,3
+Table 7-13: Thermoelectric Coolers,244,2,3
+Table 7-14: Active Thermal Systems - Fluid Loops,245,1,2
+Table 8-1: Comparison of Memory Types,255,1,6
+Table 8-2: Common bus electrical interfaces,255,2,5
+Table 8-3: Examples of AI Space Applications,258,1,7
+Table 8-3: Examples of AI Space Applications,260,1,9
+Table 8-3: Examples of AI Space Applications,261,1,19
+Table 8-3: Examples of AI Space Applications,262,1,13
+Table 8-3: Examples of AI Space Applications,263,1,7
+Table 8-3: Examples of AI Space Applications,264,1,42
+Table 8-3: Examples of AI Space Applications,265,1,17
+Table 8-3: Examples of AI Space Applications,266,1,10
+Table 8-5: FSW comparison table,269,1,9
+Table 8-6: Operating Systems,270,1,5
+Table 9-1: Radio Frequency Bands,280,1,10
+Table 9-2: Antennas,286,1,12
+Table 9-2: Antennas,287,1,13
+Table 9-2: Antennas,288,1,13
+Table 9-2: Antennas,289,1,15
+Table 9-2: Antennas,290,1,10
+Table 9-2: Antennas,291,1,9
+Table 9-2: Antennas,292,1,10
+Table 9-2: Antennas,293,1,11
+Table 9-3: Radios,294,1,18
+Table 9-3: Radios,295,1,16
+Table 9-3: Radios,296,1,15
+Table 9-3: Radios,297,1,17
+Table 9-3: Radios,298,1,16
+Table 9-3: Radios,299,1,16
+Table 9-3: Radios,300,1,9
+Table 9-3: Radios,301,1,10
+Table 9-3: Radios,306,1,3
+Table 9-3: Radios,306,2,9
+Table 9-3: Radios,306,3,10
+Table 9-3: Radios,306,4,9
+Table 9-3: Radios,306,5,2
+Table 9-3: Radios,307,1,3
+Table 9-3: Radios,307,2,4
+Table 9-3: Radios,307,3,6
+Table 9-3: Radios,307,4,5
+Table 9-4: LCT Technologies,308,1,15
+Table 9-5: USTP Initiative Communication Projects,310,1,1
+Table 9-5: USTP Initiative Communication Projects,317,1,3
+Table 9-5: USTP Initiative Communication Projects,317,2,5
+Table 9-5: USTP Initiative Communication Projects,318,1,4
+Table 9-5: USTP Initiative Communication Projects,318,2,6
+Table 9-5: USTP Initiative Communication Projects,318,3,5
+Table 9-5: USTP Initiative Communication Projects,318,4,7
+Table 9-5: USTP Initiative Communication Projects,318,5,4
+Table 10-1: Commercial dedicated small launch vehicles,321,1,11
+Table 10-1: Commercial dedicated small launch vehicles,322,1,2
+Table 10-1: Commercial dedicated small launch vehicles,323,1,4
+Table 10-2: Commercial Small Spacecraft Dispensers / Deployers,324,1,7
+Table 10-2: Commercial Small Spacecraft Dispensers / Deployers,325,1,6
+Table 10-3: SmallSat Separation Devices,327,1,15
+Table 10-3: SmallSat Separation Devices,328,1,2
+Table 10-3: SmallSat Separation Devices,328,2,1
+Table 10-4: Commercial Orbital Transfer / Maneuvering Vehicles,332,1,20
+Table 10-4: Commercial Orbital Transfer / Maneuvering Vehicles,333,1,8
+Table 11-1: Primary Elements of a Ground System,343,1,4
+Table 11-2: Frequency Bands,346,1,12
+Table 11-3: NSN Interfaces and Capabilities,348,1,3
+Table 11-3: NSN Interfaces and Capabilities,349,1,4
+Table 11-4: NSN Supported Radio Frequencies and Bandwidths,350,1,6
+Table 11-4: NSN Supported Radio Frequencies and Bandwidths,351,1,3
+Table 11-4: NSN Supported Radio Frequencies and Bandwidths,352,1,6
+"Table 11-6: DSN Customers, Mission Characteristics, Frequencies, and Services",353,1,4
+Table 11-7: ATLAS Federated Antenna Network,361,1,5
+Table 11-7: ATLAS Federated Antenna Network,362,1,21
+Table 11-7: ATLAS Federated Antenna Network,363,1,11
+Table 11-8: Viasat Ground Stations,364,1,2
+Table 11-8: Viasat Ground Stations,365,1,7
+Table 11-8: Viasat Ground Stations,366,1,3
+Table 11-9: Service Providers for Space Relay Networks,367,1,2
+Table 11-9: Service Providers for Space Relay Networks,368,1,3
+Table 11-10: Ground System Components,370,1,12
+Table 11-11: Software for Ground Systems,373,1,6
+Table 11-12: End-to-End Hardware for Ground Systems,382,1,7
+Table 11-13: Projected Performance of LEGS Assets Pending Finalization,389,1,2
+Table 11-14: Service Providers for DTE Ground System Network,391,1,10
+Table 11-15: Select Frequency Bands by InfoStellar,392,1,1
+Table 11-16: Mission Operations and Scheduling Software,393,1,11
+Table 12-1: Types of Tracking Aids,416,1,3
+Table 12-1: Types of Tracking Aids,417,1,3
+Table 12-1: Types of Tracking Aids,431,1,1
+Table 12-1: Types of Tracking Aids,435,1,2
+Table 12-1: Types of Tracking Aids,435,2,3
+Table 12-1: Types of Tracking Aids,435,3,6
+Table 12-1: Types of Tracking Aids,435,4,2
+Table 13-1: Passive TechEdSat-N Spacecraft,437,1,9
+Table 13-2: Drag Sail Missions,438,1,17
+Table 13-2: Drag Sail Missions,439,1,14
+Table 13-3: Active TechEdSat-N Spacecraft,442,1,6
+Table 13-3: Active TechEdSat-N Spacecraft,452,1,2
+Table 13-3: Active TechEdSat-N Spacecraft,453,1,2
+Table 13-3: Active TechEdSat-N Spacecraft,454,1,1
+Table 13-3: Active TechEdSat-N Spacecraft,455,1,2
+Table 13-3: Active TechEdSat-N Spacecraft,456,1,1
+Table 13-3: Active TechEdSat-N Spacecraft,457,1,2

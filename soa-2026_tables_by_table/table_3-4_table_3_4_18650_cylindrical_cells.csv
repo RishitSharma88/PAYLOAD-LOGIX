@@ -1,0 +1,8 @@
+page,row_in_table,column_1,column_2,Cell,column_4,column_5,column_6,Specific Energy (Wh/kg),column_8,column_9,column_10,column_11,column_12,Flight Heritage,column_14,column_15
+60,1,,Sony SE US18650 VTC4,,,,,,250,,,,Ingenuity Mars Helicopter,,,
+60,2,LG Chem ICR18650 B3 (2600 mAh),,,,,191-205,,,,,"NASA’s PhoneSat, NoDES, Europa Clipper",,,,
+60,3,Panasonic NCR18650B (3350 mAh),,,,,243,,,,,"MarCO, ADAPT, BioSentinel, Lunar Flashlight, NeaScout",,,,
+60,4,Molicel ICR18650H (2200 mAh),,,,,182,,,,,NASA’s EDSN mission,,,,
+60,5,Canon BP-930s (3000 mAh),,,,,112,,,,,NASA’s TechEdSat missions,,,,
+60,6,LG Chem INR18650-MJ1 (3500 mAh),,,,,260,,,,,NASA’s PACE mission,,,,
+60,7,Samsung SDI INR18650-25R (2500 mAh),,,,,210,,,,,UNION/Lian-Hé mission,,,,

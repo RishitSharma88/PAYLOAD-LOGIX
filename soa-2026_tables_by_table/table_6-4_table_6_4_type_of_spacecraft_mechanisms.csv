@@ -1,0 +1,4 @@
+page,row_in_table,Type of Mechanism,Description,Technology Examples
+200,1,Separation and Release,Reliable stowage and release of spacecraft and deployable components upon an external command (active) or spring-loaded (passive).,"Clamp band systems, Frangibolts, release nuts, pin pullers, bolts, burn wire, hinges, and passive spring-loaded switches"
+200,2,Motorized,Allows for rotatory motion of spacecraft components.,"Solar Array Drive Assembly, directional antennas, combination of dampeners and absorbers"
+200,3,Attitude Control,Provides pointing accuracy and stability for spacecraft and components.,"Reaction (momentum) wheel assembly, gimbals, component pointing, passive methods"

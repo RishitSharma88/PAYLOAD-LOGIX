@@ -1,0 +1,8 @@
+page,row_in_table,column_1,Conductance [W/K],column_3
+235,1,Screw Size,Small Stiff Surface,Large Thin Surfaces
+235,2,2-56,0.21,0.105
+235,3,4-40,0.26,0.132
+235,4,6-32,0.42,0.176
+235,5,8-32,0.80,0.264
+235,6,10-32,1.32,0.527
+235,7,1/4-28,3.51,1.054

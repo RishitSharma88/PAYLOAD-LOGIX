@@ -1,0 +1,11 @@
+page,row_in_table,Product,Dish Sizes (m),Services,MSPA
+391,1,ATLAS Global Network,Various partners with other stations,"S-band, X-band, UHF (Ka-band in 2017) Built on AWS cloud infrastructure",Partner dependent
+391,2,KSAT and KSATLITE by Konsberg Sat. Services,> 10 part of NSN or 3.7 (KSATLITE),"X-band and S-band D/L and S-band U/L. VHF, UHF, Ka-band D/L. KSATLITE designed specifically for SmallSats",No
+391,3,SSC Infinity by Swedish Space Corporation,"13, 7.3 NSN partner",Designed specifically for SmallSats; Uses standardized HW,Not found
+391,4,AWS Ground Station by Amazon,5.4,Built on AWS cloud infrastructure,Not found
+391,5,Viasat,"7.3, 5.4","Global network operating in S, X, and Ka-bands that can reach LEO, MEO, GEO, and HEO orbits",Mission Dependent
+391,6,Leaf Space,3.7,"Standardized global network accessible through UHF, S, X and Ka-band",Yes
+391,7,"NASA, Near Space Network","9 to 11, & 5","Global network operating in S, X, and Ka- bands that can reach LEO, GEO, HEO, and Lunar orbits; up to 2 mil km","Legacy: NoLEGS (18m): planned, Yes"
+391,8,"NASA/ JPL, Deep Space Network","34, 70","Operating at S, X, K, Ka bands. Includes Morehead State 21m in X- band. 8 m optical receive aperture planned for 2030s",Yes
+391,9,NASA UHF Ground Station,18,Operates in UHF (400 – 470 MHz),No
+391,10,RBC Signals Global Ground Station Network,24 to 33,"VHF, UHF, S, C, X, Ku, and Ka-bands",Partner Dependent

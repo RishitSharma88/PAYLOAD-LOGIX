@@ -1,0 +1,10 @@
+page,row_in_table,Framework,Primary purpose/ Scope,Core Language,Open-Source?,Modularity,CCSDS,Released Quarter
+269,1,cFS (core Flight System) (26),Reusable flight software framework for spacecraft of all sizes (CubeSat to flagship).,C,GitHub cfs.gsfc.nasa.gov,Yes,Yes,Q1 2026
+269,2,F’ (F Prime),Used to model embedded systems framework.,C++,github.com/nasa/fprime,Yes,No,Q3 2025
+269,3,NanoSat Mission Operations Framework,"Supports missions by facilitating the development, distribution, and deployment of Apps on satellite missions.",Java,nanosat-mo-framework.github.io,Yes,Yes,Q2 2025
+269,4,Space ROS/ ROS 2 (Space Robot Operating System),Reusable software framework based on ROS2 for robotics and autonomous space systems.,C++ 14,github.com/david- dorf/spaceros_gz_demos,Yes,With Bridge,Q1 2026
+269,5,PyCubed,"Open-source, radiation-tested CubeSat avionics platform.",Python,github.com/pycubed,Yes,Yes,Q1 2023
+269,6,pysimCoder,"Rapid Prototyping application, that can be used to generate realtime code for different targets.",Linux,www.robots5.com/pysimcoder- installation-tutorial github.com/robertobucher/pysim Coder,Yes,Not native,Q3 2022
+269,7,Matrix Laboratory,Proprietary programming and numeric computing platform.,Matlab,www.mathworks.com/discovery/ what-is-matlab.html,Yes,Yes,Q3 2025
+269,8,GEneRIC Onboard Software (GERICOS),"Offers a set of generic, reusable and customizable software components for the rapid development of payload flight software.",C++,No,Yes,No,Unk
+269,9,Realtime Object- Oriented Distributed Operating System (RODOS),a real-time embedded operating system.,"C, C++",github.com/SpaceTeam/rodos,Yes,Yes,Unk

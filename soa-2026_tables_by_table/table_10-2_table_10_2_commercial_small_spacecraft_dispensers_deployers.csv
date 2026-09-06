@@ -1,0 +1,14 @@
+page,row_in_table,Manufacturer Headquarters,Product,Volume Configurations,Type
+324,1,Cal Poly USA,Dispenser,"1U, 3U",Tab
+324,2,COMAT France,Dispenser,"3U, 6U, 12U",Rail
+324,3,Dhruva Space India,DSOD,"1U, 3U, 6U, 12U, 16U",Rail
+324,4,Exolaunch,"EXOtube, EXOpod Nova Cubesat Deployer","0.25U, 1U, 2U, 3U, 6U, 6U XL, 8U, 12U, 16U",Rail
+324,5,Gran Systems Taiwan,MyPOD and Test PODs,"3U, 6U, 12U, 16U",Rail
+324,6,ISISPACE The Netherlands,"DuoPack, QuadPack","1U, 2U, 3U, 4U, 6U, 8U, 12U, 6UXL, 12UXL, 16U",Rail
+324,7,Maverick Space Systems USA,Mercury series,"3U, 6U, 6T, 12U, 12T, 16U","Rail, Tab"
+325,8,NPC Spacemind Italy,SMPOD,"1U,2U,3U,4U,6U,6U XL, 8U, 12U, 12U XL, 16U",Rail
+325,9,Rocket Lab USA,"Canisterized Satellite Dispenser (CSD), and Advanced Satellite Dispenser (ASD)","3U, 6U, 12U 6U, expandable to 3U–12U",Tab
+325,10,Tyvak USA,"Railpod III, 6U NLAS, 12U Deployer","3U, 6U, 12U",Rail
+325,11,UARX Space Spain,RAMI,"1U, 2U, 3U, 6U, 12U",Rail
+325,12,Voyager Space USA,NanoRacks CubeSat Deployer (NRCSD),"1U, 2U, 3U, 6U",Rail
+325,13,Xterra USA,CubeSat Dispenser (XCD),"1U,2U,3U,6U,6UXL,8U,12U,16U",Rail

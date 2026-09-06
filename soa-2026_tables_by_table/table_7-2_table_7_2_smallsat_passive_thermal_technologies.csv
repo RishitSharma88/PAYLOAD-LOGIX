@@ -1,0 +1,10 @@
+page,row_in_table,Passive Technology,Description
+229,1,Sprayable Thermal Control Coatings,Specialized liquid coatings applied to the spacecraft surfaces to manage and regulate the ratio of absorptivity and emissivity for optimal energy balance and thermal performance.
+229,2,"Films, Tapes, and MLI",Materials used to modify spacecraft surface properties to manage and regulate temperature.
+229,3,Thermal Straps,Provide a conductive link between a heat source and thermal sink to conductively transfer heat.
+229,4,Thermal Contact Conductance and Bolted Joint Conductance,Heat transfer by “contact” conductance between two surfaces pressed together by uniform pressure can be varied by using interface filler materials and conductive gaskets.
+229,5,Sunshields,Deployed material that reduces the amount of incident solar flux on a spacecraft.
+229,6,Thermal Louvers,Controls heat transfer between spacecraft surfaces.
+229,7,Deployable Radiators,Dedicated surface for dissipating excess heat via radiative heat transfer.
+230,8,Phase Change Materials,Energy is absorbed as material within a metal compartment changes phase because of exposure to a heat source.
+230,9,Mechanical Thermostat,An electromechanical device which controls the flow of electrical current in response to temperature change.

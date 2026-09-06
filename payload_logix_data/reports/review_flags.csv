@@ -1,0 +1,519 @@
+row_index,category,component_name,field,value,reason
+19,Alternative Monopropellant And Bipropellant Propulsion,---,mass,[kg],review_unsupported_unit
+19,Alternative Monopropellant And Bipropellant Propulsion,---,power,[W],review_unsupported_unit
+19,Alternative Monopropellant And Bipropellant Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+20,Alternative Monopropellant And Bipropellant Propulsion,MPS-130,mass,2.8† (2U) 1.7† (1U),review_unsupported_unit
+20,Alternative Monopropellant And Bipropellant Propulsion,MPS-130,dimensions,2U 1U,review_unparsed_dimensions
+21,Alternative Monopropellant And Bipropellant Propulsion,MPS-135,mass,14.7† (8U) 11.2† (6U) 7.2† (4U),review_unsupported_unit
+21,Alternative Monopropellant And Bipropellant Propulsion,MPS-135,dimensions,8U 6U 4U,review_unparsed_dimensions
+22,Alternative Monopropellant And Bipropellant Propulsion,HyPer,dimensions,0.25U,review_unparsed_dimensions
+26,Alternative Monopropellant And Bipropellant Propulsion,BGT-X5 System,dimensions,1U,review_unparsed_dimensions
+27,Alternative Monopropellant And Bipropellant Propulsion,MPUC,mass,2.5† (1.5U) 3.3† (2U),review_unsupported_unit
+27,Alternative Monopropellant And Bipropellant Propulsion,MPUC,dimensions,1.5U 2U,review_unparsed_dimensions
+28,Alternative Monopropellant And Bipropellant Propulsion,Cislunar Explorer,dimensions,6U total (2-units),review_unparsed_dimensions
+29,Alternative Monopropellant And Bipropellant Propulsion,CubeDrive,mass,1.17† 2.70†,review_unsupported_unit
+29,Alternative Monopropellant And Bipropellant Propulsion,CubeDrive,dimensions,0.8U 2U,review_unparsed_dimensions
+32,Alternative Monopropellant And Bipropellant Propulsion,Monopropellant Propulsion Module,power,2 x 22.5 W/Thruster,review_unsupported_unit
+32,Alternative Monopropellant And Bipropellant Propulsion,Monopropellant Propulsion Module,dimensions,1U,review_unparsed_dimensions
+33,Alternative Monopropellant And Bipropellant Propulsion,LFPS,dimensions,~2.4U,review_unparsed_dimensions
+34,Alternative Monopropellant And Bipropellant Propulsion,EPSS C1K,power,9.6 (preheat) 1.7 (firing),review_unsupported_unit
+34,Alternative Monopropellant And Bipropellant Propulsion,EPSS C1K,dimensions,1.3U,review_unparsed_dimensions
+35,Alternative Monopropellant And Bipropellant Propulsion,EPSS C2,dimensions,2U,review_unparsed_dimensions
+36,Alternative Monopropellant And Bipropellant Propulsion,Sprite,dimensions,1.5U,review_unparsed_dimensions
+37,Ambipolar Electric Propulsion,---,mass,[kg],review_unsupported_unit
+37,Ambipolar Electric Propulsion,---,power,[W],review_unsupported_unit
+37,Ambipolar Electric Propulsion,---,dimensions,[cm3],review_unparsed_dimensions
+43,Ambipolar Electric Propulsion,REGULUS-50-I2RF,mass,2.5† (Small); 4† (Medium); 5.1† (Large),review_unsupported_unit
+43,Ambipolar Electric Propulsion,REGULUS-50-I2RF,dimensions,"9.4 x 9.5 x {15, 18, 20} {Small, Medium, Large}",review_unparsed_dimensions
+62,Antennas,2211-133-UPL-R- 44-01 Ku-Uplink 4x4 Array,dimensions,0.99x0.99x0. 061 (excluding connector),review_unparsed_dimensions
+64,Antennas,2211-205-03 X band,dimensions,9.74x9.9x17. 6,review_unparsed_dimensions
+66,Antennas,2211-218,dimensions,10.2x10.2x19 .7,review_unparsed_dimensions
+78,Antennas,Vireo L-Band Phased Array,dimensions,114x100x13. 5,review_unparsed_dimensions
+86,Antennas,UHF Antenna IU,dimensions,10x10,review_unparsed_dimensions
+94,Antennas,NanoCom ANT430,dimensions,10x10,review_unparsed_dimensions
+106,Antennas,LAMBDA,dimensions,20x15x10 (stowed) 100x100 (deployed),review_unparsed_dimensions
+107,Antennas,NeuSAR,dimensions,52x52x25 (stowed) Ø300 deployed,review_unparsed_dimensions
+108,Antennas,T-DaHGR,dimensions,10x10x10 - 20x20x20 (stowed) Ø70-Ø200 (deployed),review_unparsed_dimensions
+109,Antennas,Antenna SYN7391-A/B/C (Iridium),dimensions,4.6x.4.3x1.0,review_unparsed_dimensions
+113,Antennas,"""Hinged Rib"" Cassegrain Antenna",dimensions,"60 (deployed reflector diameter, scalable to 150)",review_unparsed_dimensions
+114,Antennas,Helical antenna,dimensions,30 (deployed helical length),review_unparsed_dimensions
+116,Antennas,Helical antenna (high RF power handling),dimensions,60 (deployed helical length),review_unparsed_dimensions
+117,Antennas,Offset Reflector Antenna (muti feed),mass,<2720 0,review_unsupported_unit
+117,Antennas,Offset Reflector Antenna (muti feed),dimensions,"350 (deployed reflector diameter, scalable to 600)",review_unparsed_dimensions
+118,Antennas,Yagi antenna,dimensions,92.5 x 50 (deployed),review_unparsed_dimensions
+119,Antennas,BEAMSAT ADE antenna,dimensions,79.5x79.5x43 .4,review_unparsed_dimensions
+137,Atomic Clocks And Oscillators For Small Spacecraft,LNMO,power,1.5 Nom 2.5 Max,review_unsupported_unit
+140,Atomic Clocks And Oscillators For Small Spacecraft,Class B+ Products Hybrid Crystal Clock Oscillators,dimensions,5x7,review_unparsed_dimensions
+143,Atomic Clocks And Oscillators For Small Spacecraft,MO,power,3.5 Nom 5.5 Max,review_unsupported_unit
+168,Battery Vs Supercapacitor Specifications,,power,Voltage of a cell (V),review_unsupported_unit
+169,Battery Vs Supercapacitor Specifications,,power,ESR (mΩ),review_unsupported_unit
+170,Battery Vs Supercapacitor Specifications,,power,Efficiency (%),review_unsupported_unit
+171,Battery Vs Supercapacitor Specifications,,power,Cyclability (nb charges),review_unsupported_unit
+172,Battery Vs Supercapacitor Specifications,,power,Life (years),review_unsupported_unit
+173,Battery Vs Supercapacitor Specifications,,power,Self-discharge (% per month),review_unsupported_unit
+174,Battery Vs Supercapacitor Specifications,,power,Charge temperature (°C),review_unsupported_unit
+175,Battery Vs Supercapacitor Specifications,,power,Discharge temperature,review_unsupported_unit
+176,Battery Vs Supercapacitor Specifications,,power,Deep discharge pb,review_unsupported_unit
+177,Battery Vs Supercapacitor Specifications,,power,Overload pb,review_unsupported_unit
+178,Battery Vs Supercapacitor Specifications,,power,Risk of explosion,review_unsupported_unit
+180,Battery Vs Supercapacitor Specifications,,power,Charging cells in series,review_unsupported_unit
+181,Battery Vs Supercapacitor Specifications,,power,Voltage on discharge,review_unsupported_unit
+182,Battery Vs Supercapacitor Specifications,,power,cost ($) per kW h,review_unsupported_unit
+183,Cold Gas Propulsion,---,mass,[kg],review_unsupported_unit
+183,Cold Gas Propulsion,---,power,[W],review_unsupported_unit
+183,Cold Gas Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+185,Cold Gas Propulsion,Starling,dimensions,0.5U,review_unparsed_dimensions
+188,Cold Gas Propulsion,BioSentinel Propulsion System,power,"< 1 idle, < 4 operating",review_unsupported_unit
+191,Cold Gas Propulsion,058-118,dimensions,0.7 x 2.5,review_unparsed_dimensions
+192,Cold Gas Propulsion,058E142A,dimensions,1.4 x 2.0,review_unparsed_dimensions
+193,Cold Gas Propulsion,058E143-146,dimensions,1.4 x 5.7,review_unparsed_dimensions
+194,Cold Gas Propulsion,058E151,dimensions,1.9 x 4.1,review_unparsed_dimensions
+195,Cold Gas Propulsion,58E163A,dimensions,2.4 x 5.3,review_unparsed_dimensions
+196,Cold Gas Propulsion,IANUS,dimensions,0.5,review_unparsed_dimensions
+197,Cold Gas Propulsion,PERSEUS,dimensions,2.5,review_unparsed_dimensions
+198,Cold Gas Propulsion,I2T5,dimensions,0.5U,review_unparsed_dimensions
+200,Cold Gas Propulsion,C-POD,dimensions,1U,review_unparsed_dimensions
+202,Cold Gas Propulsion,MiPS Standard,dimensions,0.4 – 1.5U,review_unparsed_dimensions
+203,Cold Gas Propulsion,NEA Scout,power,< 55 warmup < 9 operating,review_unsupported_unit
+203,Cold Gas Propulsion,NEA Scout,dimensions,2U,review_unparsed_dimensions
+209,Commercial Actuator Mechanisms,HADES Medius,power,1.2A @12V,review_unsupported_unit
+216,Commercial Actuator Mechanisms,SADA-M,power,5W (nominal) / 10W (peak),review_unsupported_unit
+218,Commercial Actuator Mechanisms,TiNi™ FD04 Frangibolt,power,15 W @ 9 VD,review_unsupported_unit
+219,Commercial Actuator Mechanisms,TiNi™ ML50,power,2 W @ 7 VD,review_unsupported_unit
+229,Commercial Actuator Mechanisms,Triggy,power,*,review_unsupported_unit
+233,Commercial Actuator Mechanisms,HADES Pico,power,1.2A @12V,review_unsupported_unit
+240,Commercial Sun Sensors,Digital Sun Sensor (±64°),mass,Sensor0.25 Electronics 0.29 - 1.1,review_unsupported_unit
+244,Commercial Sun Sensors,Fine Pointing Sun Sensor,mass,Sensor .95 Electronics 1.08,review_unsupported_unit
+245,Commercial Sun Sensors,Fine Spinning Sun Sensor (±64°),mass,Sensor 0.109 Electronics 0.475 – 0.725,review_unsupported_unit
+257,Commercial Sun Sensors,FSSA-110,mass,With 3x sensor: 0.102,review_unsupported_unit
+265,Commercial Sun Sensors,Digital Sun Sensor (±32°),mass,Sensor 0.3 kg Electronics ~1,review_unsupported_unit
+272,Commercially Available Horizon Sensors,Mini Digital HCI,power,Voltage Dependent,review_unsupported_unit
+274,Cont Hall Effect Electric Propulsion Thrusters,---,mass,[kg],review_unsupported_unit
+274,Cont Hall Effect Electric Propulsion Thrusters,---,dimensions,[cm3],review_unparsed_dimensions
+275,Cont Hall Effect Electric Propulsion Thrusters,MaSMi,dimensions,"1,700",review_unparsed_dimensions
+280,Cont Hall Effect Electric Propulsion Thrusters,IHET-300,dimensions,"1,836",review_unparsed_dimensions
+283,Cont Hall Effect Electric Propulsion Thrusters,ST25,mass,0.95 (with 2 cathodes),review_unsupported_unit
+284,Cont Hall Effect Electric Propulsion Thrusters,ST40,mass,1.5 (with 2 cathodes),review_unsupported_unit
+285,Cont Hall Effect Electric Propulsion Thrusters,HT100,dimensions,407 wo cath.,review_unparsed_dimensions
+286,Cont Hall Effect Electric Propulsion Thrusters,HT400,dimensions,"1,330",review_unparsed_dimensions
+288,Cont Other Monopropellant And Bipropellant Propulsion,---,mass,[kg],review_unsupported_unit
+288,Cont Other Monopropellant And Bipropellant Propulsion,---,power,[W],review_unsupported_unit
+288,Cont Other Monopropellant And Bipropellant Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+301,Cont Other Monopropellant And Bipropellant Propulsion,0.1N,dimensions,2.5 dia x 4,review_unparsed_dimensions
+302,Cont Other Monopropellant And Bipropellant Propulsion,1N LT (HT),power,15 (25),review_unsupported_unit
+302,Cont Other Monopropellant And Bipropellant Propulsion,1N LT (HT),dimensions,6 dia x 16,review_unparsed_dimensions
+303,Cont Other Monopropellant And Bipropellant Propulsion,5N LT (HT),dimensions,6 dia x 16,review_unparsed_dimensions
+305,Cont Other Monopropellant And Bipropellant Propulsion,HYDROS-M,dimensions,38.1 dia. x 19.1,review_unparsed_dimensions
+306,Cont Other Monopropellant And Bipropellant Propulsion,ArgoMoon Hybrid MiPS,power,4.3 20 (max),review_unsupported_unit
+306,Cont Other Monopropellant And Bipropellant Propulsion,ArgoMoon Hybrid MiPS,dimensions,1.3U,review_unparsed_dimensions
+307,Cont Other Monopropellant And Bipropellant Propulsion,Green Propulsion System (MiPS),dimensions,3U,review_unparsed_dimensions
+308,Cont Other Monopropellant And Bipropellant Propulsion,Integrated Propulsion System,dimensions,11U,review_unparsed_dimensions
+315,Currently Available Integrated Systems,Flexcore,mass,†,review_unsupported_unit
+327,Electrospray Electric Propulsion,---,mass,[kg],review_unsupported_unit
+327,Electrospray Electric Propulsion,---,power,[W],review_unsupported_unit
+327,Electrospray Electric Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+328,Electrospray Electric Propulsion,BET-MAX (Config. A),dimensions,1250,review_unparsed_dimensions
+329,Electrospray Electric Propulsion,BET-MAX (Config. B),dimensions,1250,review_unparsed_dimensions
+330,Electrospray Electric Propulsion,CMNT (4x heads),dimensions,29U,review_unparsed_dimensions
+337,Electrothermal Electric Propulsion,---,mass,[kg],review_unsupported_unit
+337,Electrothermal Electric Propulsion,---,power,[W],review_unsupported_unit
+337,Electrothermal Electric Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+341,Electrothermal Electric Propulsion,ARM-A,dimensions,0.3U,review_unparsed_dimensions
+342,Electrothermal Electric Propulsion,ARM-C,dimensions,45,review_unparsed_dimensions
+343,Electrothermal Electric Propulsion,Starling Ardent,dimensions,1U,review_unparsed_dimensions
+344,Electrothermal Electric Propulsion,Comet-1000,dimensions,"2,300",review_unparsed_dimensions
+345,Electrothermal Electric Propulsion,Comet-8000,dimensions,"23,760",review_unparsed_dimensions
+346,Electrothermal Electric Propulsion,CHIPS-1000,dimensions,2500,review_unparsed_dimensions
+347,Electrothermal Electric Propulsion,CHIPS-180,dimensions,540,review_unparsed_dimensions
+348,Electrothermal Electric Propulsion,CHIPS-500,dimensions,1300,review_unparsed_dimensions
+349,Electrothermal Electric Propulsion,MVP,dimensions,0.93U,review_unparsed_dimensions
+350,Electrothermal Electric Propulsion,PUC,dimensions,0.35U,review_unparsed_dimensions
+351,Electrothermal Electric Propulsion,APS 100,dimensions,2.5U,review_unparsed_dimensions
+352,Electrothermal Electric Propulsion,APS 500,dimensions,"27,300",review_unparsed_dimensions
+353,Electrothermal Electric Propulsion,PBR-10,dimensions,0.5U,review_unparsed_dimensions
+354,Electrothermal Electric Propulsion,PBR-20,dimensions,1U,review_unparsed_dimensions
+355,Electrothermal Electric Propulsion,PBR-30,dimensions,2U,review_unparsed_dimensions
+356,Electrothermal Electric Propulsion,XR-100,dimensions,45.8,review_unparsed_dimensions
+357,Electrothermal Electric Propulsion,XR-150,dimensions,45.8,review_unparsed_dimensions
+358,Electrothermal Electric Propulsion,XR-50,dimensions,45.8,review_unparsed_dimensions
+360,Electrothermal Electric Propulsion,Steam TunaCan Thruster,dimensions,402,review_unparsed_dimensions
+377,Gridded Ion Electric Propulsion,---,mass,[kg],review_unsupported_unit
+377,Gridded Ion Electric Propulsion,---,power,[W],review_unsupported_unit
+377,Gridded Ion Electric Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+380,Gridded Ion Electric Propulsion,GT-50,dimensions,< 4U,review_unparsed_dimensions
+384,Gridded Ion Electric Propulsion,NPT30-I2,mass,1.2† (1U) 1.85† (1.5U),review_unsupported_unit
+384,Gridded Ion Electric Propulsion,NPT30-I2,dimensions,1U 1.5U,review_unparsed_dimensions
+409,Hall Effect Electric Propulsion Thrusters,---,mass,[kg],review_unsupported_unit
+409,Hall Effect Electric Propulsion Thrusters,---,dimensions,[cm3 or U],review_unparsed_dimensions
+410,Hall Effect Electric Propulsion Thrusters,MUSIC-HM,dimensions,4U,review_unparsed_dimensions
+411,Hall Effect Electric Propulsion Thrusters,MUSIC-SI,dimensions,1.5U,review_unparsed_dimensions
+414,Hall Effect Electric Propulsion Thrusters,BHT-100,dimensions,275 wo cath.,review_unparsed_dimensions
+415,Hall Effect Electric Propulsion Thrusters,BHT-200,dimensions,675 wo cath.,review_unparsed_dimensions
+416,Hall Effect Electric Propulsion Thrusters,BHT-200-I,dimensions,675 wo cath.,review_unparsed_dimensions
+418,Hall Effect Electric Propulsion Thrusters,BHT-600,dimensions,"1,470 wo cath.",review_unparsed_dimensions
+419,Hall Effect Electric Propulsion Thrusters,BHT-600-I,dimensions,"1,470 wo cath.",review_unparsed_dimensions
+420,Hall Effect Electric Propulsion Thrusters,SPT-50,dimensions,"1,092",review_unparsed_dimensions
+421,Hall Effect Electric Propulsion Thrusters,SPT-50M,dimensions,---,review_unparsed_dimensions
+422,Hall Effect Electric Propulsion Thrusters,SPT-70BR,dimensions,"1,453",review_unparsed_dimensions
+425,Hall Effect Electric Propulsion Thrusters,Halo,dimensions,375,review_unparsed_dimensions
+426,Hall Effect Electric Propulsion Thrusters,Halo,dimensions,375,review_unparsed_dimensions
+427,Hall Effect Electric Propulsion Thrusters,Halo12,dimensions,"1,700",review_unparsed_dimensions
+428,Hall Effect Electric Propulsion Thrusters,Halo12,dimensions,"1,700",review_unparsed_dimensions
+429,Hall Effect Electric Propulsion Thrusters,spaceware micro,dimensions,960,review_unparsed_dimensions
+431,Hall Effect Electric Propulsion Thrusters,spaceware nano,dimensions,2.5U,review_unparsed_dimensions
+513,High Heritage Miniature Reaction Wheels,VRW-D-4,power,65/110,review_unsupported_unit
+514,High Heritage Miniature Reaction Wheels,VRW-D-6,power,65/110,review_unsupported_unit
+519,High Heritage Miniature Reaction Wheels,WHL-200,power,TBD,review_unsupported_unit
+521,High Heritage Miniature Reaction Wheels,WHL-500,power,TBD,review_unsupported_unit
+533,High Heritage Miniature Reaction Wheels,WHL-100,power,TBD,review_unsupported_unit
+536,Hybrid Chemical Propulsion,---,mass,[kg],review_unsupported_unit
+536,Hybrid Chemical Propulsion,---,power,[W],review_unsupported_unit
+536,Hybrid Chemical Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+537,Hybrid Chemical Propulsion,Propulsion Unit for CubeSats,dimensions,1U,review_unparsed_dimensions
+541,Hybrid Chemical Propulsion,ROMBUS,dimensions,55 dia. x 46,review_unparsed_dimensions
+542,Hybrid Chemical Propulsion,Green Hybrid Rocket,power,< 30 for 1-2 seconds,review_unsupported_unit
+544,Hydrazine Chemical Propulsion,---,mass,[kg],review_unsupported_unit
+544,Hydrazine Chemical Propulsion,---,power,[W],review_unsupported_unit
+544,Hydrazine Chemical Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+545,Hydrazine Chemical Propulsion,MPS-120,mass,2.5† (2U) 1.6† (1U),review_unsupported_unit
+545,Hydrazine Chemical Propulsion,MPS-120,dimensions,2U 1U,review_unparsed_dimensions
+546,Hydrazine Chemical Propulsion,MPS-125,mass,12.1† (8U) 9.3† (6U) 6.2† (4U),review_unsupported_unit
+546,Hydrazine Chemical Propulsion,MPS-125,dimensions,8U 6U 4U,review_unparsed_dimensions
+556,Hydrazine Chemical Propulsion,MONARC-1,dimensions,113x50 mm,review_unparsed_dimensions
+557,Hydrazine Chemical Propulsion,MONARC-22-12,dimensions,229x530 mm,review_unparsed_dimensions
+558,Hydrazine Chemical Propulsion,MONARC-22-6,dimensions,203x380 mm,review_unparsed_dimensions
+559,Hydrazine Chemical Propulsion,MONARC-5,dimensions,203x380 mm,review_unparsed_dimensions
+560,Hydrazine Chemical Propulsion,MRE-0.1,dimensions,114x175 mm,review_unparsed_dimensions
+561,Hydrazine Chemical Propulsion,MRE-1.0,dimensions,114x188 mm,review_unparsed_dimensions
+562,Hydrazine Chemical Propulsion,MRE-4.0,dimensions,61x206 mm,review_unparsed_dimensions
+596,Power Management And Distribution System Products,NanoEPS,mass,0.175~0.540*,review_unsupported_unit
+596,Power Management And Distribution System Products,NanoEPS,power,59 in eclipse / 124 in sunlight,review_unsupported_unit
+596,Power Management And Distribution System Products,NanoEPS,volume,283~600*,review_unsupported_unit
+597,Power Management And Distribution System Products,P60,mass,**,review_unsupported_unit
+597,Power Management And Distribution System Products,P60,volume,**,review_unsupported_unit
+599,Power Management And Distribution System Products,PCDU,mass,3.4~3.9,review_unsupported_unit
+599,Power Management And Distribution System Products,PCDU,volume,4704~5720,review_unsupported_unit
+605,Power Management And Distribution System Products,PicoEPS,mass,0.110~0.315*,review_unsupported_unit
+605,Power Management And Distribution System Products,PicoEPS,power,29 in eclipse / 74 in sunlight,review_unsupported_unit
+605,Power Management And Distribution System Products,PicoEPS,volume,140~197*,review_unsupported_unit
+608,Power Management And Distribution System Products,Starbuck Nano,power,*,review_unsupported_unit
+616,Power Management And Distribution System Products,MicroEPS,mass,1.250~2.850*,review_unsupported_unit
+616,Power Management And Distribution System Products,MicroEPS,power,592 in eclipse / 693 in sunlight,review_unsupported_unit
+616,Power Management And Distribution System Products,MicroEPS,volume,392~1045*,review_unsupported_unit
+617,Power Management And Distribution System Products,EPS-LP-1k5 (PCDU),mass,3.3 (Cfg: EPS-LP- 12333),review_unsupported_unit
+617,Power Management And Distribution System Products,EPS-LP-1k5 (PCDU),volume,5650 (Cfg: EPS-LP- 12333),review_unsupported_unit
+627,Power Management And Distribution System Products,CubeSat EPS (EPS 1.0),mass,*,review_unsupported_unit
+627,Power Management And Distribution System Products,CubeSat EPS (EPS 1.0),volume,*,review_unsupported_unit
+633,Propellant Less Propulsion,---,mass,[kg],review_unsupported_unit
+633,Propellant Less Propulsion,---,power,[W],review_unsupported_unit
+633,Propellant Less Propulsion,---,dimensions,[cm3],review_unparsed_dimensions
+634,Propellant Less Propulsion,Plasma Brake,dimensions,1U,review_unparsed_dimensions
+636,Pulsed Plasma And Vacuum Arc Electric Propulsion,---,mass,[kg],review_unsupported_unit
+636,Pulsed Plasma And Vacuum Arc Electric Propulsion,---,power,[W],review_unsupported_unit
+636,Pulsed Plasma And Vacuum Arc Electric Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+637,Pulsed Plasma And Vacuum Arc Electric Propulsion,AIS-VAT1-DUO,dimensions,74,review_unparsed_dimensions
+638,Pulsed Plasma And Vacuum Arc Electric Propulsion,AIS-VAT1-PQ,dimensions,37,review_unparsed_dimensions
+639,Pulsed Plasma And Vacuum Arc Electric Propulsion,AIS-VAT1-QUAD,dimensions,148,review_unparsed_dimensions
+640,Pulsed Plasma And Vacuum Arc Electric Propulsion,Xantus Metal Plasma Thruster,dimensions,0.53U,review_unparsed_dimensions
+641,Pulsed Plasma And Vacuum Arc Electric Propulsion,FPPT-1.7,dimensions,1.7U,review_unparsed_dimensions
+642,Pulsed Plasma And Vacuum Arc Electric Propulsion,Plasma Jet Pack,dimensions,0.66U£,review_unparsed_dimensions
+643,Pulsed Plasma And Vacuum Arc Electric Propulsion,"NanoThruster A, Size XS",dimensions,0.5,review_unparsed_dimensions
+644,Pulsed Plasma And Vacuum Arc Electric Propulsion,PPTCUP,dimensions,0.33U,review_unparsed_dimensions
+645,Pulsed Plasma And Vacuum Arc Electric Propulsion,ND-15,dimensions,1.5U,review_unparsed_dimensions
+646,Pulsed Plasma And Vacuum Arc Electric Propulsion,ND-50,dimensions,1U,review_unparsed_dimensions
+652,Radios,SSDR,dimensions,12.6x11.1x5. 3,review_unparsed_dimensions
+653,Radios,XSDR,dimensions,12.6x11.1x5. 3,review_unparsed_dimensions
+654,Radios,TOTEM,dimensions,9.33x8.93x1. 36,review_unparsed_dimensions
+655,Radios,TREVO,dimensions,9.33x8.93x27 .88,review_unparsed_dimensions
+656,Radios,UST-Lite,dimensions,19.9x14.1x12 .1 (quad-band),review_unparsed_dimensions
+665,Radios,Nightingale RFPU,power_min_w,-5.0,negative_engineering_value
+665,Radios,Nightingale RFPU,dimensions,20x14.85x13. 4,review_unparsed_dimensions
+666,Radios,SDR-1001,power_min_w,-5.0,negative_engineering_value
+667,Radios,SDR-2104,power_min_w,-5.0,negative_engineering_value
+668,Radios,Vireo RPU,power_min_w,-5.0,negative_engineering_value
+669,Radios,Vireo RPU,power_min_w,-5.0,negative_engineering_value
+673,Radios,HDRTx-3,dimensions,17.5×14.5×5. 5,review_unparsed_dimensions
+675,Radios,ODALISS TTC,power,1 W (31 dBm),review_unsupported_unit
+681,Radios,Versatile Wideband SDR (VW-SDR),power_w,-10.0,negative_engineering_value
+691,Radios,XLINK,dimensions,<1 U,review_unparsed_dimensions
+694,Radios,SCR-104,dimensions,8.2x8.2x2.5 9.8x8.2x3.3,review_unparsed_dimensions
+695,Radios,SCR-106,dimensions,8.2x8.2x2.5 9.8x8.2x2.8,review_unparsed_dimensions
+696,Radios,SCR-106HDR,dimensions,8.2x8.2x2.5 9.8x8.2x2.8,review_unparsed_dimensions
+708,Radios,BEAMSAT,dimensions,93.5x114.2x7 0.6,review_unparsed_dimensions
+724,Radios,ASTROSDR,dimensions,9.0x9.0x1.61 3,review_unparsed_dimensions
+726,Radios,UHF Radio,dimensions,9.6x9.95x1.5 65,review_unparsed_dimensions
+736,Radios,IRIS V2.2,dimensions,10.1x10.1x5. 6,review_unparsed_dimensions
+737,Radios,Iris Radio V3,dimensions,10.1x10.1x3. 8,review_unparsed_dimensions
+750,Radios,XONOS,dimensions,20.6x15.2x6. 9,review_unparsed_dimensions
+757,Radios,RDRT,power_w,-1.0,negative_engineering_value
+766,Robotic Arms For Small Spacecraft,3U CubeS at with two robotic arms,dimensions,300x100x1 00,review_unparsed_dimensions
+767,Smallsat Thermal Control Challenges,,mass,Limited external surface area,review_unsupported_unit
+768,Smallsat Thermal Control Challenges,,mass,Limited volume,review_unsupported_unit
+769,Smallsat Thermal Control Challenges,,mass,Limited power,review_unsupported_unit
+770,Smallsat Thermal Control Challenges,,mass,Power Density,review_unsupported_unit
+771,Smallsat Thermal Control Challenges,,mass,MLI Edge Effects,review_unsupported_unit
+865,Solar Array Panel Products,Photon,power,*,review_unsupported_unit
+870,Solar Array Panel Products,BCT Solar Array,power,*,review_unsupported_unit
+876,Solar Array Panel Products,Nanopower DSP,power,*,review_unsupported_unit
+905,Solid Motor Chemical Propulsion,---,mass,[kg],review_unsupported_unit
+905,Solid Motor Chemical Propulsion,---,power,[W],review_unsupported_unit
+905,Solid Motor Chemical Propulsion,---,dimensions,[cm3 or U],review_unparsed_dimensions
+906,Solid Motor Chemical Propulsion,ISP 30 sec. Motor,dimensions,5.7,review_unparsed_dimensions
+907,Solid Motor Chemical Propulsion,STAR 3,dimensions,8 dia. x 29,review_unparsed_dimensions
+908,Solid Motor Chemical Propulsion,STAR 4G,dimensions,11.3 dia. x 13.8,review_unparsed_dimensions
+910,Star Trackers Suitable For Small Spacecraft,ASTRO APS,power,<6 (<12 w/ TEC),review_unsupported_unit
+911,Star Trackers Suitable For Small Spacecraft,ASTRO APS3,power,<6 (<8 w/ TEC),review_unsupported_unit
+912,Star Trackers Suitable For Small Spacecraft,Full-Extension NST,power,<1.5(5V) or <3.5(28V),review_unsupported_unit
+915,Star Trackers Suitable For Small Spacecraft,ST400,mass,"0.250, 0.270*",review_unsupported_unit
+916,Star Trackers Suitable For Small Spacecraft,T3,mass,0.45 (DPU) 0.330,review_unsupported_unit
+925,Star Trackers Suitable For Small Spacecraft,ST200,mass,"0.040, 0.106*",review_unsupported_unit
+926,Star Trackers Suitable For Small Spacecraft,Standard NST,power,<1.5(5V) or <3.5(28V),review_unsupported_unit
+939,Star Trackers Suitable For Small Spacecraft,T1,power,"0.8 OH*, 2.5",review_unsupported_unit
+942,Thermal Switches,Diaphragm Thin Plate,mass,2.72 g/cm^3,review_unsupported_unit
+943,Thermal Switches,HP Thin Plate,mass,2.72 g/cm^3,review_unsupported_unit
+952,Three Axis Magnetometers For Small Spacecraft,MAG-3,power,Voltage Dependent,review_unsupported_unit
+60,Antennas,2211-128-UPL-R- 8x8-01 X-Band 8x8 Array,mass_kg,500.0,statistically_extreme_iqr_3x
+64,Antennas,2211-205-03 X band,mass_kg,450.0,statistically_extreme_iqr_3x
+65,Antennas,2211-212 Ku band,mass_kg,700.0,statistically_extreme_iqr_3x
+66,Antennas,2211-218,mass_kg,620.0,statistically_extreme_iqr_3x
+67,Antennas,2211-229,mass_kg,280.0,statistically_extreme_iqr_3x
+69,Antennas,2211-250 EO,mass_kg,1000.0,statistically_extreme_iqr_3x
+71,Antennas,DCPCRS-500- 40-EO,mass_kg,2500.0,statistically_extreme_iqr_3x
+72,Antennas,APA-1AT1,mass_kg,500.0,statistically_extreme_iqr_3x
+73,Antennas,Nightingale AAA- 2SF1,mass_kg,480.0,statistically_extreme_iqr_3x
+74,Antennas,Vireo Ka 288 Rx DRA,mass_kg,7000.0,statistically_extreme_iqr_3x
+75,Antennas,Vireo Ka 288 Tx DRA,mass_kg,14500.0,statistically_extreme_iqr_3x
+78,Antennas,Vireo L-Band Phased Array,mass_kg,49100.0,statistically_extreme_iqr_3x
+88,Antennas,X-Band 8x12 Patch Antenna,mass_kg,490.0,statistically_extreme_iqr_3x
+93,Antennas,600MHz - 10GHz Spiral Antenna,mass_kg,1283.0,statistically_extreme_iqr_3x
+95,Antennas,P/N 21060,mass_kg,667.0,statistically_extreme_iqr_3x
+106,Antennas,LAMBDA,mass_kg,4000.0,statistically_extreme_iqr_3x
+107,Antennas,NeuSAR,mass_kg,16550.0,statistically_extreme_iqr_3x
+113,Antennas,"""Hinged Rib"" Cassegrain Antenna",mass_kg,2500.0,statistically_extreme_iqr_3x
+115,Antennas,Helical antenna (high RF power handling),mass_kg,1400.0,statistically_extreme_iqr_3x
+116,Antennas,Helical antenna (high RF power handling),mass_kg,1200.0,statistically_extreme_iqr_3x
+118,Antennas,Yagi antenna,mass_kg,1000.0,statistically_extreme_iqr_3x
+121,Antennas,BEAMSAT K/Ka band horn antenna,mass_kg,570.0,statistically_extreme_iqr_3x
+123,Antennas,BEAMSAT Ku band horn antenna,mass_kg,633.0,statistically_extreme_iqr_3x
+652,Radios,SSDR,mass_kg,575.0,statistically_extreme_iqr_3x
+653,Radios,XSDR,mass_kg,555.0,statistically_extreme_iqr_3x
+655,Radios,TREVO,mass_kg,714.0,statistically_extreme_iqr_3x
+656,Radios,UST-Lite,mass_kg,4000.0,statistically_extreme_iqr_3x
+665,Radios,Nightingale RFPU,mass_kg,3500.0,statistically_extreme_iqr_3x
+667,Radios,SDR-2104,mass_kg,900.0,statistically_extreme_iqr_3x
+668,Radios,Vireo RPU,mass_kg,5000.0,statistically_extreme_iqr_3x
+669,Radios,Vireo RPU,mass_kg,7400.0,statistically_extreme_iqr_3x
+670,Radios,CTRS,mass_kg,460.0,statistically_extreme_iqr_3x
+671,Radios,CTRS,mass_kg,1000.0,statistically_extreme_iqr_3x
+672,Radios,HDRTX-1.5,mass_kg,1600.0,statistically_extreme_iqr_3x
+673,Radios,HDRTx-3,mass_kg,1600.0,statistically_extreme_iqr_3x
+676,Radios,K-band SDR,mass_kg,5000.0,statistically_extreme_iqr_3x
+677,Radios,S-Band Transceiver III,mass_kg,340.0,statistically_extreme_iqr_3x
+681,Radios,Versatile Wideband SDR (VW-SDR),mass_kg,1500.0,statistically_extreme_iqr_3x
+682,Radios,X-band SDR,mass_kg,2500.0,statistically_extreme_iqr_3x
+684,Radios,S-Band TDRSS/DSN,mass_kg,4900.0,statistically_extreme_iqr_3x
+685,Radios,X-Band Small Deep Space,mass_kg,3200.0,statistically_extreme_iqr_3x
+688,Radios,STC-MS03,mass_kg,1000.0,statistically_extreme_iqr_3x
+697,Radios,SCR-108,mass_kg,404.0,statistically_extreme_iqr_3x
+699,Radios,CXS-1000,mass_kg,1360.0,statistically_extreme_iqr_3x
+707,Radios,Triton-XST,mass_kg,500.0,statistically_extreme_iqr_3x
+708,Radios,BEAMSAT,mass_kg,1000.0,statistically_extreme_iqr_3x
+709,Radios,BEAMSAT,mass_kg,900.0,statistically_extreme_iqr_3x
+710,Radios,RADIOSAT,mass_kg,690.0,statistically_extreme_iqr_3x
+711,Radios,RADIOSAT,mass_kg,1000.0,statistically_extreme_iqr_3x
+712,Radios,RADIOSAT,mass_kg,900.0,statistically_extreme_iqr_3x
+713,Radios,RADIOSAT SDR,mass_kg,500.0,statistically_extreme_iqr_3x
+714,Radios,PEWR-1 Wideband Receiver,mass_kg,550.0,statistically_extreme_iqr_3x
+716,Radios,PTQ-1,mass_kg,350.0,statistically_extreme_iqr_3x
+717,Radios,PTRKA-1,mass_kg,350.0,statistically_extreme_iqr_3x
+718,Radios,PTRKU-1,mass_kg,350.0,statistically_extreme_iqr_3x
+719,Radios,PTRQV-1,mass_kg,350.0,statistically_extreme_iqr_3x
+720,Radios,PTRQV-1,mass_kg,350.0,statistically_extreme_iqr_3x
+721,Radios,PTX-1,mass_kg,800.0,statistically_extreme_iqr_3x
+729,Radios,SRX-8,mass_kg,300.0,statistically_extreme_iqr_3x
+735,Radios,NANOlink-S boost-dp Gen2,mass_kg,391.0,statistically_extreme_iqr_3x
+736,Radios,IRIS V2.2,mass_kg,875.0,statistically_extreme_iqr_3x
+737,Radios,Iris Radio V3,mass_kg,720.0,statistically_extreme_iqr_3x
+739,Radios,MicroSDR-C,mass_kg,750.0,statistically_extreme_iqr_3x
+740,Radios,microKaTx-300,mass_kg,1000.0,statistically_extreme_iqr_3x
+742,Radios,EWC15-NG,mass_kg,1280.0,statistically_extreme_iqr_3x
+744,Radios,EWC27 + OPT27- SRX,mass_kg,400.0,statistically_extreme_iqr_3x
+745,Radios,EWC27 + OPT27- SRX,mass_kg,320.0,statistically_extreme_iqr_3x
+746,Radios,EWC31,mass_kg,405.0,statistically_extreme_iqr_3x
+747,Radios,EWC31-NG,mass_kg,360.0,statistically_extreme_iqr_3x
+748,Radios,N-XONOS,mass_kg,385.0,statistically_extreme_iqr_3x
+750,Radios,XONOS,mass_kg,2400.0,statistically_extreme_iqr_3x
+751,Radios,SWIFT-KTRX Ka Transmitter,mass_kg,1000.0,statistically_extreme_iqr_3x
+752,Radios,SWIFT-KTX Ka Transmitter,mass_kg,300.0,statistically_extreme_iqr_3x
+753,Radios,SWIFT-SLX,mass_kg,300.0,statistically_extreme_iqr_3x
+754,Radios,SWIFT-XTS S Transceiver X Transmitter,mass_kg,800.0,statistically_extreme_iqr_3x
+755,Radios,SWIFT-XTX X Transmitter,mass_kg,300.0,statistically_extreme_iqr_3x
+756,Radios,ADCM,mass_kg,690.0,statistically_extreme_iqr_3x
+757,Radios,RDRT,mass_kg,571.0,statistically_extreme_iqr_3x
+758,Radios,NSR-SDR,mass_kg,615.0,statistically_extreme_iqr_3x
+759,Radios,NSR-SDR-MUOS,mass_kg,450.0,statistically_extreme_iqr_3x
+760,Radios,NSR-SDR-S/S,mass_kg,375.0,statistically_extreme_iqr_3x
+761,Radios,NSR-SDR-X/S,mass_kg,375.0,statistically_extreme_iqr_3x
+762,Radios,NSR-SDR-X/S HP,mass_kg,615.0,statistically_extreme_iqr_3x
+76,Antennas,Vireo Ka 576 Rx DRA,mass_min_kg,23000.0,statistically_extreme_iqr_3x
+77,Antennas,Vireo Ka 576 Tx DRA,mass_min_kg,26000.0,statistically_extreme_iqr_3x
+108,Antennas,T-DaHGR,mass_min_kg,1300.0,statistically_extreme_iqr_3x
+76,Antennas,Vireo Ka 576 Rx DRA,mass_max_kg,29500.0,statistically_extreme_iqr_3x
+77,Antennas,Vireo Ka 576 Tx DRA,mass_max_kg,34000.0,statistically_extreme_iqr_3x
+108,Antennas,T-DaHGR,mass_max_kg,11000.0,statistically_extreme_iqr_3x
+39,Ambipolar Electric Propulsion,Maxwell (Block 1)RF,power_w,450.0,statistically_extreme_iqr_3x
+40,Ambipolar Electric Propulsion,Maxwell (Block 2)RF,power_w,450.0,statistically_extreme_iqr_3x
+41,Ambipolar Electric Propulsion,Maxwell (Kr)RF,power_w,550.0,statistically_extreme_iqr_3x
+334,Electrospray Electric Propulsion,Neo,power_w,800.0,statistically_extreme_iqr_3x
+352,Electrothermal Electric Propulsion,APS 500,power_w,450.0,statistically_extreme_iqr_3x
+378,Gridded Ion Electric Propulsion,RIT 10 EVO,power_w,435.0,statistically_extreme_iqr_3x
+380,Gridded Ion Electric Propulsion,GT-50,power_w,240.0,statistically_extreme_iqr_3x
+383,Gridded Ion Electric Propulsion,T5,power_w,600.0,statistically_extreme_iqr_3x
+487,High Heritage Miniature Reaction Wheels,RW16,power_w,204.0,statistically_extreme_iqr_3x
+492,High Heritage Miniature Reaction Wheels,RW4,power_w,204.0,statistically_extreme_iqr_3x
+499,High Heritage Miniature Reaction Wheels,RW8,power_w,204.0,statistically_extreme_iqr_3x
+502,High Heritage Miniature Reaction Wheels,RWT250,power_w,200.0,statistically_extreme_iqr_3x
+517,High Heritage Miniature Reaction Wheels,WHL-1000,power_w,180.0,statistically_extreme_iqr_3x
+584,Power Management And Distribution System Products,200 W CubeSat EPS,power_w,200.0,statistically_extreme_iqr_3x
+585,Power Management And Distribution System Products,AMPS,power_w,1200.0,statistically_extreme_iqr_3x
+586,Power Management And Distribution System Products,Battery Module,power_w,930.0,statistically_extreme_iqr_3x
+587,Power Management And Distribution System Products,CubeSat EPS,power_w,500.0,statistically_extreme_iqr_3x
+589,Power Management And Distribution System Products,EPS 3S3P,power_w,240.0,statistically_extreme_iqr_3x
+590,Power Management And Distribution System Products,EPS IV,power_w,7200.0,statistically_extreme_iqr_3x
+591,Power Management And Distribution System Products,EPS-LP-1k5 + HPIU-28V,power_w,4200.0,statistically_extreme_iqr_3x
+598,Power Management And Distribution System Products,P80,power_w,300.0,statistically_extreme_iqr_3x
+599,Power Management And Distribution System Products,PCDU,power_w,900.0,statistically_extreme_iqr_3x
+600,Power Management And Distribution System Products,PCDU PHOENIX,power_w,250.0,statistically_extreme_iqr_3x
+601,Power Management And Distribution System Products,PCDU ZEUS,power_w,220.0,statistically_extreme_iqr_3x
+602,Power Management And Distribution System Products,PDU-12V,power_w,290.0,statistically_extreme_iqr_3x
+604,Power Management And Distribution System Products,PDU-VBAT,power_w,1000.0,statistically_extreme_iqr_3x
+607,Power Management And Distribution System Products,Starbuck Mini,power_w,1200.0,statistically_extreme_iqr_3x
+611,Power Management And Distribution System Products,PCDU,power_w,960.0,statistically_extreme_iqr_3x
+613,Power Management And Distribution System Products,PCU-110,power_w,180.0,statistically_extreme_iqr_3x
+614,Power Management And Distribution System Products,SuperNova modular PCDU,power_w,1500.0,statistically_extreme_iqr_3x
+617,Power Management And Distribution System Products,EPS-LP-1k5 (PCDU),power_w,1500.0,statistically_extreme_iqr_3x
+618,Power Management And Distribution System Products,EPS-LP-1k5 + HPIU-48V,power_w,7200.0,statistically_extreme_iqr_3x
+619,Power Management And Distribution System Products,PCU-SB7,power_w,250.0,statistically_extreme_iqr_3x
+621,Power Management And Distribution System Products,EPS II,power_w,250.0,statistically_extreme_iqr_3x
+626,Power Management And Distribution System Products,GEMINI,power_w,200.0,statistically_extreme_iqr_3x
+628,Power Management And Distribution System Products,EPSM 1,power_w,300.0,statistically_extreme_iqr_3x
+595,Power Management And Distribution System Products,Modular EPS,power_min_w,500.0,statistically_extreme_iqr_3x
+595,Power Management And Distribution System Products,Modular EPS,power_max_w,2000.0,statistically_extreme_iqr_3x
+586,Power Management And Distribution System Products,Battery Module,volume_cm3,2200.0,statistically_extreme_iqr_3x
+590,Power Management And Distribution System Products,EPS IV,volume_cm3,7208.0,statistically_extreme_iqr_3x
+591,Power Management And Distribution System Products,EPS-LP-1k5 + HPIU-28V,volume_cm3,10170.0,statistically_extreme_iqr_3x
+592,Power Management And Distribution System Products,EPS2000,volume_cm3,7000.0,statistically_extreme_iqr_3x
+607,Power Management And Distribution System Products,Starbuck Mini,volume_cm3,13133.0,statistically_extreme_iqr_3x
+610,Power Management And Distribution System Products,Starbuck Micro,volume_cm3,3968.0,statistically_extreme_iqr_3x
+614,Power Management And Distribution System Products,SuperNova modular PCDU,volume_cm3,3045.0,statistically_extreme_iqr_3x
+618,Power Management And Distribution System Products,EPS-LP-1k5 + HPIU-48V,volume_cm3,11187.0,statistically_extreme_iqr_3x
+31,Alternative Monopropellant And Bipropellant Propulsion,SkySat 1N HPGP Propulsion System,dimension_length_cm,55.0,statistically_extreme_iqr_3x
+71,Antennas,DCPCRS-500- 40-EO,dimension_length_cm,52.4,statistically_extreme_iqr_3x
+120,Antennas,BEAMSAT K band 8 x 8 patch antenna,dimension_length_cm,94.5,statistically_extreme_iqr_3x
+121,Antennas,BEAMSAT K/Ka band horn antenna,dimension_length_cm,88.0,statistically_extreme_iqr_3x
+122,Antennas,BEAMSAT Ka band 8 x 8 patch antenna,dimension_length_cm,78.0,statistically_extreme_iqr_3x
+123,Antennas,BEAMSAT Ku band horn antenna,dimension_length_cm,109.1,statistically_extreme_iqr_3x
+124,Antennas,BEAMSAT X band 4 x 4 patch antenna,dimension_length_cm,98.0,statistically_extreme_iqr_3x
+125,Antennas,BEAMSAT horn antenna,dimension_length_cm,49.0,statistically_extreme_iqr_3x
+126,Antennas,BEAMSAT horn antenna,dimension_length_cm,119.0,statistically_extreme_iqr_3x
+137,Atomic Clocks And Oscillators For Small Spacecraft,LNMO,dimension_length_cm,50.0,statistically_extreme_iqr_3x
+138,Atomic Clocks And Oscillators For Small Spacecraft,mRO-50,dimension_length_cm,51.0,statistically_extreme_iqr_3x
+139,Atomic Clocks And Oscillators For Small Spacecraft,miniRAFS,dimension_length_cm,108.0,statistically_extreme_iqr_3x
+309,Cubesat Standard Structure Dimensions,,dimension_length_cm,100.0,statistically_extreme_iqr_3x
+310,Cubesat Standard Structure Dimensions,,dimension_length_cm,100.0,statistically_extreme_iqr_3x
+311,Cubesat Standard Structure Dimensions,,dimension_length_cm,100.0,statistically_extreme_iqr_3x
+312,Cubesat Standard Structure Dimensions,,dimension_length_cm,100.0,statistically_extreme_iqr_3x
+313,Cubesat Standard Structure Dimensions,,dimension_length_cm,100.0,statistically_extreme_iqr_3x
+314,Cubesat Standard Structure Dimensions,,dimension_length_cm,226.3,statistically_extreme_iqr_3x
+670,Radios,CTRS,dimension_length_cm,120.0,statistically_extreme_iqr_3x
+709,Radios,BEAMSAT,dimension_length_cm,83.5,statistically_extreme_iqr_3x
+710,Radios,RADIOSAT,dimension_length_cm,93.5,statistically_extreme_iqr_3x
+711,Radios,RADIOSAT,dimension_length_cm,93.5,statistically_extreme_iqr_3x
+712,Radios,RADIOSAT,dimension_length_cm,83.5,statistically_extreme_iqr_3x
+713,Radios,RADIOSAT SDR,dimension_length_cm,83.5,statistically_extreme_iqr_3x
+31,Alternative Monopropellant And Bipropellant Propulsion,SkySat 1N HPGP Propulsion System,dimension_width_cm,55.0,statistically_extreme_iqr_3x
+71,Antennas,DCPCRS-500- 40-EO,dimension_width_cm,52.4,statistically_extreme_iqr_3x
+76,Antennas,Vireo Ka 576 Rx DRA,dimension_width_cm,40.0,statistically_extreme_iqr_3x
+77,Antennas,Vireo Ka 576 Tx DRA,dimension_width_cm,40.0,statistically_extreme_iqr_3x
+115,Antennas,Helical antenna (high RF power handling),dimension_width_cm,35.0,statistically_extreme_iqr_3x
+120,Antennas,BEAMSAT K band 8 x 8 patch antenna,dimension_width_cm,94.5,statistically_extreme_iqr_3x
+121,Antennas,BEAMSAT K/Ka band horn antenna,dimension_width_cm,88.8,statistically_extreme_iqr_3x
+122,Antennas,BEAMSAT Ka band 8 x 8 patch antenna,dimension_width_cm,78.0,statistically_extreme_iqr_3x
+123,Antennas,BEAMSAT Ku band horn antenna,dimension_width_cm,109.1,statistically_extreme_iqr_3x
+124,Antennas,BEAMSAT X band 4 x 4 patch antenna,dimension_width_cm,98.0,statistically_extreme_iqr_3x
+125,Antennas,BEAMSAT horn antenna,dimension_width_cm,49.0,statistically_extreme_iqr_3x
+126,Antennas,BEAMSAT horn antenna,dimension_width_cm,119.0,statistically_extreme_iqr_3x
+137,Atomic Clocks And Oscillators For Small Spacecraft,LNMO,dimension_width_cm,50.0,statistically_extreme_iqr_3x
+138,Atomic Clocks And Oscillators For Small Spacecraft,mRO-50,dimension_width_cm,51.0,statistically_extreme_iqr_3x
+139,Atomic Clocks And Oscillators For Small Spacecraft,miniRAFS,dimension_width_cm,53.0,statistically_extreme_iqr_3x
+142,Atomic Clocks And Oscillators For Small Spacecraft,Chip Scale Atomic Clocks (CSACs),dimension_width_cm,36.0,statistically_extreme_iqr_3x
+143,Atomic Clocks And Oscillators For Small Spacecraft,MO,dimension_width_cm,54.0,statistically_extreme_iqr_3x
+309,Cubesat Standard Structure Dimensions,,dimension_width_cm,100.0,statistically_extreme_iqr_3x
+310,Cubesat Standard Structure Dimensions,,dimension_width_cm,100.0,statistically_extreme_iqr_3x
+311,Cubesat Standard Structure Dimensions,,dimension_width_cm,100.0,statistically_extreme_iqr_3x
+312,Cubesat Standard Structure Dimensions,,dimension_width_cm,100.0,statistically_extreme_iqr_3x
+313,Cubesat Standard Structure Dimensions,,dimension_width_cm,226.3,statistically_extreme_iqr_3x
+314,Cubesat Standard Structure Dimensions,,dimension_width_cm,226.3,statistically_extreme_iqr_3x
+334,Electrospray Electric Propulsion,Neo,dimension_width_cm,34.0,statistically_extreme_iqr_3x
+670,Radios,CTRS,dimension_width_cm,160.0,statistically_extreme_iqr_3x
+709,Radios,BEAMSAT,dimension_width_cm,114.15,statistically_extreme_iqr_3x
+710,Radios,RADIOSAT,dimension_width_cm,114.15,statistically_extreme_iqr_3x
+711,Radios,RADIOSAT,dimension_width_cm,114.2,statistically_extreme_iqr_3x
+712,Radios,RADIOSAT,dimension_width_cm,114.15,statistically_extreme_iqr_3x
+713,Radios,RADIOSAT SDR,dimension_width_cm,96.0,statistically_extreme_iqr_3x
+765,Robotic Arms For Small Spacecraft,Sierra Lobo Arm (SLAC 1),dimension_width_cm,50.0,statistically_extreme_iqr_3x
+121,Antennas,BEAMSAT K/Ka band horn antenna,dimension_height_cm,218.0,statistically_extreme_iqr_3x
+123,Antennas,BEAMSAT Ku band horn antenna,dimension_height_cm,205.3,statistically_extreme_iqr_3x
+125,Antennas,BEAMSAT horn antenna,dimension_height_cm,110.0,statistically_extreme_iqr_3x
+126,Antennas,BEAMSAT horn antenna,dimension_height_cm,65.0,statistically_extreme_iqr_3x
+139,Atomic Clocks And Oscillators For Small Spacecraft,miniRAFS,dimension_height_cm,68.0,statistically_extreme_iqr_3x
+143,Atomic Clocks And Oscillators For Small Spacecraft,MO,dimension_height_cm,57.0,statistically_extreme_iqr_3x
+309,Cubesat Standard Structure Dimensions,,dimension_height_cm,113.5,statistically_extreme_iqr_3x
+310,Cubesat Standard Structure Dimensions,,dimension_height_cm,170.2,statistically_extreme_iqr_3x
+311,Cubesat Standard Structure Dimensions,,dimension_height_cm,227.0,statistically_extreme_iqr_3x
+312,Cubesat Standard Structure Dimensions,,dimension_height_cm,340.5,statistically_extreme_iqr_3x
+313,Cubesat Standard Structure Dimensions,,dimension_height_cm,366.0,statistically_extreme_iqr_3x
+314,Cubesat Standard Structure Dimensions,,dimension_height_cm,366.0,statistically_extreme_iqr_3x
+709,Radios,BEAMSAT,dimension_height_cm,53.0,statistically_extreme_iqr_3x
+710,Radios,RADIOSAT,dimension_height_cm,45.6,statistically_extreme_iqr_3x
+711,Radios,RADIOSAT,dimension_height_cm,62.1,statistically_extreme_iqr_3x
+712,Radios,RADIOSAT,dimension_height_cm,53.0,statistically_extreme_iqr_3x
+765,Robotic Arms For Small Spacecraft,Sierra Lobo Arm (SLAC 1),dimension_height_cm,65.0,statistically_extreme_iqr_3x
+31,Alternative Monopropellant And Bipropellant Propulsion,SkySat 1N HPGP Propulsion System,dimension_volume_cm3,45375.0,statistically_extreme_iqr_3x
+40,Ambipolar Electric Propulsion,Maxwell (Block 2)RF,dimension_volume_cm3,6336.0,statistically_extreme_iqr_3x
+69,Antennas,2211-250 EO,dimension_volume_cm3,8000.0,statistically_extreme_iqr_3x
+71,Antennas,DCPCRS-500- 40-EO,dimension_volume_cm3,70016.87999999999,statistically_extreme_iqr_3x
+75,Antennas,Vireo Ka 288 Tx DRA,dimension_volume_cm3,9936.0,statistically_extreme_iqr_3x
+76,Antennas,Vireo Ka 576 Rx DRA,dimension_volume_cm3,42400.0,statistically_extreme_iqr_3x
+77,Antennas,Vireo Ka 576 Tx DRA,dimension_volume_cm3,42400.0,statistically_extreme_iqr_3x
+115,Antennas,Helical antenna (high RF power handling),dimension_volume_cm3,48300.0,statistically_extreme_iqr_3x
+120,Antennas,BEAMSAT K band 8 x 8 patch antenna,dimension_volume_cm3,125023.5,statistically_extreme_iqr_3x
+121,Antennas,BEAMSAT K/Ka band horn antenna,dimension_volume_cm3,1703539.2,statistically_extreme_iqr_3x
+122,Antennas,BEAMSAT Ka band 8 x 8 patch antenna,dimension_volume_cm3,82134.0,statistically_extreme_iqr_3x
+123,Antennas,BEAMSAT Ku band horn antenna,dimension_volume_cm3,2443646.893,statistically_extreme_iqr_3x
+124,Antennas,BEAMSAT X band 4 x 4 patch antenna,dimension_volume_cm3,103723.20000000001,statistically_extreme_iqr_3x
+125,Antennas,BEAMSAT horn antenna,dimension_volume_cm3,264110.0,statistically_extreme_iqr_3x
+126,Antennas,BEAMSAT horn antenna,dimension_volume_cm3,920465.0,statistically_extreme_iqr_3x
+137,Atomic Clocks And Oscillators For Small Spacecraft,LNMO,dimension_volume_cm3,75000.0,statistically_extreme_iqr_3x
+138,Atomic Clocks And Oscillators For Small Spacecraft,mRO-50,dimension_volume_cm3,52020.0,statistically_extreme_iqr_3x
+139,Atomic Clocks And Oscillators For Small Spacecraft,miniRAFS,dimension_volume_cm3,389232.0,statistically_extreme_iqr_3x
+142,Atomic Clocks And Oscillators For Small Spacecraft,Chip Scale Atomic Clocks (CSACs),dimension_volume_cm3,17712.0,statistically_extreme_iqr_3x
+143,Atomic Clocks And Oscillators For Small Spacecraft,MO,dimension_volume_cm3,135432.0,statistically_extreme_iqr_3x
+309,Cubesat Standard Structure Dimensions,,dimension_volume_cm3,1135000.0,statistically_extreme_iqr_3x
+310,Cubesat Standard Structure Dimensions,,dimension_volume_cm3,1702000.0,statistically_extreme_iqr_3x
+311,Cubesat Standard Structure Dimensions,,dimension_volume_cm3,2270000.0,statistically_extreme_iqr_3x
+312,Cubesat Standard Structure Dimensions,,dimension_volume_cm3,3405000.0,statistically_extreme_iqr_3x
+313,Cubesat Standard Structure Dimensions,,dimension_volume_cm3,8282580.0,statistically_extreme_iqr_3x
+314,Cubesat Standard Structure Dimensions,,dimension_volume_cm3,18743478.54,statistically_extreme_iqr_3x
+334,Electrospray Electric Propulsion,Neo,dimension_volume_cm3,17340.0,statistically_extreme_iqr_3x
+383,Gridded Ion Electric Propulsion,T5,dimension_volume_cm3,8736.199999999999,statistically_extreme_iqr_3x
+668,Radios,Vireo RPU,dimension_volume_cm3,7612.5,statistically_extreme_iqr_3x
+669,Radios,Vireo RPU,dimension_volume_cm3,11469.5,statistically_extreme_iqr_3x
+670,Radios,CTRS,dimension_volume_cm3,672000.0,statistically_extreme_iqr_3x
+684,Radios,S-Band TDRSS/DSN,dimension_volume_cm3,6555.0,statistically_extreme_iqr_3x
+709,Radios,BEAMSAT,dimension_volume_cm3,505170.82499999995,statistically_extreme_iqr_3x
+710,Radios,RADIOSAT,dimension_volume_cm3,486689.94,statistically_extreme_iqr_3x
+711,Radios,RADIOSAT,dimension_volume_cm3,663085.17,statistically_extreme_iqr_3x
+712,Radios,RADIOSAT,dimension_volume_cm3,505170.82499999995,statistically_extreme_iqr_3x
+713,Radios,RADIOSAT SDR,dimension_volume_cm3,200400.0,statistically_extreme_iqr_3x
+765,Robotic Arms For Small Spacecraft,Sierra Lobo Arm (SLAC 1),dimension_volume_cm3,97500.0,statistically_extreme_iqr_3x

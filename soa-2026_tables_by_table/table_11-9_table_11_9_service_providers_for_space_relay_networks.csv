@@ -1,0 +1,6 @@
+page,row_in_table,Product,Manufacturer,TRL,Specifications
+367,1,Iridium Global Network,Iridium,9,LEO relay requiring 9600 series transceivers onboard the satellite
+367,2,Fast Pixel Network,Analytical Space,6,Establish a data transport network in LEO
+368,3,"Iridium has announced the commercial availability of its Certus 100 “midband” service, providing",,,
+368,4,88 kbps connectivity via small antennas and battery-powered devices for basic data,,,
+368,5,communications and,,,

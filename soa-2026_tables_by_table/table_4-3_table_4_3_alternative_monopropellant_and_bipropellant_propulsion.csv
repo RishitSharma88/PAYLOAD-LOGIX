@@ -1,0 +1,23 @@
+page,row_in_table,Manufacturer,Product,Propellant,Thruster,column_5,column_6,Mass,Envelope,Power,ACS,column_11,Missions,References
+126,1,,,,,Impulse,Impulse,,,,,Status,,
+126,2,,,,(Quantity),,,,,,,,,
+126,3,---,---,---,[N],[s],[kN-s],[kg],[cm3 or U],[W],Y/N,"C,D,E,F",---,---
+126,4,Integrated Propulsion Systems,,,,,,,,,,,,
+126,5,Aerojet Rocketdyne USA,MPS-130,ASCENT,0.25 – 1.0 (4),-,2.7 (2U) 1.1 (1U),2.8† (2U) 1.7† (1U),2U 1U,-,Y,D,-,(98) (99)
+126,6,Aerojet Rocketdyne USA,MPS-135,ASCENT,0.25 – 1.0 (4),-,19.4 (8U) 13.7 (6U) 7.3 (4U),14.7† (8U) 11.2† (6U) 7.2† (4U),8U 6U 4U,-,Y,D,-,(99)
+126,7,Aerospace Corp. USA,HyPer,H O,-,-,-,-,0.25U,-,-,D,-,(101)
+126,8,Benchmark Space Systems USA,Halcyon,₂ ₂ HTP,0.25 1 5 10,150 - 170,(1.56 kg)* (6.6 kg)* (32.5 kg)* (65 kg)*,-,-,< 4,Y,E,Transporter 2 (Undisclosed missions),(36) (102) (103) (104)
+126,9,Benchmark Space Systems USA,Halcyon Avant,HTP + Fuel,2 10 22,290 - 310,(6.8 kg)* (34 kg)* (74.8 kg)*,-,-,< 15,Y,F,Sherpa-TLC2,(34) (35) (104)
+126,10,Benchmark Space Systems USA,Peregrine,HTP & Alcohol,0.1 - 22 (1-8),270 - 300,5 - 150,-,-,-,-,D,-,(104)
+126,11,ECAPS Sweden,SkySat 1N HPGP Propulsion System,LMP-103S,1.0 (4),> 200,21,22†,55 x 55 x 15,10,Y,F,"Skysat, PRISMA, Astroscale ELSA-d",(24) (25) (26) (27) (105) (106) (107) (108)
+126,12,Busek USA,BGT-X5 System,ASCENT,0.5,220 - 225,0.57,1.5†,1U,20,N,D,-,(112) (113) (114)
+126,13,Cornell University USA,Cislunar Explorer,Water (Electrolysis),-,-,-,-,6U total (2-units),-,-,E,CubeQuest Challenge (removed from Artemis 1),(37) (38) (39)
+126,14,CU Aerospace USA,MPUC,(CMP-X) Peroxide/ Ethanol blend,0.23,178,1.4 (1.5U) 2.1 (2U),2.5† (1.5U) 3.3† (2U),1.5U 2U,3,N,D,-,(46) (47)
+126,15,Dawn Aerospace New Zealand,CubeDrive,Nitrous Oxide & Propylene,0.5,-,0.425 1.450,1.17† 2.70†,0.8U 2U,-,N,F,Multiple,(45) (115)
+126,16,Dawn Aerospace New Zealand,SatDrive,Nitrous Oxide & Propylene,0.5 – 16.7,250 - 280,5 – 500,-,-,-,N,F,Multiple,(45) (115)
+126,17,Moog USA,Monopropellant Propulsion Module,Green or ‘Traditional’,0.5,224,0.5,1.0†,1U,2 x 22.5 W/Thruster,N,D,-,(116)
+126,18,Rubicon Space Systems USA,Sprite,ASCENT,0.05 - 0.15,>195,> 1,< 2.2†,1.5U,2 - 16,N,E,GPDM,(110) (111) (117)
+126,19,NASA MSFC USA,LFPS,ASCENT,0.1 (4),> 200s,> 3.5,< 5.5†,~2.4U,15 - 47,Y,E,Lunar Flashlight,(32) (33)
+126,20,NanoAvionics Lithuania,EPSS C1K,IADN-blend,1.0 BOL 0.22 EOL,213,> 0.4,1.2†,1.3U,9.6 (preheat) 1.7 (firing),N,F,Lituanica-2,(43) (44)
+126,21,NanoAvionics Lithuania,EPSS C2,IADN-blend,1.0 BOL 0.25 EOL,220,> 1.7,2.6†,2U,-,N,D,-,(43)
+126,22,"Note that all data is documented as provided in the references. Unless otherwise published, do not assume the data has been independently verified. † denotes a wet mass, ‡ denotes a dry mass, “-“ = denotes data not available or applicable, * denotes mass of propellant throughput, rather than total impulse, BOL = Beginning of Life, EOL = End of Life",,,,,,,,,,,,

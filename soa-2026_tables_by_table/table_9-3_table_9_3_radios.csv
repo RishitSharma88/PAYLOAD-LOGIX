@@ -1,0 +1,169 @@
+page,row_in_table,Manufacturer,Product,Type,Min Frequency,Frequency Band,Data Rate,Tx Power,Mass,Dimensions,Flight Heritage
+294,1,Aerospace Lab,SSDR,SDR,6,S,1840,29 dBm RMS,575,12.6x11.1x5. 3,Y
+294,2,Vulcan Wireless,NSR-SDR,Radio,"20.100-21200, 30000-31000",K/Ka,"200,000",5W,615,18.3x9.2x3.6,N
+294,3,Aerospacelab,XSDR,SDR,58,X,"206,000",29 dBm RMS,555,12.6x11.1x5. 3,Y
+294,4,Space Micro,MicroSDR-C,SDR,70-3000,"VHF, UHF, L, S, C","42,000",0,750,10x10x8,Y
+294,5,Rincon Research,ASTROSDR,SDR,70-6000,"VHF, UHF, L, S, C",--,5 dBm,95,9.0x9.0x1.61 3,Y
+294,6,GomSpace,NanoCom SDR,SDR,70-6000,"VHF, UHF, L, S, X",--,--,271,9x9x6.6,Y
+294,7,NI Ettus Research,B205mini,SDR,70-6000,"VHF, UHF, L, S, X",--,10 dBm,24,8.3x5.1x8,Y
+294,8,Alén Space,TOTEM,SDR,70 - 6000,"VHF, UHF, L, S",–,7 dBm,130,9.33x8.93x1. 36,Y
+294,9,Alén Space,TREVO,SDR,70 - 6000,"VHF, UHF, L, S",–,7 dBm,<714,9.33x8.93x27 .88,Y
+294,10,Vulcan Wireless,NSR-SDR-MUOS,Transceiver,"300-320, 360- 380",UHF,64,8W,450,10x10x5.6,N
+294,11,AAC Clyde Space,PULSAR-VUTRX,SDR,--,"VHF, UHF",9.6,1.5 W,100,9.6x9x1.6,Y
+294,12,SkyLabs,NANOcomm-2,Transceiver,130-470,"VHF, UHF",< 25,31 dBm,110,9.5x9.1x1.2,Y
+294,13,AstroDev,Helium-100,Transceiver,"120-150, 400-450","VHF, UHF",38.4,3 W,78,9.6x9x1.6,Y
+294,14,AstroDev,Lithium-1,Transceiver,130-450,"VHF, UHF",9.6,0.25-4 W,48,1.0x3.3x6.5,Y
+294,15,AstroDev,Beryllium-2,Transceiver,130-450,"VHF, UHF",9.6,0.25-4 W,52,1x3.3x6.5,Y
+294,16,GomSpace,NanoCom AX100,Transceiver,"143-150, 430-440","VHF, UHF",0.1-38.4,30 dBm,24.5,6.5x4x7,Y
+294,17,Spacemanic,Murgas,Transceiver,145 400 435,"VHF, UHF",0.1 - 38.4 9.6,30dBm,25,6.7x4.2x0.7,Y
+294,18,LY3H,SatCOM TP0,FM Repeater,"144-146, 430-440","VHF, UHF",--,217 mW,59,--,Y
+295,19,ISISPACE,TRXVU,Transceiver,"145.8-150.05, 400.15-440","VHF, UHF",9.6,27 dBm,75,9x9.5x1.5,Y
+295,20,Needronix,Cormorant,"Transceiver, DNxD-capable digipeater, Morse beacon",145 - 220 or 390 - 500,VHF or UHF,9.6,30,22,4x7x0.65,Y
+295,21,Emxys,ODALISS TTC,Transceiver,200,"VHF, UHF",1.2,1 W (31 dBm),<50,8.7x8.7x0.93,N
+295,22,CesiumAstro,SDR-1001,SDR,300,"UHF, L, S, C",,-5 to 6,110,5x8.4x1.35,
+295,23,CesiumAstro,SDR-2104,SDR,600,"L, S, C, X",,-5 to 6,900,16x10x2.54,
+295,24,CesiumAstro,Nightingale RFPU,SDR,"300, 24500","UHF, L, S, C, Ka",,-5 to 6,3500,20x14.85x13. 4,
+295,25,CeisumAstro,SDR-1001,SDR,300 – 6000,"UHF, L, S, C","< 62,500",-,100,5x8.4x1.3,N
+295,26,AAC Clyde Space,TRX-U,Transceiver,390-450,UHF,19.2,2,140,8.3x5.7x1.6,Y
+295,27,NanoAvionics,SatCOM UHF,Transceiver,395-440,"VHF, UHF",2.4-38.4,3 W,7.5,5.6x3.3x6.6,Y
+295,28,EnduroSat,UHF Transceiver Type II,Transceiver,"400-403, 430- 440",UHF,≤ 9.6,30 - 33 dBm,94,9.6x9.6x1.1,Y
+295,29,SatRev S.A.,UHF Radio,Transceiver with AES128 encryption,400-405,UHF,0.45,<2W,158,9.6x9.95x1.5 65,Y
+295,30,SENyT,Q-COMM,Transceiver,410-475 2400-2480,"UHF, S",500,27 dBm,< 150,9.6x9.0x1.5 w/ enclosure,N
+295,31,L3 Communications Inc. /SDL,Cadet,SDR,450,"VHF, UHF","3,000",--,200,6.9x7.4x1.34,Y
+295,32,CesiumAstro,Vireo RPU,SDR,600,"L, S, C, X",,-5 to 6,5000,25x15x20.3,N
+295,33,"sci_Zone, Inc.",LinkStar-STX3,Transmitter,1610-1625,L,0.009,--,48,8.6x5.3x2.9,Y
+295,34,Qualcomm,GSP-1720,Transmitter,"1610-1626.5, 2483.5-2500","L, S",9.6,31 dBm,60,11.9x6.5x1.5,Y
+296,35,NAL Research Corporation,NAL Iridium 9602- LP,Iridium Satellite Tracker,1616-1626.5,L,--,1 W,136,6.9x5.5x2.4,Y
+296,36,Near Space Launch,EyeStar-S4 Iridium,Transceiver,1618.75,L,0.1,31.96 dBm,29,6x3x2.1,Y
+296,37,L3Harris,CXS-1000,Transponder,1700-2100,"L, S","20,000",1-5 W,1360,10x10x11,Y
+296,38,Tethers Unlimited,SWIFT-SLX,SDR,1700-2500,S,"6,000",33 dBm,300,9x9.8x3.6,Y
+296,39,Tethers Unlimited,SWIFT-XTS S Transceiver X Transmitter,SDR,"1700-2500, 7000-8500","S, X","6,000- 25,000",34 dBm,800,9x9.8x6,Y
+296,40,AAC Clyde Space,TX-2400,Transmitter,2000-2300,S,"6,000",2.5,70,6.8x3.5x1.5,Y
+296,41,Syrlinks,EWC27 + OPT27- SRX,Transceiver,2025-2110,S,"100,000",27-33 dBm,400,9x9.6x3.9,Y
+296,42,Dragonfly Aerospace,CTRS,Transceiver,2200-2290,S,150 400,up to 0.5W,460,120x160x35,Y
+296,43,Vulcan Wireless,NSR-SDR-S/S,Transceiver/Tr ansponder,"2025-2115, 2200-2300",S,"4,000",4W,375,9.2x9.5x3.4,Y
+296,44,Dragonfly Aerospace,CTRS,Transceiver,"2025-2115, 2200-2300",S,512,up to 2W,1000,16x12x3.5,N
+296,45,Vulcan Wireless,NSR-SDR-X/S,Transceiver/Tr ansponder,"2025-2115, 8000-8500","S, X","10,000",5W,375,9.2x9.5x3.4,N
+296,46,Vulcan Wireless,NSR-SDR-X/S HP,Transceiver/Tr ansponder,"2025-2115, 8000-8500","S, X","10,000",10 W,615,18.3x9.2x3.6,N
+296,47,Orion Space Solutions,Triton-XST,Transmitter,"2200, 8000","S, X",<670 Mbps,25-50 W,500g,10x10x10,N
+296,48,CesiumAstro,Vireo RPU,SDR,17000 27000,Ka,--,-5 to 6,7400,25x22.6x20.3,N
+296,49,IQ spacecom,HISPICO,Transmitter,2100-2500,S,"1,000",27 dBm,100,9.5x4.6x1.5,Y
+297,50,"Innoflight, Inc.",SCR-104,SDR with AES-256 Encryption,2200-2290 1760-1840 2025-2110,S L/S,">4,500 1000",--,250 - 290,8.2x8.2x2.5 9.8x8.2x3.3,Y
+297,51,CUBECOM,STXG2,Transmitter,2200-2290 2400-2480,S,"25,000",--,137,9.6x9.0x13,N
+297,52,"Emhiser Research, Inc.",ETT-01EBA102- 00,Transmitter,2200-2400,S,--,1 W,57,3x8.6x0.8,Y
+297,53,Quasonix,NanoTX,Transmitter,2200.5-2394.5,S,50,1-10 W,--,3.3x8.6x0.8,Y
+297,54,IQ spacecom,SLINK-PHY,Transceiver,"2200-2290, 2025-2110",S,64-4000,30 dBm,275,6.5x6.5x13.7,Y
+297,55,ISISPACE,TXS,Transceiver,2200-2290,S,4.3,27-33 dBm,132,9.8x9.3x1.4,Y
+297,56,Space Inventor,STTC-P3,SDR,2200-2290,"S, X","9 – 10,000",33 dBm,230,9.1x9.4x1.7,Y
+297,57,Satlab,SRS-3,Transceiver,2200-2290,S,512,30 dbM,190,8.7x9.3x1.7,Y
+297,58,Satlab,SRS-4,Transceiver,2200-2290,S,-,33 dbM,253,9.3x8.7x1.75,Y
+297,59,Syrlinks,S-band Transponder,Transponder,2200–2290,S,8-2000,27-33 dBm,--,--,Y
+297,60,Syrlinks,EWC15-NG,Transceiver,2025-2110 2200-2290,S,"512 2,000",33 dBm,1280,17.2x12x6.7,N
+297,61,Syrlinks,EWC31,Transceiver,2025-2110 2200-2290,S,"256 2,000",33 dBm,405,9.5x9.5x5.3,Y
+297,62,Syrlinks,EWC31-NG,Transceiver,2025-2110 2200-2290,S,"512 2,000",33 dBm,360,9.5x9x3.2,N
+297,63,EnduroSat,S-band Transceiver II,Transceiver,"2200 – 2290, 2025 - 2110",S,< 125,27-33 dBm,246,9.4x8.8x2.3,Y
+297,64,EnduroSat,S-Band Transceiver III,Transceiver,"2200 - 2290, 2025 – 2110,",S,≤ 3000,27 - 33 dBm,340,9.6x9.6x2.5,N
+297,65,EnduroSat,S-band Transmitter,Transmitter,"2200-2290, 2400-2450",S,≤ 20000,27 - 33 dBm,250,9.6 x 9.6 x 1.5,Y
+297,66,General Dynamics,S-Band TDRSS/DSN,Transponder,2200-2300 2025-2220,S,"12,000",0.03 W,4900,19x23x15,Y
+298,67,SkyLabs,NANOlink-S base Gen2,Transceiver,2200-2300,S,< 4000,30 dBm,126,9.5x9.1x1.2,Y
+298,68,SkyLabs,NANOlink-S boost Gen2,Transceiver,2200-2300,S,< 4000,37 dBm,250,9.5x9.1x2.2,Y
+298,69,SkyLabs,NANOlink-S boost-dp Gen2,Transceiver,2200-2300,S,< 4000,31.5 dBm,391,9.5x9.1x3.2,Y
+298,70,Microhard,Nano N2420,Modem,2400-2483.5,S,230,0.1-1 W,210,5x3x0.6,Y
+298,71,Paradigma Technologies,PFES-1 ISL S Band TDD Front End,Transceiver,2400-2500,S,-,25 dBm,150,5.0x3.0x 1.0,N
+298,72,Tethers Unlimited,SWIFT-XTX X Transmitter,SDR,7000-8500,X,"25,000",33 dBm,300,9x9.8x6,N
+298,73,General Dynamics,X-Band Small Deep Space,Transponder,"7145-7230, 8400-8500",X,"100,000",0.06,3200,18x17x11,Y
+298,74,Space Dynamics Laboratory,IRIS V2.2,SDR Transponder,7145–7235 GHz 8400–8500 GHz,"X, Ka, S, or UHF",0.1 - 10000,36,875,10.1x10.1x5. 6,Y
+298,75,Paradigma Technologies,PTX-1,Transmitter,7700 - 8500,X,-,43.5 dBm,800,12.5x10x3.0,N
+298,76,"Innoflight, Inc.",SCR-106,SDR with AES-256 Encryption,7800-8500 760-1840 2025-2110,X L/S,"20,000 1,000",0.02-2.5 W,250 - 290,8.2x8.2x2.5 9.8x8.2x2.8,Y
+298,77,"Innoflight, Inc.",SCR-108,SDR with AES-256 Encryption,19200-21200 29000- 31000,Ka Ka,"1 Gbps 20,000",0.02-3 W,404,9.8x8.7x3.9,Y
+298,78,EnduroSat,X-band Transmitter,Transmitter,7900-8400,X,≤1.5 Gbps,27-33 dBm,270,9.6x9.6x2.6,Y
+298,79,Dragonfly Aerospace,HDRTX-1.5,Transmitter,8025-8400,X,1.5 Gbps,< 4W,1600,17.5 × 14.5 × 5.5,Y
+298,80,Dragonfly Aerospace,HDRTx-3,Transmitter,8025-8400,X,3 Gbps,up to 4W,1600,17.5×14.5×5. 5,N
+298,81,SkyLabs,NANOcast,Transmitter,8025-8500,X,<1 Gbps,37 dBm,164,9.5x9.1x1.3,N
+298,82,CUBECOM,XTXG2,Transmitter,8025-8400,X,2.5 Gbps,--,137,9.6x9.0x1.3,N
+299,83,CUBECOM,µHDTRX-X,Transmitter,8025-8400,X,1.5 Gbps,--,250,9.6x9.0x2.0,Y
+299,84,CUBECOM,HDRTX,Transmitter,8025-8400,X,1 Gbps,--,250,9.6x9.0x2.0,Y
+299,85,Satlab,SRX-8,Transmitter,8024-8400,X,<1 Gbps,33 dBm,300,9.3x8.7x2.2,Y
+299,86,IQ spacecom,XLINK,Transceiver,"8025-8500, 7145-7250",X,"64- 25,000",30 dBm,--,<1 U,Y
+299,87,SkyLabs,NANOcast,Transmitter,8025-8500,X,< 1 Gbps,37 dBm,164,9.5x9.1x1.3,N
+299,88,Syrlinks,EWC27,Transmitter,8025-8500,X,1.4 Gbps,27-33 dBm,235,9x9.6x2.6,Y
+299,89,Syrlinks,EWC27 + OPT27- SRX,Transceiver,2025-2110 8025-8500,"S, X",256 1 Gbps,33 dBm,320,9.6x9x3.9,Y
+299,90,Syrlinks,N-XONOS,Transmitter,2025-2110 8025-8400,"S, X",256 4 Gbps,33 dBm,385,9.5x9x3.1,Y
+299,91,Syrlinks,XONOS,Transmitter,2025-2110 8025-8500,"S, X",256 6.3 Gbps,40 dBm,2400,20.6x15.2x6. 9,N
+299,92,Argotec,UST-Lite,Transponder,2025-2120 2200-2300 7145-7235 8400-8500 22550-23550 25500-27500,"S, X, K, Ka",< 1 Gbps (higher possible with NRE),8 dBm (input to SSPA),<4000 (quad- band),19.9x14.1x12 .1 (quad-band),N
+299,93,Tethers Unlimited,SWIFT-KTX Ka Transmitter,SDR,20200-21200 24000-27000,Ka,"25,000",33 dBm,300,9x9.8x4,N
+299,94,Tethers Unlimited,SWIFT-KTRX Ka Transmitter,SDR,24000-27000,Ka,---,35 dBm,"1,000",16x9.6x6,N
+299,95,SpaceMicro,microKaTx-300,Transmitter,25250-27250,K,1 Gbps,2 W,1000,10x10x8,Y
+299,96,AAC Clyde Space,PULSAR-DATA XTX X-Band Transmitter,SDR,--,X,"50,000",2 W,130,9.6x9x1.1,Y
+299,97,EnduroSat,X-band SDR,Transmitter,8000 - 8400,X,≤ 6 Gbps,27 - 33 dBm,<2500,9.2 x10x11.5,Y
+299,98,Paradigma Technologies,PTRKU-1,Transponder / Transceiver,10700-12700 12750-14000,Ku,-,33 dBm,350,9.4x9.4x2.2,N
+300,99,EnduroSat,K-band SDR,Transmitter,25500-27000,K,≤ 2 Gbps,27 - 33 dBm,<5000,9.2x10x15,N
+300,100,AAC Clyde Space,PULSAR-DATA STX,SDR,--,S,"7,500",1 W,100,9.6x9x1.7,Y
+300,101,Honeywell,STC-MS03,Transceiver,--,S,"6,250",3.16 W,1000,16x11x4.4,Y
+300,102,"Innoflight, Inc.",SCR-106HDR,SDR with AES-256 Encryption,7800-8500 1760-1840 2025-2110,X L S,"1 Gbps 20,000",-,250 - 290,8.2x8.2x2.5 9.8x8.2x2.8,Y
+300,103,EnduroSat,Versatile Wideband SDR (VW-SDR),Transceiver,75 - 6000,"VHF, UHF, L, S, C","982,000",-10 dBm,<1500,9.8x9.8x7.5,Y
+300,104,Trident,RDRT,SDR – RF System on Chip (RFSoC),100,L/S,"8- channels 250MHz, 6554MH, 8- channels 250MHz, 4096MHz",-1 dBm Full-scale,571,10x14.6x2.54,N
+300,105,Trident,ADCM,SDR – MPSoC Basecard and -SP converters - RX only,100,"L, S, C","6.4GSPS single channel, 3.2 GSPS dual- channel",2.8dBm Full scale input,690,10x14.6x2.54,N
+300,106,Space Dynamics Laboratory,Iris Radio V3,SDR Transponder,Various,"Simultaneo us Multiband: X, Ka, S",0.1 - 10000,34,720,10.1x10.1x3. 8,N
+300,107,PICOSATS,RADIOSAT,Transponder,17300 - 21200 27000 - 31000,K/Ka,-,5,690,93.5x114.15x 45.6,Y
+301,108,PICOSATS,RADIOSAT,Transponder,10700 -12750 12750 -13250 13750 -14800,Ku,-,5,< 1000,93.5x 114.2x62.1,N
+301,109,PICOSATS,RADIOSAT,Transceiver,17300 - 21200 27000 - 31000,K/Ka,4 Gbps 1 Gbps,5,900,83.50 x 114.15 x 53,N
+301,110,PICOSATS,BEAMSAT,Transceiver,10700 -12750 12750 -13250 13750 -14800,Ku,4 Gbps 1 Gbps,5,1000,93.5x114.2x7 0.6,N
+301,111,PICOSATS,RADIOSAT SDR,Modem/Trans ceiver (SDR),300 - 7000,"UHF, L, S, C",4 Gbps 1 Gbps,"0,001",< 500,83.5x96x25,N
+301,112,Paradigma Technologies,PEWR-1 Wideband Receiver,Receiver,100 - 22000,VHF to Ka,-,0 dBm,550,20x10x1.5,N
+301,113,Paradigma Technologies,PTRKA-1,Transponder / Transceiver,17200 - 21200 27000 - 31000,K/Ka,-,33 dBm,350,9.4x9.4x2.2,Y
+301,114,PICOSATS,BEAMSAT,Transmitter,25500 - 27000,Ka,4 Gbps,5,900,83.5x114.15x 53,N
+301,115,Paradigma Technologies,PTRQV-1,Transponder / Transceiver,37500 - 42500 47200 - 52400,K/Ka,-,30 dBm,350,9.4x9.4x2.2,N
+301,116,Paradigma Technologies,PTQ-1,Transmitter,37500 - 42500,Q,-,22 dBm,350,9.4x9.4x2.2,Y
+301,117,Paradigma Technologies,PTRQV-1,Transponder / Transceiver,37500 - 42500 47200 - 52400,QV,-,30 dBm,350,9.4x9.4x2.2,N
+306,118,SmallSat and CubeSat missions using lasercom terminals have shown viable pathways for,,,,,,,,,
+306,119,overcoming the challenges associated with lasercom to enable high-bandwidth communications.,,,,,,,,,
+306,120,Please refer to Table 9-4 for more information on lasercom missions.,,,,,,,,,
+306,121,,The,,,,,,,,
+306,122,"OSIRIS4 CubeSat transmitter, demonstrated in 2021, achieved an optical downlink in a 0.3U",,,,,,,,,
+306,123,package using a MEMs fast-steering mirror for fine pointing. Designed to be compatible with a 60,,,,,,,,,
+306,124,"cm optical receiver, this terminal has been commercialized through TESAT with the product name",,,,,,,,,
+306,125,"CubeLCT (28). A modified version, CubeISL by DLR, adds a receive optical path and fiber",,,,,,,,,
+306,126,amplifier to support 100 Mbps crosslinks at distances up to 1000 km and 1 Gbps downlinks. The,,,,,,,,,
+306,127,"terminal has a mass below 1 kg, a volume of 1U, and an operating power of about 30 W (35). A",,,,,,,,,
+306,128,dedicated on-orbit demonstration of these terminals is planned for 2026 using two 6U CubeSats,,,,,,,,,
+306,129,as host platforms (36).,,,,,,,,,
+306,130,The Aerospace Corporation completed the first demonstration of optical communications from a,,,,,,,,,
+306,131,1.5U CubeSat platform with the NASA-sponsored Optical Communication and Sensor,,,,,,,,,
+306,132,Demonstration (OCSD) mission. The terminals achieved a 200 Mbps downlink data rate to a 40,,,,,,,,,
+306,133,cm ground station and did not use a beacon for a pointing reference (16). This transmitter has,,,,,,,,,
+306,134,been flown since on multiple missions such as R3 (17) and the Rogue Alpha and Beta CubeSats,,,,,,,,,
+306,135,"(18). An updated version was later demonstrated on the Slingshot mission, achieving downlink",,,,,,,,,
+306,136,"rates at 250 Mbps (19). In 2025, The Aerospace Corporation also demonstrated an optical",,,,,,,,,
+306,137,crosslink between two 6U CubeSats at distances of roughly 560 km using its Flashlight Laser,,,,,,,,,
+306,138,Crosslink Terminal. This terminal occupies approximately two units of volume and supports,,,,,,,,,
+306,139,bidirectional data rates of 312.5 Mbps (46).,,,,,,,,,
+306,140,"MIT Lincoln Laboratory developed the TeraByte InfraRed Delivery (TBIRD) terminal, which",,,,,,,,,
+306,141,achieved 200 Gbps downlinks. The transmitter uses commercial fiber telecommunication,,,,,,,,,
+306,142,transceivers and amplifiers to support very high data rate downlinks. This project used NASA,,,,,,,,,
+306,143,"JPL’s Optical Communication Telescope Laboratory (OCTL), which hosts a 1 m telescope with",,,,,,,,,
+306,144,the adaptive optics necessary to couple the received light back into an optical fiber connected to,,,,,,,,,
+306,145,a transceiver for demodulation. This terminal development was sponsored by NASA and was,,,,,,,,,
+306,146,launched on the PDT-3 6U CubeSat mission in June of 2022 (33). It has thus far achieved the,,,,,,,,,
+306,147,transmission of 4.8 Tb in a single pass and has demonstrated the value of implementing an,,,,,,,,,
+306,148,automatic repeat request protocol in the use of lasercom downlinks (31)(32).,,,,,,,,,
+306,149,"As part of NASA’s CLICK mission, MIT developed the 1.2U CLICK-A terminal. The first phase of",,,,,,,,,
+306,150,the mission flew the CLICK-A downlink terminal on a 3U CubeSat to demonstrate an optical,,,,,,,,,
+307,151,design that uses a secondary fine pointing micro-electromechanical systems (MEMS) fine-,,,,,,,,,
+307,152,steering mirror (FSM) to achieve the necessary pointing requirements for optical communication,,,,,,,,,
+307,153,without imposing those requirements on spacecraft body pointing or needing large gimbals.,,,,,,,,,
+307,154,,The terminal was integrated into a Blue Canyon Technology’s XB1,,,,,,,,
+307,155,spacecraft bus and was launched to and deployed from the ISS in 2022. The mission successfully,,,,,,,,,
+307,156,demonstrated improved pointing with the MEMS FSM compared to body-only pointing. CLICK-A,,,,,,,,,
+307,157,ultimately served as a risk-reduction phase for the CLICK-B and C mission operations (27).,,,,,,,,,
+307,158,The CLICK-B/C phase of the CLICK mission is developing a 1.5U crosslink LCT. The CLICK-B/C,,,,,,,,,
+307,159,crosslink LCT is designed to establish a 20 Mbps link at separations from 25 to 580 km. CLICK-,,,,,,,,,
+307,160,B and C will each be integrated into their own 3U Blue Canyon Technologies XB1 spacecraft. The,,,,,,,,,
+307,161,LCTs are designed to be capable of precision ranging up to a precision of 50 cm relative to each,,,,,,,,,
+307,162,other. The spacecraft will be launched to and deployed from the ISS in late 2026 and will fly in,,,,,,,,,
+307,163,the same orbital plane (27).,,,,,,,,,
+307,164,The Laser Crosslink Experiment (LaCE) by Los Alamos National Laboratory consisted of two 6U,,,,,,,,,
+307,165,CubeSats that demonstrated the Skylight Laser Communication Terminal crosslink as their,,,,,,,,,
+307,166,primary objective. The Skylight LCT was designed to actively steer the laser communication,,,,,,,,,
+307,167,payload to establish an optical link between the two CubeSats which it successfully did in 2024,,,,,,,,,
+307,168,"(47)(48). At a distance of 7.4 km between each CubeSat, 2 Tbit/s was achieved",,,,,,,,,

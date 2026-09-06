@@ -1,0 +1,3 @@
+page,row_in_table,Manufacturer,Model,Mass (kg),Power (W),Max Range (m),Rad. Tol. (krad)
+183,1,ASC USA,GSFL-4K (3D),3,30,>1 km in altimeter mode,-
+183,2,Garmin USA,Lidar Lite V3,0.022,0.7,40,-

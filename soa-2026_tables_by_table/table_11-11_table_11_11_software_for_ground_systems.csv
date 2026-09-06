@@ -1,0 +1,7 @@
+page,row_in_table,Product,Manufacturer,TRL,Type of Product
+373,1,softFEP,ARKA AMERGINT,9,"Software commands and telemetry data processor handling formatting and interface conversion. Full support for NSA Type 1 crypto, AES encryption/decryption and CCSDS data links."
+373,2,OpenSpace quantumFEP,Kratos,9,"Software that performs data formatting and interface conversion for commands and telemetry, with full support for NSA Type 1 and AES encryption/decryption devices."
+373,3,Gpredict,Alexandru Csete,9,Open-source software that tracks satellites and provides orbit prediction in real-time. Radio and antenna rotator control for autonomous tracking.
+373,4,GNU Radio,GNU Project,9,Free software development toolkit that provides signal processing blocks to implement software- defined radios and signal processing systems.
+373,5,HWCNTRL,DeWitt & Associates,9,Ground station control program with an automation software package.
+373,6,Expedite,"Remos Space Systems, AB",9,"CPU-based software modem for telemetry, telecommand, and payload data over UHF–L-band links, featuring integrated mission scheduling and transmission sequence control."

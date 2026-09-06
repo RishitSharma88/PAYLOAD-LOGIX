@@ -1,0 +1,12 @@
+page,row_in_table,Product,Manufacturer,Type of Product
+393,1,COSMOS,OpenC3,Open-source command and control system that can be used in all phases of testing and operations
+393,2,Galaxy,The Hammers Company,Command and telemetry system that has been available since 2000
+393,3,Mercury,The Hammers Company,Automation for the flow of data files through a mission operations center or other facilities
+393,4,Stars,The Hammers Company,"Cloud compatible, spacecraft fleet trending and data access system"
+393,5,SECRYT,The Hammers Company,"Software uplink command encryption, telemetry decryption"
+393,6,tACT,The Hammers Company,Web-Based Team Activity Scheduling System
+393,7,Auria Family of Products,Auria,Group of mission planning and scheduling products for both aerial and satellite imaging applications
+393,8,Yamcs,Space Applications Services,Open-source command and control system
+393,9,ACE Premier Family of Products,Braxton Technologies,Group of hardware and software components for end-to-end Satellite Operations Center (SOC)
+393,10,Mission Control Software,Bright Ascension,Monitoring and control interface with “lights- out” automation features built-in
+393,11,Major Tom,Xplore,Cloud-based command and telemetry system that can interface with some COTS flight software

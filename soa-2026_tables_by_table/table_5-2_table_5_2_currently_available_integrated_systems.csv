@@ -1,0 +1,10 @@
+page,row_in_table,Manufacturer,Model,Mass (kg),Actuators,Sensors,Processor,Pointing Accuracy
+165,1,AAC Clyde Space Sweden,iADCS-200,0.470,3 reaction wheels 3 magnetic torquers,"1 star tracker, 1 IMU, Optionally high precision magnetometer and sun sensors",Yes,<1°
+165,2,,iADCS-400,1.7,3 reaction wheels 3 magnetorquers,"1 star tracker, 1 IMU, Optionally high precision magnetometer and sun sensors",Yes,<1°
+165,3,Arcsec,Arcus ADC,0.715,3 reaction wheels 3 magnetic torquers,"1 star tracker, 3 gyros 6 photodiodes 3 magnetometers",Yes,0.1°
+165,4,Berlin Space Technologies Germany,IADCS-100,0.4,3 reaction wheels 3 magnetic torquers,"1 star tracker, 3 gyros, 1 magnetometer, 1 accelerometer",Yes,<<1 deg
+165,5,Blue Canyon Technologies USA,XACT-15,0.885,3 reaction wheels 3 magnetorquers,"1-2 Star Trackers, 1-4 Sun Sensors, IMU, Magnetometer, GPS",Yes,0.003/0.007°
+165,6,,XACT-50,1.230,3 reaction wheels 3 magnetorquers,"1-2 Star Trackers, 1-4 Sun Sensors, IMU, Magnetometer, GPS",Yes,0.003/0.007°
+165,7,,XACT-100,1.813,3 – 4 reaction wheels 3 magnetorquers,"1-2 Star Trackers, 1-4 Sun Sensors, IMU, Magnetometer, GPS",Yes,0.003/0.007°
+165,8,,Flexcore,†,3 – 4 reaction wheels 3 magnetorquers,"1-2 Star Trackers, 1-4 Sun Sensors, IMU, Magnetometer, GPS",Yes,0.002°
+165,9,CubeSpace Satellite Systems,CubeADCS,0.26*,"3/4(Pyramid) x reaction wheels, 3 x Magnetorquers distributed or integrated with ADCS core (3U/6U only)","Up to 4 x FSS, 2 x EHS, 2 x STR, 2 x MGTM. All distributed",5Hz,~70 arcsec (3 sigma) †

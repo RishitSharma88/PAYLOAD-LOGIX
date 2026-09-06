@@ -1,0 +1,3 @@
+page,row_in_table,Manufacturer,Product,Cooling Capacity,Mass,Volume,TRL,Notes
+245,1,Netherlands Aerospace Centre,Mini-MPL,>20 W,-,< 1U,4 - 6,Scalable to ≤ 200W
+245,2,Lockheed Martin,Joule-Thomson Microcryocooler,-,0.2 kg,< 1U (Est.),4 - 5,

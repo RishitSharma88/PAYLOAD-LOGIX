@@ -1,0 +1,10 @@
+page,row_in_table,Photopolymer Name (Citation),ISO 75/ASTM D648 HDT (°C),ISO 179- 1/ASTM D256- 10A (J/m),ISO 527- 1/ASTM D638 Tensile (MPa),ASTM D790 Flexural (MPa),Density (g/cc) at 25°C,ESD Risk (Ω- cm),Manufacturing and/or Machine Type
+214,1,Accura Bluestone (73),267-284,13-17,66-68,124- 154,1.78,ND,3D Systems ProX 800
+214,2,VisiJet M2S- HT250 (74),250,10,51,83,1.15,ND,3DS MJP 2500 Plus
+214,3,DSM Somos® Watershed XC,50,25,50,69,1.12,ND,Stratasys V650 Flex SL
+214,4,Henkel LOCTITE® IND402 A70 Flex (75),N/A,N/A,5.5,N/A,1.068,ND,Several
+214,5,Henkel LOCTITE® 3D 3843 (76),80,54,60,81,N/A,ND,DLP SLA types only
+214,6,Somos® Perform,132-268,17-20,68-80,120- 146,1.61,N/A,SLA types only
+217,7,,metal oxide,,,,,,
+217,8,semiconductor field effect,,,,,,,
+217,9,transistors (,,,,,,,

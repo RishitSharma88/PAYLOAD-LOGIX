@@ -1,0 +1,16 @@
+page,row_in_table,Power density (W kg-1),"1,500","3,000 – 40,000"
+64,1,Voltage of a cell (V),3.6,2.7 – 3
+64,2,ESR (mΩ),500,40 - 300
+64,3,Efficiency (%),80 – 95,>98
+64,4,Cyclability (nb charges),"2,000 – 70,000","500,000 – 20, 000,000"
+64,5,Life (years),5 – 10,10 – 15
+64,6,Self-discharge (% per month),2,40 – 50 (descending)
+64,7,Charge temperature (°C),0 to 45,-40 to 65
+64,8,Discharge temperature,-20 to 60,-40 to 85
+64,9,Deep discharge pb,yes,no
+64,10,Overload pb,yes,no
+64,11,Risk of explosion,yes,no
+64,12,Charging 1 cell,complex,easy
+64,13,Charging cells in series,complex,complex
+64,14,Voltage on discharge,stable,decreasing
+64,15,cost ($) per kW h,"235 – 1,179","11,792"

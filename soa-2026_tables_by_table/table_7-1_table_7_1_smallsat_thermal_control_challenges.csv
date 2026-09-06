@@ -1,0 +1,6 @@
+page,row_in_table,Low thermal mass,The spacecraft is more reactive to changing thermal environments.
+228,1,Limited external surface area,"There is less real estate to be allocated to solar cells, designated radiator area, and/or viewports required for science instruments."
+228,2,Limited volume,"There is less space for electronic components, science instruments, and thermal control hardware. Components can be more thermally coupled, and it can be harder to isolate different thermal zones."
+228,3,Limited power,There is less power available for powered thermal control technology.
+228,4,Power Density,"There is a big challenge to dissipate power as electronics are stacked close to each other, sometimes with no direct path to radiator."
+228,5,MLI Edge Effects,"MLI can “short” along the edges resulting in degraded performance, not specific to SmallSats but more of a general spacecraft issue."

@@ -1,0 +1,10 @@
+page,row_in_table,TES-n mission (Volume),"Deployment (month, year)",Deorbit Duration Reentry Year,Nominal Drag Area (m2),Deployed Orbit Alt. & Inc.,Technology Tested Notes (ref)
+437,1,TES-1 (1U),October 2012,May 2013,NA,"412 km, 51.7°",(33)
+437,2,TES-2 (1U),April 2013,April 2013,NA,"223 km, 51.6°",First test of Iridium (34)
+437,3,TES-3 (3U),November 2013,January 2014,0.35,"413 km, 51.6°",Original Passive Exo-Brake
+437,4,TES-4 (3U),March 2015,April 2015,0.35,"398 km, 51.6°",Upgraded Exo-Brake design
+437,5,TES-5 (3.5U),March 2017,July 2017,0.35,"403 km, 51.6°",Two-state Drag Modulated Exo- Brake for targeted re-entry (35)
+437,6,TES-6 (3.5U),November 2017,May 2018,0.564,"402 km, 51.7°",Variable Exo-Brake settings (36)
+437,7,TES-7 (2U),January 2021,May 2022,1.2,"499 km, 60.7°",High Packing Density Exo- Brake (37)
+437,8,TES-9 (3U),Planned,TBD,-,-,Automatic deorbiting using the Exo-Brake system
+437,9,TES-11 (6U-W),July 2024,February 2026,0.790,"508 km, 97.4°",Advanced disposal Exo-Brake mechanism

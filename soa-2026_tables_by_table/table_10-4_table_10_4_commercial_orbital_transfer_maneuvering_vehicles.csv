@@ -1,0 +1,29 @@
+page,row_in_table,Company Headquarters,Vehicle,Heritage,Operational Altitudes,Maximum Payload Capacity (kg),"Delta-V (m/s, max payload)"
+332,1,Atomos Space USA,Quark,Flown,LEO,400,-
+332,2,Blue Origin USA,Blue Ring,Upcoming,-,-,-
+332,3,D-Orbit Italy,ION,Flown Successfully,-,-,-
+332,4,Epic Aerospace Argentina,Chimera LEO Block 0,Flown Successfully,+/- 450 km from LEO deployment,300,200
+332,5,,Chimera LEO Block 1,Upcoming,+/- 450 km from LEO deployment,300,950
+332,6,,Chimera GEO Block 0,Upcoming,GTO to TLI,300,1800
+332,7,,Chimera GEO Block 0 / Bus,Upcoming,GTO to TLI,290,1800
+332,8,Exolaunch Germany,Reliant Standard,Upcoming,+/- 275 km from LEO(?) deployment,200,-
+332,9,,Reliant Pro,Upcoming,+/- 275 km from LEO(?) deployment,260,-
+332,10,Exotrail France,Spacevan LEO,Flown Successfully,LEO (~400-2000 km),~200,~500
+332,11,,Spacevan GEO,Upcoming,"Above LEO (e.g., MEO, GEO, Cislunar >2000 km)",~150,~2200
+332,12,Firefly USA,Elytra Dawn,Upcoming,LEO,-,-
+332,13,,Elytra Dusk,Upcoming,LEO to GEO,-,-
+332,14,,Elytra Dark,Upcoming,LEO to Lunar/Planetary,-,-
+332,15,Gilmour Space Technologies Australia,ElaraSat bus,Flown Successfully,LEO,30,-
+332,16,Impulse Space USA,Mira,Flown Successfully,LEO,300,500
+332,17,,Helios,Upcoming,GEO,-,-
+332,18,Intuitive Machines USA,Nebula,Flown,"MEO, GEO, Lagrange Points, NRHO, LLO",-,-
+332,19,Kall Morris Inc. USA,Laelaps,Upcoming,LEO,-,-
+332,20,Moog USA,SL-OMV,Upcoming,400 - 700 km,"6 x 12 (+ additional, if containerized)",< 200
+333,21,,METEORITE,Upcoming,500 – 1200 km,"100 (or more, with caveats)",>175
+333,22,,METEOR,Upcoming,500 – 1200 km,750,>400
+333,23,Momentus USA,Vigoride,Flown Successfully,250 - 2000 km (GEO and LLO also available),800,< 2000
+333,24,Rocket Lab USA,Photon,Flown Successfully,"LEO, MEO, GEO, and beyond",-,-
+333,25,Space Machines Company Australia,Optimus Viper,Flown,300 – 700 km,50,500
+333,26,TransAstra USA,WorkerBee (multiple configurations),Upcoming,"LEO, MEO, GEO, HEO, Lunar/Planetary",200 – 2000,-
+333,27,UARX Space Spain,OSSIE,Upcoming,350 – 1000 km,400,690
+333,28,Quantum Space USA,RANGER,Upcoming,"LEO, MEO, GEO, cislunar",6000,Up to 10 km/s

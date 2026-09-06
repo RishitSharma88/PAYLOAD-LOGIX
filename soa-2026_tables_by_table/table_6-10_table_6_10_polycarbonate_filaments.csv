@@ -1,0 +1,8 @@
+page,row_in_table,Filament Name (Citation),ISO 75/ASTM D648 Deflection Temp (°C),ISO 179- 1 Hardness (kJ/m2) or Izod D256- 10A (J/m),ISO 527- 1/ASTM D638 ZX Tensile strength (MPa),ASTM D790/ISO 178 Flexural strength (MPa),Nozzle Temp (°C),Bed Temp (°C),Density (g/cc),ESD Risk (Ω- cm)
+210,1,Prusament PC Blend (59),113,No break for ISO 179,63,88-94,275,110,1.22,No
+210,2,Prusament PC Blend Carbon Fiber (59),114,35 kJ/m2,55-65,85-106,285,110,1.16,No
+210,3,Stratasys PC (60),143,27-77 J/m,60,75,N/A,N/A,1.20,No
+210,4,Polymax PC,99-114,21.5 kJ/m2,59.7,94.1,280,100,1.19,--
+210,5,3DXtech ESD-PC,135,N/A,68,95,295,130,1.24,107 - 109
+210,6,3DXtech CF-PC,133,N/A,70,90,300,140,1.36,--
+210,7,Polymaker PC-ABS,106,25.8 kJ/m2,39.9,66.3,250- 270,90- 105,1.1,--
