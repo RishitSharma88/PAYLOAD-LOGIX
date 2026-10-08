@@ -1,0 +1,12 @@
+{
+ "components": [
+  {
+   "component_id": "RADIO_012",
+   "category": "RADIO",
+   "quantity": 1,
+   "mass_kg": 0.2,
+   "power_w": 2.0,
+   "volume_cm3": 120.0
+  }
+ ]
+}

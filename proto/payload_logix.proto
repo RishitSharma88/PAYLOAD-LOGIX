@@ -1,0 +1,233 @@
+syntax = "proto3";
+
+package payload_logix.v1;
+
+// PAYLOAD-LOGIX internal communication contract, v1.
+// Hub-and-spoke: the SLM (Qwen) is the hub; agents are deterministic spokes.
+// All numeric fields use standard internal units: mass in kg, power in W,
+// volume in cm3, dimensions in cm, deadlines as unix seconds (UTC).
+// Source-data quirks (e.g. gram-scale radio masses, dBm power) are normalized
+// BEFORE entering the protocol. Inside the protocol, 200 g is mass_kg = 0.2.
+
+// ---------------------------------------------------------------------------
+// Agents (logical receivers / senders)
+// ---------------------------------------------------------------------------
+enum Agent {
+  AGENT_UNSPECIFIED = 0;
+  SLM = 1;
+  PAYLOAD = 2;
+  LOGISTICS = 3;
+  RAA = 4;   // Resource Allocation Agent
+  RISK = 5;
+}
+
+// ---------------------------------------------------------------------------
+// Shared header: present as field 1 in every top-level message.
+// ---------------------------------------------------------------------------
+message Header {
+  string protocol_version = 1;  // e.g. "1.0"
+  string message_id = 2;        // unique per message
+  string request_id = 3;        // correlates command <-> response
+  Agent sender = 4;
+  Agent receiver = 5;
+  int64 timestamp_unix_sec = 6; // UTC seconds since epoch
+}
+
+// ---------------------------------------------------------------------------
+// Payload intents (SLM -> Payload, SLM -> Logistics)
+// ---------------------------------------------------------------------------
+enum PayloadIntent {
+  PAYLOAD_INTENT_UNSPECIFIED = 0;
+  ADD = 1;
+  REMOVE = 2;
+  UPDATE = 3;
+}
+
+// ---------------------------------------------------------------------------
+// Component category vs specific component id.
+// category is the family (RADIO / REACTION_WHEEL / PMAD).
+// component_id is the concrete instance (e.g. RADIO_023, HHMRW_041, PMAD_017).
+// Only categories covered by the trained ranker are valid in v1.
+// ---------------------------------------------------------------------------
+enum ComponentCategory {
+  CATEGORY_UNSPECIFIED = 0;
+  RADIO = 1;
+  REACTION_WHEEL = 2;
+  PMAD = 3;  // Power Management And Distribution
+  // SATELLITE is NOT a catalog component: it addresses global
+  // satellite-level resource thresholds (mass/power/volume caps).
+  // A PayloadCommand with category=SATELLITE carries the thresholds in
+  // constraints (max_mass_kg / max_power_w / max_volume_cm3).
+  SATELLITE = 4;
+}
+
+// ---------------------------------------------------------------------------
+// Structured error codes for agent -> SLM responses.
+// Agents report structured results first; natural language is never primary.
+// ---------------------------------------------------------------------------
+enum ErrorCode {
+  ERROR_NONE = 0;
+  VALIDATION_ERROR = 1;
+  UNKNOWN_COMPONENT = 2;
+  MISSING_FIELD = 3;
+  INVALID_INTENT = 4;
+  INVALID_CATEGORY = 5;
+  INVALID_SENDER = 6;
+  INVALID_RECEIVER = 7;
+  STALE_STATE = 8;
+  INTERNAL_ERROR = 9;
+}
+
+// ---------------------------------------------------------------------------
+// Physical description helpers (standard internal units)
+// ---------------------------------------------------------------------------
+message DimensionsCm {
+  double length_cm = 1;
+  double width_cm = 2;
+  double height_cm = 3;
+}
+
+// Optional constraint caps; presence-tracked so "unset" differs from 0.
+message Constraints {
+  optional double max_mass_kg = 1;
+  optional double max_power_w = 2;
+  optional double max_volume_cm3 = 3;
+}
+
+// ---------------------------------------------------------------------------
+// SLM -> Payload command
+// ---------------------------------------------------------------------------
+message PayloadCommand {
+  Header header = 1;
+  PayloadIntent intent = 2;
+  ComponentCategory category = 3;
+  string component_id = 4;  // empty when addressing a whole category
+  int32 quantity = 5;
+  double mass_kg = 6;
+  double power_w = 7;
+  double volume_cm3 = 8;
+  DimensionsCm dimensions = 9;  // optional; set only when required
+  Constraints constraints = 10; // optional caps
+}
+
+// ---------------------------------------------------------------------------
+// Payload -> SLM response
+// ---------------------------------------------------------------------------
+message PayloadResponse {
+  Header header = 1;
+  bool success = 2;
+  ErrorCode error_code = 3;
+  string error_detail = 4;   // short machine-readable detail, not prose
+  string component_id = 5;   // selected/updated component, if applicable
+  ComponentCategory category = 6;
+  int32 quantity = 7;
+}
+
+// ---------------------------------------------------------------------------
+// SLM -> Logistics command. Deadline is unix seconds (UTC) so it is
+// machine-comparable. Never a loose string.
+// ---------------------------------------------------------------------------
+message LogisticsCommand {
+  Header header = 1;
+  PayloadIntent intent = 2;
+  ComponentCategory category = 3;
+  string component_id = 4;
+  int32 quantity = 5;
+  int64 deadline_unix_sec = 6;
+}
+
+// ---------------------------------------------------------------------------
+// Logistics -> SLM response
+// ---------------------------------------------------------------------------
+message LogisticsResponse {
+  Header header = 1;
+  bool success = 2;
+  ErrorCode error_code = 3;
+  string error_detail = 4;
+  string component_id = 5;
+  int64 deadline_unix_sec = 6;
+}
+
+// ---------------------------------------------------------------------------
+// SLM -> RAA command. Sender MUST be SLM, receiver MUST be RAA.
+// ---------------------------------------------------------------------------
+enum RaaIntent {
+  RAA_INTENT_UNSPECIFIED = 0;
+  SCHEDULE = 1;
+  RESCHEDULE = 2;
+  CANCEL = 3;
+}
+
+message RaaCommand {
+  Header header = 1;
+  RaaIntent intent = 2;
+  ComponentCategory category = 3;
+  string component_id = 4;
+  int64 deadline_unix_sec = 5;
+  int32 priority = 6;     // higher = earlier scheduling preference
+  int32 order_index = 7;  // position in the event ordering
+}
+
+message RaaResponse {
+  Header header = 1;
+  bool success = 2;
+  ErrorCode error_code = 3;
+  string error_detail = 4;
+  int32 order_index = 5;
+}
+
+// ---------------------------------------------------------------------------
+// Risk events (enums, not strings)
+// Risk -> Payload:
+//   P1: selected component's logistics/deadline invalid -> Payload falls back
+//       to next-best valid candidate from its cached ranking.
+//   P2: Payload internal failure / packet mismatch -> Payload restores its
+//       last valid state from local cache.
+// Risk -> Logistics:
+//   L1: deadline/order sync problem for a component + deadline.
+//   L2: Logistics failed to update/respond -> reset/recovery request.
+// Risk -> RAA:
+//   R1: Logistics produced a valid earlier delivery plan -> RAA reconsiders
+//       event ordering.
+//   R2: RAA out of sync / unresponsive -> reset/recovery request.
+// ---------------------------------------------------------------------------
+enum RiskPayloadCode {
+  RISK_PAYLOAD_UNSPECIFIED = 0;
+  P1 = 1;
+  P2 = 2;
+}
+
+enum RiskLogisticsCode {
+  RISK_LOGISTICS_UNSPECIFIED = 0;
+  L1 = 1;
+  L2 = 2;
+}
+
+enum RiskRaaCode {
+  RISK_RAA_UNSPECIFIED = 0;
+  R1 = 1;
+  R2 = 2;
+}
+
+message RiskToPayload {
+  Header header = 1;  // sender = RISK, receiver = PAYLOAD
+  RiskPayloadCode code = 2;
+  ComponentCategory category = 3;
+  string component_id = 4;
+  string detail = 5;
+}
+
+message RiskToLogistics {
+  Header header = 1;  // sender = RISK, receiver = LOGISTICS
+  RiskLogisticsCode code = 2;
+  ComponentCategory category = 3;
+  string component_id = 4;
+  int64 deadline_unix_sec = 5;
+  string detail = 6;
+}
+
+message RiskToRaa {
+  Header header = 1;  // sender = RISK, receiver = RAA
+  RiskRaaCode code = 2;
+  string detail = 3;
+}
