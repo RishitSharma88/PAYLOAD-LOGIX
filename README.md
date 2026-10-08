@@ -892,3 +892,100 @@ Payload-Logix currently has a NASA-derived spacecraft component dataset that was
 Three categories were selected for initial modeling: radios, reaction wheels, and power management/distribution systems. A Gaussian copula with empirical marginals was fitted separately for each category. Synthetic component records were generated at approximately five times the usable real sample size and validated using summary statistics, correlations, distribution distances, sanity checks, and plots.
 
 The generated data is not NASA data, but it is suitable for testing Payload-Logix resource allocation and workflow logic in a controlled academic setting.
+
+## 23. Technology Stack (Agent / Inference Phase)
+
+After the data foundation above, a Hub-and-Spoke agent architecture was built on top of it. The governing principle is:
+
+- Qwen (SLMs) = reasoning / interpretation
+- Python = deterministic execution and arithmetic
+- CatBoost = learned candidate ranking
+- SQLite = persistent Payload state
+- Protobuf = inter-agent communication contract
+- NASA dataset = engineering source of truth
+
+| Layer | Technology | Location |
+|---|---|---|
+| Global Orchestrator (Hub) | Qwen2.5-Coder-7B-Instruct-4bit, local MLX 4-bit | `models/qwen2.5-coder-7b-instruct-4bit/` (4.0 GB) |
+| Payload intelligence | Qwen3-1.7B-MLX-4bit, local MLX 4-bit | `models/qwen3-1.7b-mlx-4bit/` (887 MB) |
+| Local inference backend | Apple MLX + mlx-metal via `mlx-lm` (`load`/`generate`); tokenizers via HuggingFace `transformers` | project `venv/` (mlx 0.32.3, mlx-lm 0.32.0) |
+| Ranking model | CatBoost Ranker (YetiRank), existing `.cbm`, never retrained | `payload_logix_data/models/catboost_payload_ranker.cbm` |
+| Numeric compute | NumPy arrays, pandas (feature frames) | `payload/component_store.py` |
+| Payload state | SQLite | `payload/state/payload.db` |
+| Mock-agent state | JSON files | `agents/state/` |
+| Wire protocol | Protocol Buffers (`protoc`) | `proto/payload_logix.proto` |
+| Retrieval (CAG) | Deterministic keyword retriever with doc/page/table/record provenance | `cag/retriever.py` |
+| Runtime | Python 3.14 project venv; plain assert-based tests; interactive `console.py`; fully offline, no servers | — |
+
+Both SLM weight sets are frozen: no fine-tuning, no LoRA, no training on the NASA data. CAG retrieval only inserts retrieved context into prompts. Kafka/Redis were not implemented.
+
+Model files on this Mac: the two directories under `models/` above are what the code loads. The `~/.cache/huggingface/` directory holds unrelated third-party models plus near-empty stubs and is not used by the project.
+
+## 24. Protobuf Internal Communication Contract
+
+Source of truth: `proto/payload_logix.proto` (package `payload_logix.v1`), compiled with `protoc` to `proto/payload_logix_pb2.py` (12 messages, 8 enums).
+
+Every top-level message carries a `Header` (field 1): `protocol_version`, `message_id`, `request_id` (command↔response correlation), `sender`, `receiver`, `timestamp_unix_sec`.
+
+Agents (`Agent` enum): `SLM`, `PAYLOAD`, `LOGISTICS`, `RAA`, `RISK`. Only SLM↔agent traffic is implemented; RISK message shapes exist for P1/P2/L1/L2/R1/R2 but no Risk agent runs yet.
+
+Key messages:
+
+- `PayloadCommand` (SLM→Payload): `intent` (`ADD`/`REMOVE`/`UPDATE`), `category` (`RADIO`/`REACTION_WHEEL`/`PMAD`/`SATELLITE`), `component_id` (instance, e.g. `RADIO_023`; empty = whole category), `quantity`, numeric `mass_kg`/`power_w`/`volume_cm3`, optional `DimensionsCm`, optional presence-tracked `Constraints`.
+- `SATELLITE` is not a catalog component: a command with `category=SATELLITE` carries global thresholds in `constraints` (`max_mass_kg`, e.g. 25; `max_power_w`, e.g. 100; `max_volume_cm3`, e.g. 50000).
+- `PayloadResponse`: `success`, structured `ErrorCode` (`VALIDATION_ERROR`, `UNKNOWN_COMPONENT`, `MISSING_FIELD`, `INVALID_INTENT`, `INVALID_CATEGORY`, `INVALID_SENDER`, …), short `error_detail`, selected `component_id`, `category`, `quantity`, `request_id` correlation. Structured results first; agents never return prose as primary output.
+- `LogisticsCommand`/`LogisticsResponse`, `RaaCommand`/`RaaResponse`: defined with machine-comparable `deadline_unix_sec` (never loose date strings); RAA commands are fixed to sender=SLM, receiver=RAA. No corresponding agents implemented yet.
+- `RiskToPayload` (`P1` = selected component invalid → next-best cached candidate; `P2` = internal failure → restore last valid state), `RiskToLogistics` (`L1`/`L2`), `RiskToRaa` (`R1`/`R2`).
+
+Standard internal units everywhere: kg, W, cm³ (cm for dimensions). Source-data quirks (gram-scale radio masses, dBm power readings) are normalized before entering the protocol.
+
+## 25. SLM Layer
+
+### 25.1 Qwen2.5-Coder-7B Orchestrator (Hub)
+
+Code: `orchestrator/slm.py`, `orchestrator/protocol.py`. Prompt: `config/orchestrator_system_prompt.txt`. It understands natural language; agents do not.
+
+Per request: CAG context is retrieved → Qwen emits exactly one JSON command object (or a `clarify` object when information is missing) → strict `command_from_dict()` maps it to protobuf (unknown enum strings raise `ValueError`, never silently default; singular requests default to quantity 1; `constraints`-style bounds accepted as requirement caps) → bytes go to the Payload Agent → the protobuf response is rendered back to 1–2 sentences of natural language by Qwen from structured fields only. Qwen never claims success before `success=true`, never fabricates agent responses, never exposes chain-of-thought.
+
+### 25.2 Qwen3-1.7B Payload Intelligence
+
+Code: `payload/slm.py` (contract: `WORKFLOW_PROMPT`). It reasons only over SMALL pre-filtered candidate lists supplied by deterministic tools — it never scans CSVs, never parses raw CSV text, never performs final arithmetic, never invents components/manufacturers. Entry points: `reason_selection()` (pick one id from a ranked top-K, with in-list enforcement and rank-1 fallback), `explain_validation()` (verbalize a deterministic validation dict), `select_from_dataset()` (filter→reason over mounted experimental datasets).
+
+`.safetensors` loading for both models goes through `mlx_lm.load()`: weights are read by the MLX-core C++ backend (memory-mapped, Metal-resident); the tokenizer comes from HuggingFace `transformers`; generation uses `mlx_lm.generate` with `make_sampler`. No PyTorch, no inference API.
+
+## 26. Real Payload Agent
+
+Code: `agents/payload_agent.py` (wire-compatible with the earlier `agents/mock_payload_agent.py`, which is retained so the original tests keep passing). Three logical responsibilities:
+
+- **Blueprint Worker**: interprets validated `PayloadCommand`s; stores satellite thresholds, component requirements, and blueprint rows in SQLite; converts user requirements into structured state; performs no engineering arithmetic itself.
+- **Constructor Helper**: requirements → `filter_component_array()` (NumPy, cached) → CatBoost `rank_candidates()` top-K → Qwen3 selection over the small set → deterministic `check_component()` per candidate (first-valid wins) → satellite-threshold gate over the trial blueprint → SQLite write + `snapshot_valid()` only if everything holds.
+- **Validation Helper**: `payload/validate.py` is the sole arithmetic truth (component bounds, quantity-aware totals, satellite caps; missing values never satisfy a set bound; unthresholded gaps reported, not fatal). Qwen only explains the resulting dicts.
+
+Supporting modules: `payload/db.py` (tables `satellite_blueprint`, `blueprint_components`, `component_requirements`, `constructor_state`), `payload/component_store.py` (master CSV parsed once into cached NumPy arrays with deterministic `RADIO_*`/`HHMRW_*`/`PMAD_*` ids matching the CAG layer; `convert_csv()` mounts experimental CSVs into the same array shape; `filter_*`, `get_manufacturers()`, `get_components()`), `payload/ranker.py` (rebuilds the 17 training features with per-category query convention and SOA-name categoricals; top-K out), `agents/payload_agent.py::construct()` (atomic multi-category configuration builder) and `manufacturers_for()` (dataset-real manufacturers only).
+
+Known data limitation: reaction wheels carry no volume/dimension data, so a set satellite volume threshold strictly excludes them (missing data cannot prove fit). `RADIO.power_w` remains dBm-contaminated in places, so radio queries constrain mass + dimension-volume, mirroring the training setup.
+
+P1/P2 semantics are SQLite-backed: P1 advances to the next cached ranked candidate and revalidates; P2 restores `last_valid_configuration` and continues.
+
+## 27. CAG Retrieval Layer
+
+`cag/retriever.py` indexes 232 ranker-scope components plus the SOA table index. Queries return ranked items with provenance (`document=soa-2026.pdf`, page, table title, record id), plus a category-grounding line when a family is mentioned. Out-of-scope queries (e.g. Hall thrusters, which are propulsion and not indexed) return an explicit no-match so the SLM honestly reports insufficient source information instead of inventing facts.
+
+## 28. Synthetic CSV Experiment (`/convert` Path)
+
+`tests/data/test_radios.csv` (6 radios × Manufacturers A/B/C; only `RADIO_C2` passes mass<0.4 kg / power<2 W / volume<100 cm³, volume derived as x·y·z) proves the CSV→array→SLM pipeline in isolation: `convert_csv()` mounts it once, `filter_loaded_components()` deterministically reduces it, and `select_from_dataset()` lets Qwen pick only from survivors (`SLM> Selected Manufacturer C (RADIO_C2).`). The console exposes this via `/convert <csv>`, `/datasets`, `/nasa`.
+
+## 29. Running the System
+
+```bash
+cd /Users/rishitsharma/Desktop/MPR
+venv/bin/python console.py        # interactive: NL prompts, /ask, /blueprint,
+                                  # /convert, /datasets, /mock, /real, /quit
+venv/bin/python tests/test_vertical_slice.py    # 13 checks (mock path)
+venv/bin/python tests/test_payload_agent.py     # 21 checks (real agent)
+venv/bin/python tests/test_synthetic_pipeline.py # 12 checks (/convert path)
+venv/bin/python tests/demo_cag.py               # grounded vs no-info answers
+venv/bin/python tests/demo_synthetic.py         # CSV→array→filter→SLM trace
+```
+
+Current regression status: 13/13 + 21/21 + 12/12 green (46/46). New files added in this phase: `proto/`, `config/orchestrator_system_prompt.txt`, `cag/retriever.py`, `agents/mock_payload_agent.py`, `agents/payload_agent.py`, `orchestrator/`, `payload/`, `console.py`, `tests/test_vertical_slice.py`, `tests/demo_cag.py`, `tests/test_payload_agent.py`, `tests/test_synthetic_pipeline.py`, `tests/demo_synthetic.py`, `tests/data/test_radios.csv`.
