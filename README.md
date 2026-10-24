@@ -1,6 +1,6 @@
 # PAYLOAD-LOGIX: Complete System Design
 
-End-to-end architecture, agent responsibilities, communication protocol, data flow, recovery mechanisms, and implementation boundaries.
+End-to-end architecture, agent responsibilities, communication protocol, data-flow, recovery mechanisms, and implementation boundaries.
 
 PAYLOAD-LOGIX is an AI-assisted, multi-agent system designed to support satellite payload integration and resource allocation. Its central idea is to coordinate specialized agents through explicit communication contracts so that component selection, logistics, resource allocation, and risk management can work together instead of operating as isolated modules.
 
