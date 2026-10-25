@@ -1,0 +1,7 @@
+component_id,category,manufacturer,mass_kg,power_w,dimension_x_cm,dimension_y_cm,dimension_z_cm
+RADIO_A1,RADIO,Manufacturer A,0.50,1.5,4,4,4
+RADIO_A2,RADIO,Manufacturer A,0.30,2.5,4,4,4
+RADIO_B1,RADIO,Manufacturer B,0.30,1.5,5,5,5
+RADIO_B2,RADIO,Manufacturer B,0.35,1.8,6,5,4
+RADIO_C1,RADIO,Manufacturer C,0.30,2.2,4,4,4
+RADIO_C2,RADIO,Manufacturer C,0.30,1.5,4,4,5
